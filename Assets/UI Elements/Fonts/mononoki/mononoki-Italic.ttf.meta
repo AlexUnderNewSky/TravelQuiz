@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: bd0cc353e068d0c45a14cdef9cf4a767
+timeCreated: 1647694587
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: mononoki
+  fontNames:
+  - mononoki
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 7a8d0ed1e46ea6e4daa597768f63a30b, type: 3}
+  - {fileID: 12800000, guid: 1cbc90238a80eaf4f99d064d8dae9909, type: 3}
+  - {fileID: 12800000, guid: 9e3097cfe10333841956f7253a19371a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

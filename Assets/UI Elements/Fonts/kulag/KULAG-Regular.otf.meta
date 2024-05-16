@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 9282ce1bb04e7ed4fb10453e07d13e57
+timeCreated: 1647694583
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: KULAG
+  fontNames:
+  - KULAG
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 4a10741c2a527d14ca803470c4e3ce31, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

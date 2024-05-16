@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 2cfdd6a98ec4da3469e57743bfa3f2e5
+timeCreated: 1647694574
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Airfool
+  fontNames:
+  - Airfool
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

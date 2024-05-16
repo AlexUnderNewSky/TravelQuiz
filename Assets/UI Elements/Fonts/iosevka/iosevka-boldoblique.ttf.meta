@@ -1,0 +1,36 @@
+fileFormatVersion: 2
+guid: 3009883e73ae0094990a002672c61c3d
+timeCreated: 1647694574
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Iosevka
+  fontNames:
+  - Iosevka
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 0e33c134d7531cb4b8f7bd75f59d2627, type: 3}
+  - {fileID: 12800000, guid: 17391234c486cdd48aa4c7bd71d49b8e, type: 3}
+  - {fileID: 12800000, guid: 2f79a60551a365541bf2182e4eaffb89, type: 3}
+  - {fileID: 12800000, guid: 2f199827cb1215341b72923a616ed8a8, type: 3}
+  - {fileID: 12800000, guid: 29381b277b38446419c93f3b4e9a8f83, type: 3}
+  - {fileID: 12800000, guid: 07ce6c685f976bd42a4eec7c954e8683, type: 3}
+  - {fileID: 12800000, guid: 106d0ba9f629ca2459df28dc1a304388, type: 3}
+  - {fileID: 12800000, guid: 032e2fb9161ed52498ed0aac3957fefd, type: 3}
+  - {fileID: 12800000, guid: 1723879c07e540f45aeaf3b77c8e6942, type: 3}
+  - {fileID: 12800000, guid: 20ac684d770a96f4bb1cec299abdba3e, type: 3}
+  - {fileID: 12800000, guid: 136ae99d4bdf03b44bab7de4a896b1a7, type: 3}
+  - {fileID: 12800000, guid: 0d7b00adfefc2ea4fa5f694ad609f0be, type: 3}
+  - {fileID: 12800000, guid: 04b30e8e1f2a0fd4f8598ccb2cfdcd7f, type: 3}
+  - {fileID: 12800000, guid: 0ab641feab5534a41a277109418c0a41, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

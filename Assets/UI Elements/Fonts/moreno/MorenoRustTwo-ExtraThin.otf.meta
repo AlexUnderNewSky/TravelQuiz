@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 6c17de1058052044ca35ad9e628ee44c
+timeCreated: 1647694580
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Moreno Rust Two
+  fontNames:
+  - Moreno Rust Two
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

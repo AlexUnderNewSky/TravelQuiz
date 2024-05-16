@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 366707fe16024654b98330e4af50127f
+timeCreated: 1647694575
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Finlandica
+  fontNames:
+  - Finlandica
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 36039ef91c42e7d46861d269bd32070d, type: 3}
+  - {fileID: 12800000, guid: 007d0d1f0804f634fac99414200d5d8c, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

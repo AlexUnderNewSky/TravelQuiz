@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 8f66931298aad174780ec9e766d05216
+timeCreated: 1647694583
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Hack
+  fontNames:
+  - Hack
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 02fb6453df0a7584aaf0cc16c01872fa, type: 3}
+  - {fileID: 12800000, guid: 187d95066e3d9b644a6f6c217e64e2b7, type: 3}
+  - {fileID: 12800000, guid: 62d1227c2e67bbe409e9c76634b97da7, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

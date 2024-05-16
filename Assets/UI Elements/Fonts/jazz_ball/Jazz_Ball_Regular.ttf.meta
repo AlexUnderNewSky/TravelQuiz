@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: a72739ccf00701c4882f9decdb3c6856
+timeCreated: 1647694586
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Jazz Ball
+  fontNames:
+  - Jazz Ball
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 5705912e1c83b71459c0ebd27701edde, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

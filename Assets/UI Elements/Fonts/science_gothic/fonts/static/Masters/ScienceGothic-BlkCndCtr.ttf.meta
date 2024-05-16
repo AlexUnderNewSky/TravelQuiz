@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: 53dbb5421fbd49d41aab65586a3a19a6
+timeCreated: 1647694578
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Science Gothic
+  fontNames:
+  - Science Gothic
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 50ca2412042c4ce438316468fefb8ebf, type: 3}
+  - {fileID: 12800000, guid: 27542a1523bf33c4b86225b500a747d0, type: 3}
+  - {fileID: 12800000, guid: 40881eb6a39169b4dbe7d9cad414d0bd, type: 3}
+  - {fileID: 12800000, guid: 32b3a9171bda7464886397aec449fb29, type: 3}
+  - {fileID: 12800000, guid: 45eb0f7bc41e1e8418478189ec121208, type: 3}
+  - {fileID: 12800000, guid: 289e6c0e83960414d9f1346de9dac7b2, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

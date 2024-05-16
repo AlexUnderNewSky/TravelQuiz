@@ -1,0 +1,42 @@
+fileFormatVersion: 2
+guid: 7bc3507a19b24274d8c3246b75c88889
+timeCreated: 1647694582
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Commissioner Flair
+  fontNames:
+  - Commissioner Flair
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 2786d062b91518749820e3ad6e646a07, type: 3}
+  - {fileID: 12800000, guid: 119d4ce24bb2c05419d3c544c87f7029, type: 3}
+  - {fileID: 12800000, guid: 33751b339466ee64ebfab909e497e997, type: 3}
+  - {fileID: 12800000, guid: 1a87e174f5ea5514bad3f1e74a3d2736, type: 3}
+  - {fileID: 12800000, guid: 2aea9394d927a2741be26989dffdfca2, type: 3}
+  - {fileID: 12800000, guid: 2fd9fdf44f656f648baf67a1817fd517, type: 3}
+  - {fileID: 12800000, guid: 6bda2b8670acda440b6cd2eb022ae2e2, type: 3}
+  - {fileID: 12800000, guid: 12ded357957e93e488519258b01e8336, type: 3}
+  - {fileID: 12800000, guid: 0698ab482a8e4634093c69e38291972c, type: 3}
+  - {fileID: 12800000, guid: 5e5d95995280e2647be0d186e7ecd7d8, type: 3}
+  - {fileID: 12800000, guid: 0c72691a13aad3a488b7afb3a850e939, type: 3}
+  - {fileID: 12800000, guid: 33c5b05ac18743c449c194f3b4054787, type: 3}
+  - {fileID: 12800000, guid: 42d8f1ead9538e445bb778616c2ec9ec, type: 3}
+  - {fileID: 12800000, guid: 5fd5bb7c28f03c24fbca183c04f0c351, type: 3}
+  - {fileID: 12800000, guid: 04b9ae8c3250fef479718d70033e6114, type: 3}
+  - {fileID: 12800000, guid: 31ce656eb5e469446b08d1fff600aa59, type: 3}
+  - {fileID: 12800000, guid: 540f837ee7e414240b3e54382e557088, type: 3}
+  - {fileID: 12800000, guid: 31e526ae3fc9edf42892584e68805dce, type: 3}
+  - {fileID: 12800000, guid: 32211cae15601534a9f23d03dd768f1d, type: 3}
+  - {fileID: 12800000, guid: 11e46f2f782911f4fad2d00ff2b3a714, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

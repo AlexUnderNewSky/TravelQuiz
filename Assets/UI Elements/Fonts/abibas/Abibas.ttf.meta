@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: f86ccf42255c4144eab19ff6f280be33
+timeCreated: 1647694593
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Abibas
+  fontNames:
+  - Abibas
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 9e2ee7b3a5855a141bfb54624ecc0285, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

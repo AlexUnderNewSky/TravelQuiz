@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 78d3fe71b4b667a4bb6c1e2aa7a2a6bc
+timeCreated: 1647694581
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Hellenica
+  fontNames:
+  - Hellenica
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 06010fd5637142f4bad5845a81046a4f, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

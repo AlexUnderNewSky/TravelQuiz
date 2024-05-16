@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: cfa25140629caba4c88e65b1262f3ba9
+timeCreated: 1647694589
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: PermianSerifTypeface
+  fontNames:
+  - PermianSerifTypeface
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 06bff1f2d3058e34eaebe2787120dd2b, type: 3}
+  - {fileID: 12800000, guid: 1f1ef14c8fbee08468a719e5254bd9d3, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,48 @@
+fileFormatVersion: 2
+guid: 67494344af32a5247a6d39d3bf8909b2
+timeCreated: 1647694580
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Sofia Sans Extra Cond
+  fontNames:
+  - Sofia Sans Extra Cond
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 5bb49d50886dae448a8725908b11ed68, type: 3}
+  - {fileID: 12800000, guid: 0545a491c0c60394fba381982496334d, type: 3}
+  - {fileID: 12800000, guid: 339ac591e90bd224fae2456d1e57c604, type: 3}
+  - {fileID: 12800000, guid: 4dc041e16facaff488423f178605208c, type: 3}
+  - {fileID: 12800000, guid: 5ee45b12484efa24ebf7883d5d6fd227, type: 3}
+  - {fileID: 12800000, guid: 61080f1490ac5f34ca9d0afe1a957815, type: 3}
+  - {fileID: 12800000, guid: 46a12844e4647fe4ab3b55ed2053db20, type: 3}
+  - {fileID: 12800000, guid: 4d15aa745e92e8b4a9cdd70b4c4523b9, type: 3}
+  - {fileID: 12800000, guid: 0e7180c47e2d75f43b21034e6169cb10, type: 3}
+  - {fileID: 12800000, guid: 070c7405772645d498290df19c6297c7, type: 3}
+  - {fileID: 12800000, guid: 1e99c51569f31b14e82d06d8cd090a8e, type: 3}
+  - {fileID: 12800000, guid: 6674df758862bf04b908a2c9ff75e098, type: 3}
+  - {fileID: 12800000, guid: 41f30885fe7dcea4e84148ea13029fbc, type: 3}
+  - {fileID: 12800000, guid: 2e210816fe4675b40a173845be06fafa, type: 3}
+  - {fileID: 12800000, guid: 27c33936db04e4246adece87cd0bf647, type: 3}
+  - {fileID: 12800000, guid: 4af73f07a458fe644a03800c41e9303d, type: 3}
+  - {fileID: 12800000, guid: 390ae6980f56d3045907763d814324c6, type: 3}
+  - {fileID: 12800000, guid: 4017c4f92d9e1d34f918d13189eea897, type: 3}
+  - {fileID: 12800000, guid: 2a1215eaf4fdcdf4a80fd00a86390176, type: 3}
+  - {fileID: 12800000, guid: 35f7493ca5d653d4982a2e6de546aa86, type: 3}
+  - {fileID: 12800000, guid: 2c84265c010f1184f87f965be19e08b8, type: 3}
+  - {fileID: 12800000, guid: 033362ac541e8ac41bab3c1a7a87d3ca, type: 3}
+  - {fileID: 12800000, guid: 422c24acbd0312f41896a17471bad03e, type: 3}
+  - {fileID: 12800000, guid: 22683f3de33cc904aa9bf050f41d0ccf, type: 3}
+  - {fileID: 12800000, guid: 05673d1ee2cd9d2428f1e1eb536ae028, type: 3}
+  - {fileID: 12800000, guid: 3bd4c3be11e322347bca45180e7bcef4, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

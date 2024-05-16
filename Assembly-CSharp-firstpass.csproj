@@ -1,0 +1,556 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectGuid>{69CA251C-4B40-4C27-56D2-790538834B06}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+    <LangVersion>4</LangVersion>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_6;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT;TextMeshPro</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/5.6.6f2/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/5.6.6f2/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\5.6.6f2\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\5.6.6f2\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\5.6.6f2\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\5.6.6f2\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\5.6.6f2\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Xml.Linq.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Plugins\BetterStreamingAssets\BSA_BetterStreamingAssets.cs" />
+    <Compile Include="Assets\Plugins\BetterStreamingAssets\BSA_PathUtil.cs" />
+    <Compile Include="Assets\Plugins\BetterStreamingAssets\BSA_SubReadOnlyStream.cs" />
+    <Compile Include="Assets\Plugins\BetterStreamingAssets\BSA_ZipArchive.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AdvancedFPSCounter\Examples\APITester.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AdvancedFPSCounter\Scripts\AFPSCounter.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AdvancedFPSCounter\Scripts\CountersData\Abstract\BaseCounterData.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AdvancedFPSCounter\Scripts\CountersData\Abstract\UpdatebleCounterData.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AdvancedFPSCounter\Scripts\CountersData\DeviceInfoCounterData.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AdvancedFPSCounter\Scripts\CountersData\FPSCounterData.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AdvancedFPSCounter\Scripts\CountersData\MemoryCounterData.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AdvancedFPSCounter\Scripts\Enums\FPSLevel.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AdvancedFPSCounter\Scripts\Enums\OperationMode.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AdvancedFPSCounter\Scripts\Label\DrawableLabel.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AdvancedFPSCounter\Scripts\Label\LabelAnchor.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AdvancedFPSCounter\Scripts\Label\LabelEffect.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AdvancedFPSCounter\Scripts\Utils\AFPSRenderRecorder.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AdvancedFPSCounter\Scripts\Utils\CachedNumbers.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AdvancedFPSCounter\Scripts\Utils\UIUtils.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AdvancedFPSCounter\Scripts\Utils\WaitForSecondsUnscaled.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Examples\Scripts\ActRotatorExample.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Examples\Scripts\ActTesterGui.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Examples\Scripts\ObscuredPerformanceTests.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Examples\Scripts\UsageExamples\DetectorsExamples.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Examples\Scripts\UsageExamples\ObscuredPrefsExamples.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Examples\Scripts\UsageExamples\ObscuredTypesExamples.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Scripts\Common\ACTkByte16.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Scripts\Common\ACTkByte4.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Scripts\Common\ACTkByte8.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Scripts\Common\ACTkConstants.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Scripts\Detectors\Abstract\ActDetectorBase.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Scripts\Detectors\ActDetectorBase.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Scripts\Detectors\InjectionDetector.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Scripts\Detectors\ObscuredCheatingDetector.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Scripts\Detectors\SpeedHackDetector.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Scripts\Detectors\TimeCheatingDetector.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Scripts\Detectors\WallHackDetector.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredBool.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredByte.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredChar.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredDecimal.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredDouble.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredFloat.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredInt.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredLong.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredPrefs.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredQuaternion.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredSByte.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredShort.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredString.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredUInt.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredULong.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredUShort.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredVector2.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredVector2Int.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredVector3.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredVector3Int.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Scripts\Utils\ThreadSafeRandom.cs" />
+    <Compile Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Scripts\Utils\xxHash.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Playmaker\ES2PlayMaker.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\AutoSave\ES2AutoSave.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\AutoSave\ES2AutoSaveGlobalManager.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\AutoSave\ES2AutoSaveManager.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Crossplatform\ES2DirectoryUtility.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Crossplatform\ES2Dispose.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Crossplatform\ES2FileUtility.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Crossplatform\ES2TypeUtility.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\ES2.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\ES2Auto.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\ES2Cache.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\ES2Data.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\ES2EditorWindowStyle.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\ES2File.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\ES2Reflection.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\ES2Spreadsheet.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\ES2Web.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\MoodkieSecurity\AESBits.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\MoodkieSecurity\AESEncryptor.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\MoodkieSecurity\MD5.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\MoodkieSecurity\MD5Encryptor.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\MoodkieSecurity\Obfuscate.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Readers\ES2Header.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Readers\ES2Reader.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Settings\ES2FilenameData.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Settings\ES2GlobalSettings.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Settings\ES2Keys.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Settings\ES2Settings.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Streams\ES2FileStream.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Streams\ES2MemoryStream.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Streams\ES2PlayerPrefsStream.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Streams\ES2ResourcesStream.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Streams\ES2Stream.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Basic Types\ES2_BoneWeight.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Basic Types\ES2_Bounds.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Basic Types\ES2_Color.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Basic Types\ES2_Color32.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Basic Types\ES2_DateTime.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Basic Types\ES2_ES2AutoSaveManager.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Basic Types\ES2_Enum.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Basic Types\ES2_GameObject.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Basic Types\ES2_Gradient.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Basic Types\ES2_GradientAlphaKey.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Basic Types\ES2_GradientColorKey.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Basic Types\ES2_Material.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Basic Types\ES2_Matrix4x4.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Basic Types\ES2_Mesh.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Basic Types\ES2_Quaternion.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Basic Types\ES2_Rect.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Basic Types\ES2_Sprite.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Basic Types\ES2_Texture.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Basic Types\ES2_Texture2D.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Basic Types\ES2_Vector2.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Basic Types\ES2_Vector3.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Basic Types\ES2_Vector4.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Components\ES2_BoxCollider.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Components\ES2_CapsuleCollider.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Components\ES2_MeshCollider.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Components\ES2_PolygonCollider2D.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Components\ES2_SkinnedMeshRenderer.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Components\ES2_SphereCollider.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Components\ES2_Transform.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\ES2Type.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\ES2TypeManager.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Primitives\ES2_bool.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Primitives\ES2_byte.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Primitives\ES2_char.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Primitives\ES2_decimal.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Primitives\ES2_double.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Primitives\ES2_float.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Primitives\ES2_int.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Primitives\ES2_long.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Primitives\ES2_object.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Primitives\ES2_sbyte.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Primitives\ES2_short.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Primitives\ES2_string.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Primitives\ES2_uint.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Primitives\ES2_ulong.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Types\Primitives\ES2_ushort.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Scripts\Writers\ES2Writer.cs" />
+    <Compile Include="Assets\Plugins\EasySave2\Types\ES2_Sprite.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\PlayMaker\ES3PlayMaker.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Auto Save\ES3AutoSave.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Auto Save\ES3AutoSaveMgr.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Debugging\ES3Debug.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\ES3.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\ES3Crypto.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\ES3File.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\ES3IO.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\ES3InspectorInfo.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\ES3Prefab.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\ES3ReferenceMgr.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\ES3ReferenceMgrBase.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\ES3Reflection.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\ES3SerializableDictionary.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\ES3Spreadsheet.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Readers\ES3JSONReader.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Readers\ES3Reader.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Settings\ES3DefaultSettings.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Settings\ES3Settings.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Streams\ES3FileStream.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Streams\ES3PlayerPrefsStream.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Streams\ES3ResourcesStream.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Streams\ES3Stream.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Collection Types\ES32DArrayType.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Collection Types\ES33DArrayType.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Collection Types\ES3ArrayType.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Collection Types\ES3CollectionType.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Collection Types\ES3DictionaryType.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Collection Types\ES3HashSetType.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Collection Types\ES3ListType.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Collection Types\ES3QueueType.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Collection Types\ES3StackType.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\ES3ComponentType.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\ES3ObjectType.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\ES3Property.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\ES3ScriptableObjectType.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\ES3Type.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\ES3TypeMgr.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\ES3UnityObjectType.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Primitive Types\ES3Type_DateTime.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Primitive Types\ES3Type_UIntPtr.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Primitive Types\ES3Type_bool.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Primitive Types\ES3Type_byte.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Primitive Types\ES3Type_byteArray.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Primitive Types\ES3Type_char.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Primitive Types\ES3Type_decimal.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Primitive Types\ES3Type_double.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Primitive Types\ES3Type_enum.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Primitive Types\ES3Type_float.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Primitive Types\ES3Type_int.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Primitive Types\ES3Type_intptr.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Primitive Types\ES3Type_long.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Primitive Types\ES3Type_sbyte.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Primitive Types\ES3Type_short.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Primitive Types\ES3Type_string.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Primitive Types\ES3Type_uint.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Primitive Types\ES3Type_ulong.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Primitive Types\ES3Type_ushort.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Reflected Types\ES3ReflectedComponentType.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Reflected Types\ES3ReflectedObjectType.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Reflected Types\ES3ReflectedScriptableObjectType.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Reflected Types\ES3ReflectedType.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Reflected Types\ES3ReflectedUnityObjectType.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Reflected Types\ES3ReflectedValueType.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\Component Types\ES3Type_BoxCollider.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\Component Types\ES3Type_BoxCollider2D.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\Component Types\ES3Type_Camera.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\Component Types\ES3Type_CapsuleCollider.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\Component Types\ES3Type_EventSystem.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\Component Types\ES3Type_MeshCollider.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\Component Types\ES3Type_MeshFilter.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\Component Types\ES3Type_MeshRenderer.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\Component Types\ES3Type_ParticleSystem.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\Component Types\ES3Type_PolygonCollider2D.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\Component Types\ES3Type_SphereCollider.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\Component Types\ES3Type_Text.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\Component Types\ES3Type_Transform.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_AnimationCurve.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_AudioClip.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_BoneWeight.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_Bounds.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_CollisionModule.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_Color.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_Color32.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_ColorBySpeedModule.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_ColorOverLifetimeModule.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_EmissionModule.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_ExternalForcesModule.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_Flare.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_Font.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_ForceOverLifetimeModule.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_GameObject.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_Gradient.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_GradientAlphaKey.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_GradientColorKey.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_InheritVelocityModule.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_Keyframe.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_LayerMask.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_Light.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_LightsModule.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_LimitVelocityOverLifetimeModule.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_MainModule.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_Material.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_Matrix4x4.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_Mesh.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_MinMaxCurve.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_MinMaxGradient.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_NoiseModule.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_PhysicMaterial.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_PhysicsMaterial2D.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_Quaternion.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_Rect.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_RectTransform.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_RotationBySpeedModule.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_RotationOverLifetimeModule.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_Shader.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_ShapeModule.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_SizeBySpeedModule.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_SizeOverLifetimeModule.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_SkinnedMeshRenderer.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_Sprite.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_SpriteRenderer.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_SubEmittersModule.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_Texture.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_Texture2D.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_TextureSheetAnimationModule.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_TrailModule.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_TriggerModule.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_Vector2.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_Vector2Int.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_Vector3.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_Vector3Int.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_Vector4.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Types\Unity Types\ES3Type_VelocityOverLifetimeModule.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Web\ES3Cloud.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Web\ES3WebClass.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Writers\ES3JSONWriter.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Writers\ES3Writer.cs" />
+    <Compile Include="Assets\Plugins\EasySave3\Scripts\Writers\ES3XMLWriter.cs" />
+    <Compile Include="Assets\Plugins\PathlGames\Common\Lib.cs" />
+    <Compile Include="Assets\Plugins\PathlGames\Common\SelfDespawn.cs" />
+    <Compile Include="Assets\Plugins\PathlGames\PoolManager\PoolManager.cs" />
+    <Compile Include="Assets\Plugins\PathlGames\PoolManager\PreRuntimePoolItem.cs" />
+    <Compile Include="Assets\Plugins\PathlGames\PoolManager\SpawnPool.cs" />
+    <Compile Include="Assets\Plugins\PathlGames\TriggerEventPro\Area.cs" />
+    <Compile Include="Assets\Plugins\PathlGames\TriggerEventPro\AreaTargetTracker.cs" />
+    <Compile Include="Assets\Plugins\PathlGames\TriggerEventPro\CollisionTargetTracker.cs" />
+    <Compile Include="Assets\Plugins\PathlGames\TriggerEventPro\CompoundTargetTracker.cs" />
+    <Compile Include="Assets\Plugins\PathlGames\TriggerEventPro\EventFireController.cs" />
+    <Compile Include="Assets\Plugins\PathlGames\TriggerEventPro\EventTrigger.cs" />
+    <Compile Include="Assets\Plugins\PathlGames\TriggerEventPro\Modifiers\AngleLimitModifier.cs" />
+    <Compile Include="Assets\Plugins\PathlGames\TriggerEventPro\Modifiers\FireDistanceModifier.cs" />
+    <Compile Include="Assets\Plugins\PathlGames\TriggerEventPro\Modifiers\IgnoreModifier.cs" />
+    <Compile Include="Assets\Plugins\PathlGames\TriggerEventPro\Modifiers\IgnoreTagModifier.cs" />
+    <Compile Include="Assets\Plugins\PathlGames\TriggerEventPro\Modifiers\LineOfSightModifier.cs" />
+    <Compile Include="Assets\Plugins\PathlGames\TriggerEventPro\Modifiers\WaitForAlignmentModifier.cs" />
+    <Compile Include="Assets\Plugins\PathlGames\TriggerEventPro\TargetTrackerBase.cs" />
+    <Compile Include="Assets\Plugins\PathlGames\TriggerEventPro\Targetable.cs" />
+    <Compile Include="Assets\Plugins\PathlGames\TriggerEventPro\TriggerEventPro.cs" />
+    <Compile Include="Assets\Plugins\PathlGames\TriggerEventPro\TriggerEventProMessenger.cs" />
+    <Compile Include="Assets\Plugins\PathlGames\TriggerEventPro\Utilities\EffectsOnTargetsComponent.cs" />
+    <Compile Include="Assets\Plugins\PathlGames\TriggerEventPro\Utilities\SetConstraintTarget.cs" />
+    <Compile Include="Assets\Plugins\PathlGames\TriggerEventPro\Utilities\SpawnOnFire.cs" />
+    <Compile Include="Assets\Plugins\PathlGames\UnityConstraints\BillboardConstraint.cs" />
+    <Compile Include="Assets\Plugins\PathlGames\UnityConstraints\ConstraintBaseClass.cs" />
+    <Compile Include="Assets\Plugins\PathlGames\UnityConstraints\ConstraintFrameworkBaseClass.cs" />
+    <Compile Include="Assets\Plugins\PathlGames\UnityConstraints\LookAtBaseClass.cs" />
+    <Compile Include="Assets\Plugins\PathlGames\UnityConstraints\LookAtConstraint.cs" />
+    <Compile Include="Assets\Plugins\PathlGames\UnityConstraints\SmoothLookAtConstraint.cs" />
+    <Compile Include="Assets\Plugins\PathlGames\UnityConstraints\SmoothTransformConstraint.cs" />
+    <Compile Include="Assets\Plugins\PathlGames\UnityConstraints\TransformConstraint.cs" />
+    <Compile Include="Assets\Plugins\PathlGames\UnityConstraints\TurntableConstraint.cs" />
+    <Compile Include="Assets\Plugins\PathlGames\UnityConstraints\UnityConstraints.cs" />
+    <Compile Include="Assets\Plugins\PathlGames\UnityConstraints\WorldTo2DCameraConstraint.cs" />
+    <Compile Include="Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
+    <Compile Include="Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
+    <Compile Include="Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
+    <Compile Include="Assets\Standard Assets\Characters\RollerBall\Scripts\Ball.cs" />
+    <Compile Include="Assets\Standard Assets\Characters\RollerBall\Scripts\BallUserControl.cs" />
+    <Compile Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\Scripts\AICharacterControl.cs" />
+    <Compile Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonCharacter.cs" />
+    <Compile Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonUserControl.cs" />
+    <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
+    <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
+    <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
+    <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
+    <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" />
+    <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
+    <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
+    <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
+    <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
+    <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
+    <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
+    <Compile Include="Assets\Standard Assets\Utility\ActivateTrigger.cs" />
+    <Compile Include="Assets\Standard Assets\Utility\AlphaButtonClickMask.cs" />
+    <Compile Include="Assets\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
+    <Compile Include="Assets\Standard Assets\Utility\AutoMoveAndRotate.cs" />
+    <Compile Include="Assets\Standard Assets\Utility\CameraRefocus.cs" />
+    <Compile Include="Assets\Standard Assets\Utility\CurveControlledBob.cs" />
+    <Compile Include="Assets\Standard Assets\Utility\DragRigidbody.cs" />
+    <Compile Include="Assets\Standard Assets\Utility\DynamicShadowSettings.cs" />
+    <Compile Include="Assets\Standard Assets\Utility\EventSystemChecker.cs" />
+    <Compile Include="Assets\Standard Assets\Utility\FOVKick.cs" />
+    <Compile Include="Assets\Standard Assets\Utility\FPSCounter.cs" />
+    <Compile Include="Assets\Standard Assets\Utility\FollowTarget.cs" />
+    <Compile Include="Assets\Standard Assets\Utility\ForcedReset.cs" />
+    <Compile Include="Assets\Standard Assets\Utility\LerpControlledBob.cs" />
+    <Compile Include="Assets\Standard Assets\Utility\ObjectResetter.cs" />
+    <Compile Include="Assets\Standard Assets\Utility\ParticleSystemDestroyer.cs" />
+    <Compile Include="Assets\Standard Assets\Utility\PlatformSpecificContent.cs" />
+    <Compile Include="Assets\Standard Assets\Utility\SimpleActivatorMenu.cs" />
+    <Compile Include="Assets\Standard Assets\Utility\SimpleMouseRotator.cs" />
+    <Compile Include="Assets\Standard Assets\Utility\SmoothFollow.cs" />
+    <Compile Include="Assets\Standard Assets\Utility\TimedObjectActivator.cs" />
+    <Compile Include="Assets\Standard Assets\Utility\TimedObjectDestructor.cs" />
+    <Compile Include="Assets\Standard Assets\Utility\WaypointCircuit.cs" />
+    <Compile Include="Assets\Standard Assets\Utility\WaypointProgressTracker.cs" />
+    <None Include="Assets\UI Elements\Fonts\certa_sans\CC BY_ND 3.0.txt" />
+    <None Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Shaders\WallHackTexture.shader" />
+    <None Include="Assets\_Store\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\UI Elements\Fonts\kepler_296\readmy.txt" />
+    <None Include="Assets\_Store\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\UI Elements\Fonts\abibas\OFL.txt" />
+    <None Include="Assets\_Store\FXMegaPack\Shaders\Particle AddAlphaBlended Mobile.shader" />
+    <None Include="Assets\UI Elements\Fonts\finlandica\Open Font License.txt" />
+    <None Include="Assets\Plugins\CodeStage\AdvancedFPSCounter\Legacy\readme.txt" />
+    <None Include="Assets\_Store\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
+    <None Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Changelog.txt" />
+    <None Include="Assets\UI Elements\Fonts\mon_trappist\Mon_Trappist_freefont\FREE FONT LICENSE.txt" />
+    <None Include="Assets\UI Elements\Fonts\pt_astra_sans\Documents\OFL.txt" />
+    <None Include="Assets\_Store\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\_Store\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\UI Elements\Fonts\opendyslexic\OFL.txt" />
+    <None Include="Assets\_Store\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\Plugins\EasySave3\Editor\ES3ClassTypeTemplate.txt" />
+    <None Include="Assets\UI Elements\Fonts\arkhip\readme.txt" />
+    <None Include="Assets\UI Builder\Source Files\Fonts\OpenSans-Familiy\OpenSansLic.txt" />
+    <None Include="Assets\UI Elements\Fonts\hack\LICENSE.txt" />
+    <None Include="Assets\UI Elements\Fonts\zantroke\OFL_License.txt" />
+    <None Include="Assets\_Store\Battlehub\RTCommon\Shaders\Resources\Billboard.shader" />
+    <None Include="Assets\_Store\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\_Store\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\_Store\EasySave2\changelog.txt" />
+    <None Include="Assets\_Store\RuntimeGizmo\Shader\Resources\Outline.shader" />
+    <None Include="Assets\Plugins\EasySave3\Editor\ES3ScriptableObjectTypeTemplate.txt" />
+    <None Include="Assets\_Store\Battlehub\RTGizmos\Shaders\Resources\Handles.shader" />
+    <None Include="Assets\_Store\FXMegaPack\Scripts\Simple Particle Scaler\Simple Particle Scaler - Readme.txt" />
+    <None Include="Assets\UI Elements\Fonts\jazz_ball\readme.txt" />
+    <None Include="Assets\_Store\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\UI Elements\Fonts\pt_mono\Documents\OFL.txt" />
+    <None Include="Assets\UI Elements\Fonts\borsok\readme.txt" />
+    <None Include="Assets\Plugins\EasySave3\Editor\ES3ComponentTypeTemplate.txt" />
+    <None Include="Assets\UI Elements\Fonts\ikra_slab\IkraSlabFF\Readme.txt" />
+    <None Include="Assets\UI Elements\Fonts\evolventa\doc\gpl.txt" />
+    <None Include="Assets\Plugins\CodeStage\AdvancedFPSCounter\Editor\AFPSCounter.Editor.asmdef" />
+    <None Include="Assets\_Store\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\_Store\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\UI Elements\Fonts\airfool\AIRFOOL.txt" />
+    <None Include="Assets\_Store\EasySave2\readme.txt" />
+    <None Include="Assets\UI Elements\Fonts\science_gothic\OFL.txt" />
+    <None Include="Assets\_Store\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald Bold - OFL.txt" />
+    <None Include="Assets\_Store\RuntimeGizmo\Shader\Resources\Lines.shader" />
+    <None Include="Assets\UI Elements\Fonts\lapsus_pro\SIL Open Font License.txt" />
+    <None Include="Assets\_Store\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\_Store\MaterialUI\Fonts\NOTICE.txt" />
+    <None Include="Assets\UI Elements\Fonts\molot\FREE FONT LICENSE.txt" />
+    <None Include="Assets\_Store\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\_Store\TextMesh Pro\Examples &amp; Extras\Fonts\NotoSans - License.txt" />
+    <None Include="Assets\_Store\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\UI Elements\Fonts\furore\Jovanny Lemonad Freeware License.txt" />
+    <None Include="Assets\_Store\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\_Store\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\UI Elements\Fonts\peace_sans\Peace Sans\FREE FONT LICENSE.txt" />
+    <None Include="Assets\Plugins\EasySave3\Editor\ES3Type_MaterialTemplate.txt" />
+    <None Include="Assets\_Store\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\_Store\TextMesh Pro\Examples &amp; Extras\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\_Store\FXMegaPack\FX Mega Pack - Readme.txt" />
+    <None Include="Assets\UI Elements\Fonts\bardo\Notes.txt" />
+    <None Include="Assets\_Store\I2Localization\Scripts\Editor\Unity XCode\Xcode.txt" />
+    <None Include="Assets\UI Elements\Fonts\evolventa\doc\lppl.txt" />
+    <None Include="Assets\Plugins\BetterStreamingAssets\README.txt" />
+    <None Include="Assets\Plugins\PathlGames\readme.txt" />
+    <None Include="Assets\Plugins\EasySave3\link.xml" />
+    <None Include="Assets\Plugins\EasySave3\Editor\ES3ValueTypeTemplate.txt" />
+    <None Include="Assets\_Store\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
+    <None Include="Assets\UI Elements\Fonts\docker\readme.txt" />
+    <None Include="Assets\_Store\I2Localization\I2 Localization - Readme.txt" />
+    <None Include="Assets\UI Elements\Fonts\tangak\readme.txt" />
+    <None Include="Assets\_Store\HttpClient\readme.txt" />
+    <None Include="Assets\link.xml" />
+    <None Include="Assets\UI Elements\Fonts\chekharda\readme.txt" />
+    <None Include="Assets\UI Elements\Fonts\abibas\readme.txt" />
+    <None Include="Assets\UI Elements\Fonts\kulag\readme.txt" />
+    <None Include="Assets\Plugins\CodeStage\AdvancedFPSCounter\API.txt" />
+    <None Include="Assets\UI Elements\Fonts\sofia_sans\OFL.txt" />
+    <None Include="Assets\UI Elements\Fonts\permian\readme.txt" />
+    <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+    <None Include="Assets\Plugins\CodeStage\AntiCheatToolkit\Integration\readme.txt" />
+    <None Include="Assets\Plugins\CodeStage\AdvancedFPSCounter\Runtime\AFPSCounter.Runtime.asmdef" />
+    <None Include="Assets\Plugins\EasySave3\Editor\ES3TypeTemplate.txt" />
+    <None Include="Assets\UI Elements\Fonts\dwarven_stonecraft\readme.txt" />
+    <None Include="Assets\Plugins\CodeStage\AntiCheatToolkit\API.txt" />
+    <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+    <None Include="Assets\Plugins\CodeStage\AdvancedFPSCounter\Examples\AFPSCounter.Examples.asmdef" />
+    <None Include="Assets\UI Elements\Fonts\next_art\Readme.txt" />
+    <None Include="Assets\UI Elements\Fonts\commissioner\OFL.txt" />
+    <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+    <None Include="Assets\_Store\FXMegaPack\Shaders\Particle AddAlphaBlended.shader" />
+    <None Include="Assets\UI Elements\Fonts\karmilla\SIL Open Font License.txt" />
+    <None Include="Assets\UI Elements\Fonts\balkara\BalkaraFreeCondensed-npoekmu.me SIL OFL Font License 1.1.txt" />
+    <None Include="Assets\UI Elements\Fonts\casper\OFL.txt" />
+    <None Include="Assets\Plugins\CodeStage\AdvancedFPSCounter\Changelog.txt" />
+    <None Include="Assets\UI Elements\Fonts\manrope\OFL.txt" />
+    <None Include="Assets\_Store\Battlehub\RTHandles\Shaders\Resources\VertexColor.shader" />
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/5.6.6f2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/5.6.6f2/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/5.6.6f2/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/5.6.6f2/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/5.6.6f2/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/5.6.6f2/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/5.6.6f2/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="TextMeshPro-5.6-Editor">
+      <HintPath>C:/Users/Samael/Desktop/PAL_Template_U5.6.6/Assets/_Store/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-5.6-Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="TextMeshPro-5.6-Runtime">
+      <HintPath>C:/Users/Samael/Desktop/PAL_Template_U5.6.6/Assets/_Store/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-5.6-Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

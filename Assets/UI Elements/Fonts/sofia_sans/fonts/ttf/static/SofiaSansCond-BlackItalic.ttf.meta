@@ -1,0 +1,32 @@
+fileFormatVersion: 2
+guid: 436f34139c3275e4998751c0ce177d45
+timeCreated: 1647694577
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Sofia Sans Cond
+  fontNames:
+  - Sofia Sans Cond
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 0ca55d715b43afb4ebc43409a1030238, type: 3}
+  - {fileID: 12800000, guid: 1172cba1076ba604cb91b67afd4a750e, type: 3}
+  - {fileID: 12800000, guid: 2592dc737f90e0f4593dda38dbba7c76, type: 3}
+  - {fileID: 12800000, guid: 38cb6e54c634b534fa3848d3f67f8150, type: 3}
+  - {fileID: 12800000, guid: 30e2dee5b912c1b4a8ed1fa83727b109, type: 3}
+  - {fileID: 12800000, guid: 263a2af65dd33324f86ecbeea333a121, type: 3}
+  - {fileID: 12800000, guid: 39290149cc16f5d4da7c0b8e977eae65, type: 3}
+  - {fileID: 12800000, guid: 23c6caaaab20bfd44b8d5c6e49b926da, type: 3}
+  - {fileID: 12800000, guid: 116af0ea6328f9647930196c3253d146, type: 3}
+  - {fileID: 12800000, guid: 33dd177c828013b408c0195b3cb6fb3d, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

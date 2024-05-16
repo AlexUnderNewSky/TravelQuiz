@@ -1,0 +1,37 @@
+fileFormatVersion: 2
+guid: e40c05e9046d51545aa866fbe974a77e
+timeCreated: 1647694591
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Science Gothic
+  fontNames:
+  - Science Gothic
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 50ca2412042c4ce438316468fefb8ebf, type: 3}
+  - {fileID: 12800000, guid: 53dbb5421fbd49d41aab65586a3a19a6, type: 3}
+  - {fileID: 12800000, guid: 5bdc14a32dc3ee24f99eda7029dcd32f, type: 3}
+  - {fileID: 12800000, guid: a839b1e3a070332498b2ef8526070403, type: 3}
+  - {fileID: 12800000, guid: 586ee9143947d3a4b9a125d2b1301c7a, type: 3}
+  - {fileID: 12800000, guid: 27542a1523bf33c4b86225b500a747d0, type: 3}
+  - {fileID: 12800000, guid: 40881eb6a39169b4dbe7d9cad414d0bd, type: 3}
+  - {fileID: 12800000, guid: 32b3a9171bda7464886397aec449fb29, type: 3}
+  - {fileID: 12800000, guid: 70b94c29f8082474a910a116467a8e79, type: 3}
+  - {fileID: 12800000, guid: cfac84799f713394e8a59cf207e5fc2b, type: 3}
+  - {fileID: 12800000, guid: 45eb0f7bc41e1e8418478189ec121208, type: 3}
+  - {fileID: 12800000, guid: bc353b0d09dd5a64191e8e9163ece431, type: 3}
+  - {fileID: 12800000, guid: aa50f17df9f4810478080f9115996ad4, type: 3}
+  - {fileID: 12800000, guid: 289e6c0e83960414d9f1346de9dac7b2, type: 3}
+  - {fileID: 12800000, guid: bfe468eee3abe6148aa0f5ec6dc1e570, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

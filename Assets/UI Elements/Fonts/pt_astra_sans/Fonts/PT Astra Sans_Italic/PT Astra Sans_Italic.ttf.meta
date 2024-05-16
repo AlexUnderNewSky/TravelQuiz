@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: f7ad7451014d9644d840788e0c49e86f
+timeCreated: 1647694593
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: PT Astra Sans
+  fontNames:
+  - PT Astra Sans
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 9afcd0e43bcb9da4295f5143f513b1e1, type: 3}
+  - {fileID: 12800000, guid: a631c0c7528759145ae5be7e003a756a, type: 3}
+  - {fileID: 12800000, guid: 86735cafbdd495045b5fd55f1e73e66d, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

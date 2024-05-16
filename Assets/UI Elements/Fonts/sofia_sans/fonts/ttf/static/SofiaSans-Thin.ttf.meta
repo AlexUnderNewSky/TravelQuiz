@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: 42554cea7ed1bde418338d7fcb76d942
+timeCreated: 1647694577
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Sofia Sans
+  fontNames:
+  - Sofia Sans
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 198154f1f5d48474fabc62fef1db9080, type: 3}
+  - {fileID: 12800000, guid: 3b4be702bf13916418dbc8cee2907cce, type: 3}
+  - {fileID: 12800000, guid: 15589ab48b44bae408f9f87ed5b95414, type: 3}
+  - {fileID: 12800000, guid: 06ec797801579d844a2291b4e9839172, type: 3}
+  - {fileID: 12800000, guid: 072fa389b1d89f04e93a038789d657c5, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

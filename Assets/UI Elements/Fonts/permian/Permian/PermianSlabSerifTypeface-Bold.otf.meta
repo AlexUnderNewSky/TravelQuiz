@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: c537fbbb7bf86d84893ff0d63fd6c8f8
+timeCreated: 1647694588
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: PermianSlabSerifTypeface
+  fontNames:
+  - PermianSlabSerifTypeface
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 1d875d65888b32b44aa95eaea6544539, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

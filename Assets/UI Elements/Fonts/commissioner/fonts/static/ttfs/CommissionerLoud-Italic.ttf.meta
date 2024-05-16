@@ -1,0 +1,42 @@
+fileFormatVersion: 2
+guid: 8464570062bd7e6488672b041ecd5ef5
+timeCreated: 1647694582
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Commissioner Loud
+  fontNames:
+  - Commissioner Loud
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 2f5d1c40ef355814292e7d40d2f00415, type: 3}
+  - {fileID: 12800000, guid: 43116d40aaca0744ebd24103ba803f06, type: 3}
+  - {fileID: 12800000, guid: 3f69f490dddcb154b948251fde50faf2, type: 3}
+  - {fileID: 12800000, guid: 3dc44242ea33e6e48bcac8bd1d6bca25, type: 3}
+  - {fileID: 12800000, guid: 3406cde2bc3296c44a93183a4b66a479, type: 3}
+  - {fileID: 12800000, guid: 71c1dc2317726174f8d6a49fefee5bf5, type: 3}
+  - {fileID: 12800000, guid: 186ff86319a68cb469a68c7d78d75ce1, type: 3}
+  - {fileID: 12800000, guid: 172959c38403d8c49b115a604ed0785a, type: 3}
+  - {fileID: 12800000, guid: 19bde94477077ed4db3ecfdb9ae9c2b3, type: 3}
+  - {fileID: 12800000, guid: 838d94c5ecfe6134e876ed5f1280edc8, type: 3}
+  - {fileID: 12800000, guid: 74e4f3269d673a64b8b10df09a3fed08, type: 3}
+  - {fileID: 12800000, guid: 792072a9afdb72744a1ca2e147e6e0b0, type: 3}
+  - {fileID: 12800000, guid: 1d08552a795d2d746890cec85733f327, type: 3}
+  - {fileID: 12800000, guid: 2692f1aa983aaaa4ea0f652d2541e19e, type: 3}
+  - {fileID: 12800000, guid: 7b2965dbcc2b1d148a4ce554b507ab46, type: 3}
+  - {fileID: 12800000, guid: 2f06ecfcd43801f408965a58e1cd2621, type: 3}
+  - {fileID: 12800000, guid: 7014fabdf5f0d9340a6d74d47a152479, type: 3}
+  - {fileID: 12800000, guid: 33b14eed7cf84e644bb3702d3cfd6dda, type: 3}
+  - {fileID: 12800000, guid: 2af2d2fe429b8134781590253e456a24, type: 3}
+  - {fileID: 12800000, guid: 5d4fdf4fd1007604b836d8c47273afde, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

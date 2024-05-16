@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: d47c862a1e573164e957817b2c1e4d23
+timeCreated: 1647694590
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Some Time Later
+  fontNames:
+  - Some Time Later
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 9995b326a59253c47a516c2f442cd47d, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

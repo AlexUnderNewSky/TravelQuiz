@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: cb290afb82baff64c849d2f18ca62776
+timeCreated: 1647694589
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: PermianSansTypeface
+  fontNames:
+  - PermianSansTypeface
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 45d22e64f13a8fa46b842cdc44636bd6, type: 3}
+  - {fileID: 12800000, guid: 80832239c6dc6524cb9aa5b949fa5d03, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

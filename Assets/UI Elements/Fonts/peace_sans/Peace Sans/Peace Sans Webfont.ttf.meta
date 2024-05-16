@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: ffec49953cf4e5a40a49c321fe69e7db
+timeCreated: 1647694593
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Peace Sans
+  fontNames:
+  - Peace Sans
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 4f9c491ab803a8b43a29c0925de8803f, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

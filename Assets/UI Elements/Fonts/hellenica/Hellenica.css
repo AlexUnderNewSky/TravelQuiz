@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Hellenica';
+  src: url('Hellenica.eot');
+  src: url('Hellenica.eot?#iefix') format('embedded-opentype'),
+       url('Hellenica.woff') format('woff'),
+       url('Hellenica.ttf') format('truetype');       
+  font-style: normal;
+  font-weight: 400;
+}

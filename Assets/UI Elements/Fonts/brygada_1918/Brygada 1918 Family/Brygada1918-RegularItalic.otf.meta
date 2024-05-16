@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 3ca06695e1c6a654c8f48aae95b4a5dc
+timeCreated: 1647694576
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Brygada 1918
+  fontNames:
+  - Brygada 1918
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

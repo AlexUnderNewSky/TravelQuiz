@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: e8b674e23edb3444ea97bb992fa46baf
+timeCreated: 1647694591
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Kepler 296
+  fontNames:
+  - Kepler 296
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

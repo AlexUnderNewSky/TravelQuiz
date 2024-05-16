@@ -1,0 +1,36 @@
+fileFormatVersion: 2
+guid: fe4da3c81d8fc8d4498d1111e79b96f5
+timeCreated: 1647694593
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Manrope
+  fontNames:
+  - Manrope
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 582566130d99ffb4c8eb3a1100e72e13, type: 3}
+  - {fileID: 12800000, guid: 2b5a30d3cebfcd94699de789aa079559, type: 3}
+  - {fileID: 12800000, guid: a4410a844d5d30b41b446e1c5e90cc29, type: 3}
+  - {fileID: 12800000, guid: 2d10e2757d1d5c042b96c3cf303d9fca, type: 3}
+  - {fileID: 12800000, guid: a9614cb6ed3895948b3ed9cd528e7cec, type: 3}
+  - {fileID: 12800000, guid: 5bcf4fb615484b644a1f4e1c0317b8c3, type: 3}
+  - {fileID: 12800000, guid: 89d140d6bef061548957fcbc40a440f9, type: 3}
+  - {fileID: 12800000, guid: 521ad328520f5954c93b83013e724c89, type: 3}
+  - {fileID: 12800000, guid: 8a1227984060a1043b9bbdd4d6878122, type: 3}
+  - {fileID: 12800000, guid: 4cbcc93a4235fe045a1353b19a883cad, type: 3}
+  - {fileID: 12800000, guid: 7ab14efa70dfcb54683c08b1b5f5b705, type: 3}
+  - {fileID: 12800000, guid: 8ca046bcac8174e4f93428e9ac856431, type: 3}
+  - {fileID: 12800000, guid: 8374319ec87052141b47f285186944a5, type: 3}
+  - {fileID: 12800000, guid: d18cd5bea796ea94082590e9ece4cfb5, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 11de9df088b324148bfce72536b8ab19
+timeCreated: 1647694572
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Moreno Rough Two
+  fontNames:
+  - Moreno Rough Two
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

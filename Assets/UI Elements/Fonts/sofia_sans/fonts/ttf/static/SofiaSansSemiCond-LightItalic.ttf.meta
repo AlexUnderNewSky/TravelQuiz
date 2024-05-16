@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 1688fe3d3d090c14fa9ad09efc338baf
+timeCreated: 1647694572
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Sofia Sans Semi Cond
+  fontNames:
+  - Sofia Sans Semi Cond
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 12cc28358cf1d2b4d99caa2a7e95b8c5, type: 3}
+  - {fileID: 12800000, guid: 02e595d88c9dce846b06182bfe4b6abf, type: 3}
+  - {fileID: 12800000, guid: 1463f4aba316f5b4b98915a9b4afb122, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

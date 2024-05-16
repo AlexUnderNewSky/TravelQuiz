@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 492b096227527ec478fa1a6a941e1d50
+timeCreated: 1647694577
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Casper
+  fontNames:
+  - Casper
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 319160b722a3b4b45b4c1dbb1b60e28b, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

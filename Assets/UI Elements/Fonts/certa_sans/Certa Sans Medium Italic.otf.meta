@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 61a55961546abd64c861708a2319ad51
+timeCreated: 1647694580
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Certa Sans
+  fontNames:
+  - Certa Sans
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 03d5e0ca80399be419f61e0b428bbc4c, type: 3}
+  - {fileID: 12800000, guid: 50dec10bbed70b24cbe9d307ea5ab0d9, type: 3}
+  - {fileID: 12800000, guid: 387739fec00287a4f968414f75291558, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

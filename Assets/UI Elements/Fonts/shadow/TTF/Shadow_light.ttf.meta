@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: a27104e3c09846f44bef22681b9b363e
+timeCreated: 1647694585
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Shadow
+  fontNames:
+  - Shadow
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 6dcc801b63458564e894556ba36fa1ef, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
