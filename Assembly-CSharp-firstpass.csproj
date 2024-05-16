@@ -7,7 +7,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{69CA251C-4B40-4C27-56D2-790538834B06}</ProjectGuid>
+    <ProjectGuid>{9B3C34C5-6AE2-CF8D-6753-65D6FE21B9FE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
@@ -539,10 +539,10 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/5.6.6f2/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
     </Reference>
     <Reference Include="TextMeshPro-5.6-Editor">
-      <HintPath>C:/Users/Samael/Desktop/PAL_Template_U5.6.6/Assets/_Store/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-5.6-Editor.dll</HintPath>
+      <HintPath>C:/ForkGitHub/TravelQuiz/Assets/_Store/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-5.6-Editor.dll</HintPath>
     </Reference>
     <Reference Include="TextMeshPro-5.6-Runtime">
-      <HintPath>C:/Users/Samael/Desktop/PAL_Template_U5.6.6/Assets/_Store/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-5.6-Runtime.dll</HintPath>
+      <HintPath>C:/ForkGitHub/TravelQuiz/Assets/_Store/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-5.6-Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

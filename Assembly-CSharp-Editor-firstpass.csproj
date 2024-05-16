@@ -7,7 +7,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{50E28F28-5FD3-92FE-4815-479C398842C6}</ProjectGuid>
+    <ProjectGuid>{0A35DF44-D059-4547-DE9C-EC7805CAFB72}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor-firstpass</AssemblyName>
@@ -332,21 +332,21 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/5.6.6f2/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="JetBrains.Rider.Unity.Editor.Plugin.Repacked">
-      <HintPath>C:/Users/Samael/Desktop/PAL_Template_U5.6.6/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll</HintPath>
+      <HintPath>C:/ForkGitHub/TravelQuiz/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS_I2Loc.Xcode">
-      <HintPath>C:/Users/Samael/Desktop/PAL_Template_U5.6.6/Assets/_Store/I2Localization/Scripts/Editor/Unity XCode/UnityEditor.iOS_I2Loc.Xcode.dll</HintPath>
+      <HintPath>C:/ForkGitHub/TravelQuiz/Assets/_Store/I2Localization/Scripts/Editor/Unity XCode/UnityEditor.iOS_I2Loc.Xcode.dll</HintPath>
     </Reference>
     <Reference Include="TextMeshPro-5.6-Editor">
-      <HintPath>C:/Users/Samael/Desktop/PAL_Template_U5.6.6/Assets/_Store/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-5.6-Editor.dll</HintPath>
+      <HintPath>C:/ForkGitHub/TravelQuiz/Assets/_Store/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-5.6-Editor.dll</HintPath>
     </Reference>
     <Reference Include="TextMeshPro-5.6-Runtime">
-      <HintPath>C:/Users/Samael/Desktop/PAL_Template_U5.6.6/Assets/_Store/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-5.6-Runtime.dll</HintPath>
+      <HintPath>C:/ForkGitHub/TravelQuiz/Assets/_Store/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-5.6-Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{69CA251C-4B40-4C27-56D2-790538834B06}</Project>
+      <Project>{9B3C34C5-6AE2-CF8D-6753-65D6FE21B9FE}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
   </ItemGroup>
