@@ -20,9 +20,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Apps & Games
       - "\u0410\u043F\u043E\u0432\u0435 \u0438 \u0418\u0433\u0440\u0438"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -30,9 +30,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - AUTO SEARCH
       - "\u0410\u0412\u0422\u041E\u041C\u0410\u0422\u0418\u0427\u041D\u041E"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -40,9 +40,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Go Back
       - "\u041D\u0430\u0437\u0430\u0434"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -50,9 +50,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Begin Calibration
       - "\u0417\u0430\u043F\u043E\u0447\u043D\u0438 \u041A\u0430\u043B\u0438\u0431\u0440\u0438\u0440\u0430\u043D\u0435"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -60,9 +60,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - CALIBRATE
       - "\u041A\u0410\u041B\u0418\u0411\u0420\u0418\u0420\u0410\u0419"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -70,9 +70,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Cancel
       - "\u041E\u0442\u043C\u0435\u043D\u0438"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -80,9 +80,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Current Score
       - "\u0422\u0435\u043A\u0443\u0449 \u0420\u0435\u0437\u0443\u043B\u0442\u0430\u0442"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -90,9 +90,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Defeat
       - "\u0417\u0430\u0433\u0443\u0431\u0438\u0445\u0442\u0435 \u0418\u0433\u0440\u0430\u0442\u0430"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -100,9 +100,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Delete Matrix
       - "\u0417\u0430\u043D\u0443\u043B\u0438 \u041C\u0430\u0442\u0440\u0438\u0446\u0430"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -110,9 +110,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Delete Settings
       - "\u0417\u0430\u043D\u0443\u043B\u0438 \u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -120,10 +120,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'Please double-check the height values are valid and proceed. '
       - "\u041F\u0440\u043E\u0432\u0435\u0440\u0435\u0442\u0435 \u0432\u0435\u0440\u0442\u0438\u043A\u0430\u043B\u043D\u0438\u0442\u0435
         \u043D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438 \u0438 \u043F\u0440\u043E\u0434\u044A\u043B\u0436\u0435\u0442\u0435."
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -131,6 +131,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'For the next step the feet of the player need to be moved apart (the system
         needs to recognize two separate feet). Please make sure the feet are also
         detectable by the sensor. If the player is standing directly under the sensor,
@@ -155,13 +156,13 @@ MonoBehaviour:
         \u043D\u044F\u043C\u0430 \u0434\u0430 \u043C\u043E\u0436\u0435 \u0434\u0430
         \u0431\u044A\u0434\u0435 \u0438\u0437\u0432\u044A\u0440\u0448\u0435\u043D\u043E. "
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Depth Fine Tuning
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'Fine tuning: fine-tuning can greatly improve accuracy and gameplay. It is
         recommended to try the auto search mode first and proceed if you''re experienced
         with the process.
@@ -210,13 +211,13 @@ MonoBehaviour:
         \u0441\u0442\u043E\u0439\u043D\u043E\u0441\u0442 \u043D\u0430 \u0441\u0438\u0432\u043E\u0442\u043E.
         \n"
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Depth Floor Calibration
       TermType: 0
       Description: 
       Languages:
+      - 
       - "Floor calibration: please make sure floor calibration has been preformed
         correctly. \nUse the on-screen buttons, or alternatively drag the circles,
         to guide the calibration algorithm. The red circles must spread across a fairly
@@ -250,13 +251,13 @@ MonoBehaviour:
         \u043F\u0440\u0435\u043C\u0435\u0441\u0442\u0435\u0442\u0435 \u0433\u0438
         \u0434\u0430\u043B\u0435\u0447 \u043E\u0442 \u0442\u0435\u0437\u0438 \u043E\u0431\u0435\u043A\u0442\u0438."
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Depth Foot Area
       TermType: 0
       Description: 
       Languages:
+      - 
       - Use the 'Calibrate' button or simply move the slider above to find the best
         setting. You may also just fiddle with the slider until you find the right
         value. To complete this step, the system needs to recognize and track both
@@ -272,13 +273,13 @@ MonoBehaviour:
         \u0434\u0432\u0430\u0442\u0430 \u043A\u0440\u0430\u043A\u0430 \u043D\u0430
         \u0438\u0433\u0440\u0430\u0447\u0430."
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Depth Foot Tutorial
       TermType: 0
       Description: 
       Languages:
+      - 
       - "Size (surface area) of players' Feet on the screen. This setting adjusts
         the feet recognition ability of the platform. \n\nIn order to recognize and
         track feet (or hands touching the floor), the system needs to know the approximate
@@ -321,13 +322,13 @@ MonoBehaviour:
         \u043A\u0440\u0430\u043A\u0430 \u043D\u0430 \u0435\u043A\u0440\u0430\u043D\u0430.
         \ "
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Depth Leveling
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'Floor removal: if the window above shows gray values or artifacts (i.e. pixel
         areas), use the auto search function or carefully move the slider to the right
         until inconsistencies disappear and the window shows only a black value.'
@@ -342,13 +343,13 @@ MonoBehaviour:
         \u0441\u043B\u0430\u0439\u0434\u0435\u0440\u0430 \u043D\u0430\u0434\u044F\u0441\u043D\u043E
         \u0434\u043E\u043A\u0430\u0442\u043E \u0438\u0437\u0447\u0435\u0437\u043D\u0430\u0442."
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Depth Player Area
       TermType: 0
       Description: 
       Languages:
+      - 
       - Click on the 'Calibrate' button, or alternatively, count the approximate number
         of squares the player is taking up in the window above and move the slider
         to that number. Keep track whether the system is recognizing and tracking
@@ -365,19 +366,18 @@ MonoBehaviour:
         \u0434\u0430\u043B\u0438 \u0441\u0435\u043D\u0437\u043E\u0440\u0430 \u0440\u0430\u0437\u0433\u0440\u0430\u043D\u0438\u0447\u0430\u0432\u0430
         \u0438\u0433\u0440\u0430\u0447\u0430 \u043A\u0430\u0442\u043E \u0442\u0430\u043A\u044A\u0432."
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Depth Player Needed
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'The next few steps require a player to stand in the play-area. '
       - "\u0417\u0430 \u0441\u043B\u0435\u0434\u0432\u0430\u0449\u0438\u0442\u0435
         \u043D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438 \u0432 \u043F\u043E\u043B\u0435\u0442\u043E
         \u0437\u0430 \u0438\u0433\u0440\u0430 \u0442\u0440\u044F\u0431\u0432\u0430
         \u0434\u0430 \u0437\u0430\u0441\u0442\u0430\u043D\u0435 \u0438\u0433\u0440\u0430\u0447."
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -385,6 +385,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - "Size (surface area) of Players on the screen. This setting adjusts the player
         recognition ability of the platform. \n\nIn order to recognize a player as
         such, the system needs to know the approximate surface area (surface area
@@ -432,18 +433,17 @@ MonoBehaviour:
         \u0440\u0430\u0437\u0433\u0440\u0430\u043D\u0438\u0447\u0430\u0432\u0430 \u0438\u0433\u0440\u0430\u0447\u0430
         \u043A\u0430\u0442\u043E \u0442\u0430\u043A\u044A\u0432."
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Depth Settings Found
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'Previously saved depth settings were found. You may wish to load them. '
       - "\u0418\u043C\u0430 \u043E\u0442\u043A\u0440\u0438\u0442\u0438 \u043F\u0440\u0435\u0434\u0438\u0448\u043D\u0438
         \u043D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438. \u041C\u043E\u0436\u0435\u0442\u0435
         \u0434\u0430 \u0433\u0438 \u0437\u0430\u0440\u0435\u0434\u0438\u0442\u0435. "
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -451,6 +451,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'The depth calibration settings are ready. Please make sure to save the results
         and you are ready to play! '
       - "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438\u0442\u0435 \u0441\u0430
@@ -458,13 +459,13 @@ MonoBehaviour:
         \u0440\u0435\u0437\u0443\u043B\u0442\u0430\u0442\u0438\u0442\u0435 \u0438
         \u043F\u0440\u043E\u0434\u044A\u043B\u0436\u0435\u0442\u0435."
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Depth Step Height
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'Step height: this is the height under which players'' feet are detected and
         recognized. In most cases, we recommend using the default value. Re-definition
         is required if you are placing the motion sensor higher than average (4 m
@@ -486,16 +487,15 @@ MonoBehaviour:
         \u0437\u0430\u0441\u0438\u0447\u0430\u043D\u0435\u0442\u043E \u043D\u0430
         \u043A\u0440\u0430\u043A\u0430 \u043F\u0440\u0438 \u0438\u0433\u0440\u0430. "
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Difficulty
       TermType: 0
       Description: 
       Languages:
+      - 
       - Max Difficulty
       - "\u0422\u0440\u0443\u0434\u043D\u043E\u0441\u0442"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -503,10 +503,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'distance to floor:'
       - "\u0440\u0430\u0437\u0441\u0442\u043E\u044F\u043D\u0438\u0435 \u043E\u0442
         \u043F\u043E\u0434\u0430:"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -514,9 +514,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - DRAW
       - "\u0420\u0410\u0412\u041D\u0418 !"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -524,9 +524,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Exit
       - "\u0418\u0437\u0445\u043E\u0434"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -534,6 +534,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'FluurMat has detected that you are using two screens under an extended desktop
         setup (which is good). Please make sure that:'
       - "FluurMat \u043E\u0442\u043A\u0440\u0438, \u0447\u0435 \u0438\u0437\u043F\u043E\u043B\u0437\u0432\u0430\u0442\u0435
@@ -541,18 +542,17 @@ MonoBehaviour:
         \u0441\u0435 \u0434\u043E\u043F\u044A\u043B\u0432\u0430\u0442. \u041C\u043E\u043B\u044F
         \u0443\u0432\u0435\u0440\u0435\u0442\u0435 \u0441\u0435, \u0447\u0435: "
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Extended Desktop Detected
       TermType: 0
       Description: 
       Languages:
+      - 
       - Dual screens under Extended Desktop setup detected.
       - "\u041E\u0442\u043A\u0440\u0438\u0442\u0438 \u0441\u0430 \u0434\u0432\u0430
         \u043C\u043E\u043D\u0438\u0442\u043E\u0440\u0430 \u043A\u043E\u0438\u0442\u043E
         \u0441\u0435 \u0434\u043E\u043F\u044A\u043B\u0432\u0430\u0442."
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -560,6 +560,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'Your monitor is detected as Screen 1 and that it is also the main display.
         Please refer to the numbering at the top right corners of the screens. '
       - "\u0412\u0430\u0448\u0438\u044F\u0442 \u043C\u043E\u043D\u0438\u0442\u043E\u0440
@@ -572,13 +573,13 @@ MonoBehaviour:
         \u044A\u0433\u043B\u0438 \u043D\u0430 \u0435\u043A\u0440\u0430\u043D\u0438\u0442\u0435.
         \r"
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Extended Ensure Projector
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'Your projector is detected as Screen 2 and has a desktop resolution which
         is equal or smaller to your monitor''s resolution. '
       - "\u0412\u0430\u0448\u0438\u044F\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\u043E\u0440
@@ -590,16 +591,15 @@ MonoBehaviour:
         \u0435 \u043F\u043E-\u043D\u0438\u0441\u043A\u0430 \u0438\u043B\u0438 \u0440\u0430\u0432\u043D\u0430
         \u043D\u0430 \u0442\u0430\u0437\u0438 \u043D\u0430 \u043C\u043E\u043D\u0438\u0442\u043E\u0440\u0430. "
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Extra Time
       TermType: 0
       Description: 
       Languages:
+      - 
       - EXTRA TIME
       - "\u0411\u041E\u041D\u0423\u0421 \u0412\u0420\u0415\u041C\u0415"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -607,9 +607,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Final Result
       - "\u0420\u0435\u0437\u0443\u043B\u0442\u0430\u0442"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -617,9 +617,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Forest Fiends
       - "\u0413\u043E\u0440\u0441\u043A\u0438 \u041F\u0430\u043A\u043E\u0441\u0442\u043D\u0438\u0446\u0438"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -627,9 +627,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Forward
       - "\u041D\u0430\u043F\u0440\u0435\u0434"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -637,10 +637,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - A previously saved matrix was found.
       - "\u0418\u043C\u0430 \u043E\u0442\u043A\u0440\u0438\u0442\u0430 \u043F\u0440\u0435\u0434\u0438\u0448\u043D\u043E
         \u0437\u0430\u043F\u0430\u0437\u0435\u043D\u0430 \u043C\u0430\u0442\u0440\u0438\u0446\u0430."
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -648,9 +648,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Game Over
       - "\u041A\u0440\u0430\u0439 \u041D\u0430 \u0418\u0433\u0440\u0430\u0442\u0430"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -658,9 +658,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Game Settings
       - "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438 \u043D\u0430 \u0418\u0433\u0440\u0438\u0442\u0435"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -668,9 +668,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - High Score
       - "\u0422\u043E\u043F \u0420\u0435\u0437\u0443\u043B\u0442\u0430\u0442"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -678,12 +678,12 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Only partial/ incompatible settings were found. Please re-calibrate the system.
       - "\u041E\u0442\u043A\u0440\u0438\u0442\u0438 \u0441\u0430 \u0441\u0442\u0430\u0440\u0438/\u043D\u0435\u0441\u044A\u0432\u043C\u0435\u0441\u0442\u0438\u043C\u0438
         \u043D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438 \u043D\u0430 \u043A\u0430\u043B\u0438\u0431\u0440\u043E\u0432\u043A\u0430.
         \u0422\u0440\u044F\u0431\u0432\u0430 \u0434\u0430 \u043A\u0430\u043B\u0438\u0431\u0440\u043E\u0432\u0430\u0442\u0435
         \u0441\u0438\u0441\u0442\u0435\u043C\u0430\u0442\u0430."
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -691,9 +691,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Intro
       - "\u0418\u043D\u0442\u0440\u043E"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -701,11 +701,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'The same rule applies when using a mirror. '
       - "\u0421\u044A\u0449\u043E\u0442\u043E \u0432\u0430\u0436\u0438 \u0438 \u043F\u0440\u0438
         \u0438\u0437\u043F\u043E\u043B\u0437\u0432\u0430\u043D\u0435 \u043D\u0430
         \u043E\u0433\u043B\u0435\u0434\u0430\u043B\u043E."
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -713,6 +713,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'Please make sure the entire projected screen is visible through the camera
         feed (into the window above) and proceed to the calibration process.  '
       - "\u0423\u0432\u0435\u0440\u0435\u0442\u0435 \u0441\u0435, \u0447\u0435 \u043E\u0431\u0440\u0430\u0437\u044A\u0442
@@ -723,13 +724,13 @@ MonoBehaviour:
         \u0433\u043E\u0440\u0435) \u0438 \u043F\u0440\u043E\u0434\u044A\u043B\u0436\u0435\u0442\u0435
         \u043A\u044A\u043C \u043D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438\u0442\u0435."
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Intro Contact
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'If you have questions or need support, please don''t hesitate to contact
         us! '
       - "\u0410\u043A\u043E \u0438\u043C\u0430\u0442\u0435 \u0432\u044A\u043F\u0440\u043E\u0441\u0438
@@ -737,13 +738,13 @@ MonoBehaviour:
         \u0441\u0435 \u043E\u0431\u044A\u0440\u043D\u0435\u0442\u0435 \u043A\u044A\u043C
         \u043D\u0430\u0441! "
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Intro Device Alignment
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'We highly recommend aligning the kinect and the projector so that the wide
         side of the projected screen matches the wide side of the kinect (and therefore
         the camera feed). '
@@ -753,13 +754,13 @@ MonoBehaviour:
         \u043F\u043E \u0434\u044A\u043B\u0436\u0438\u043D\u0430 \u0435\u0434\u0438\u043D
         \u043A\u044A\u043C \u0434\u0440\u0443\u0433."
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Intro Device Movement
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'Should the system be disassembled and/ or moved, the calibration process
         and settings need to be preformed again. '
       - "\u041F\u0440\u0438 \u0440\u0430\u0437\u043C\u0435\u0441\u0442\u0432\u0430\u043D\u0435
@@ -770,13 +771,13 @@ MonoBehaviour:
         \u0434\u0430 \u0441\u0435 \u0441\u044A\u0437\u0434\u0430\u0434\u0430\u0442
         \u043E\u0442\u043D\u043E\u0432\u043E."
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Intro Kinect Alignment
       TermType: 0
       Description: 
       Languages:
+      - 
       - For best results, the kinect motion sensor should be pointed precisely (i.e.
         perpendicularly) towards the floor.
       - "\u0417\u0430 \u043D\u0430\u0439-\u0434\u043E\u0431\u0440\u0438 \u0440\u0435\u0437\u0443\u043B\u0442\u0430\u0442\u0438
@@ -786,13 +787,13 @@ MonoBehaviour:
         (\u043F\u0435\u0440\u043F\u0435\u043D\u0434\u0438\u043A\u0443\u043B\u044F\u0440\u043D\u043E)
         \u043A\u044A\u043C \u043F\u043E\u0434\u0430. "
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Intro Opening
       TermType: 0
       Description: 
       Languages:
+      - 
       - If you are familiar with the set-up process, you may wish to Skip the Intro.
         However, we do recommend to Proceed and take a look even if that's the case.
       - "\u0410\u043A\u043E \u0441\u0442\u0435 \u0434\u043E\u0431\u0440\u0435 \u0437\u0430\u043F\u043E\u0437\u043D\u0430\u0442\u0438
@@ -802,13 +803,13 @@ MonoBehaviour:
         \u0438 \u0434\u0430 \u0435 \u0442\u0430\u043A\u0430 \u043F\u043E-\u0434\u043E\u0431\u0440\u0435
         \u041F\u0440\u043E\u0434\u044A\u043B\u0436\u0435\u0442\u0435 \u041D\u0430\u043F\u0440\u0435\u0434."
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Intro Projector Correction
       TermType: 0
       Description: 
       Languages:
+      - 
       - In both cases the projected image has to be as close as possible to a correct
         (proper) rectangle. You may use your projector's keystone correction settings
         to achieve this.
@@ -823,19 +824,18 @@ MonoBehaviour:
         \u0434\u0430 \u043F\u043E\u0441\u0442\u0438\u0433\u043D\u0435\u0442\u0435
         \u0442\u043E\u0432\u0430. "
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Intro Projector Horizontal
       TermType: 0
       Description: 
       Languages:
+      - 
       - '...or aligned horizontally, using a mirror to reflect the image towards the
         floor.'
       - "..\u0438\u043B\u0438 \u0434\u0430 \u0435 \u0445\u043E\u0440\u0438\u0437\u043E\u043D\u0442\u0430\u043B\u0435\u043D,
         \u0430 \u043E\u0431\u0440\u0430\u0437\u044A\u0442 \u0434\u0430 \u043E\u0442\u0440\u0430\u0437\u044F\u0432\u0430
         \u0432 \u043E\u0433\u043B\u0435\u0434\u0430\u043B\u043E."
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -843,11 +843,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - The projector may be pointed directly towards the floor surface...
       - "\u041F\u0440\u043E\u0435\u043A\u0442\u043E\u0440\u044A\u0442 \u043C\u043E\u0436\u0435
         \u0434\u0430 \u0431\u044A\u0434\u0435 \u043D\u0430\u0441\u043E\u0447\u0435\u043D
         \u0434\u0438\u0440\u0435\u043A\u0442\u043D\u043E \u043A\u044A\u043C \u043F\u043E\u0434\u0430.."
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -855,6 +855,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'FluurMat 2 can operate using a single-screen setup (just a projector connected
         to a PC), or by using both a monitor and a projector (either by duplicating/
         mirroring the screen or based on an extended-desktop setup). '
@@ -867,13 +868,13 @@ MonoBehaviour:
         \u0438\u043B\u0438 \u0434\u043E\u043F\u044A\u043B\u043D\u0438\u0442\u0435\u043B\u0435\u043D
         \u043E\u0431\u0440\u0430\u0437)."
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Intro Sensor Projector
       TermType: 0
       Description: 
       Languages:
+      - 
       - FluurMat 2 requires a projector as well as a motion sensor (Kinect for Xbox
         One).
       - "\u0421\u0438\u0441\u0442\u0435\u043C\u0430\u0442\u0430 FluurMat 2 \u0440\u0430\u0431\u043E\u0442\u0438
@@ -881,13 +882,13 @@ MonoBehaviour:
         \u0438 \u0435\u0434\u0438\u043D \u043A\u0438\u043D\u0435\u043A\u0442 (Kinect
         for Xbox One) \u0441\u0435\u043D\u0437\u043E\u0440.\r"
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Intro Shared Settings
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'Games and apps from the FluurMat 2 series are capable of using shared settings.
         In most cases you only need to set the system once. '
       - "\u0418\u0433\u0440\u0438\u0442\u0435 \u043E\u0442 \u0441\u0435\u0440\u0438\u044F\u0442\u0430
@@ -897,16 +898,15 @@ MonoBehaviour:
         \u043A\u0430\u043B\u0438\u0431\u0440\u0438\u0440\u0430\u043D\u0435 \u043F\u043E\u043C\u0435\u0436\u0434\u0443
         \u0441\u0438. "
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Kinect
       TermType: 0
       Description: 
       Languages:
+      - 
       - kinect
       - "\u043A\u0438\u043D\u0435\u043A\u0442"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -914,9 +914,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Language
       - "\u0415\u0437\u0438\u043A\u043E\u0432\u0438 \u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -924,9 +924,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Last Step
       - "\u041A\u0440\u0430\u0439\u043D\u0430 \u0421\u0442\u044A\u043F\u043A\u0430"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -934,9 +934,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Level
       - "\u041D\u0438\u0432\u043E"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -944,9 +944,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - License Menu
       - "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0430 \u043D\u0430 \u041B\u0438\u0446\u0435\u043D\u0437"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -954,9 +954,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Load Matrix
       - "\u0417\u0430\u0440\u0435\u0434\u0438 \u041C\u0430\u0442\u0440\u0438\u0446\u0430"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -964,9 +964,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Load Settings
       - "\u0417\u0430\u0440\u0435\u0434\u0438 \u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -974,6 +974,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'Click onto the 4 corners of the projected screen below. Please follow the
         exact order of the projected  numbers. When you are done, you can view the
         results and save the calibration matrix. '
@@ -989,13 +990,13 @@ MonoBehaviour:
         \u0438 \u0434\u0430 \u0437\u0430\u043F\u0430\u0437\u0438\u0442\u0435 \u043A\u0430\u043B\u0438\u0431\u0440\u043E\u0432\u044A\u0447\u0430\u043D\u0442\u0430
         \u043C\u0430\u0442\u0440\u0438\u0446\u0430."
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Matrix Tutorial
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'The image from the projector must be fully visible throughout the sensor
         camera feed (no cropping should occur). The window should look similar to
         the simulated screen shown here. It is possible to see a recursion (image
@@ -1039,17 +1040,16 @@ MonoBehaviour:
         \u043D\u0430\u0433\u043E\u0440\u0435 \u0431\u0438 \u0431\u0438\u043B\u0430
         \u043F\u0440\u0430\u0432\u0438\u043B\u043D\u0430. "
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: New Record
       TermType: 0
       Description: 
       Languages:
+      - 
       - New Record !
       - "\u041D\u043E\u0432 \u0422\u043E\u043F \u0420\u0435\u0437\u0443\u043B\u0442\u0430\u0442
         !"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1057,9 +1057,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Next Step
       - "\u0421\u043B\u0435\u0434\u0432\u0430\u0449\u0430 \u0421\u0442\u044A\u043F\u043A\u0430"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1067,12 +1067,12 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Kinect sensor was not found or initiated. Please check and restart the application.
       - "\u041A\u0438\u043D\u0435\u043A\u0442\u044A\u0442 \u043D\u0435 \u0440\u0430\u0431\u043E\u0442\u0438.
         \u041C\u043E\u043B\u044F \u043F\u0440\u043E\u0432\u0435\u0440\u0435\u0442\u0435
         \u0438 \u0440\u0435\u0441\u0442\u0430\u0440\u0442\u0438\u0440\u0430\u0439\u0442\u0435
         \u0430\u043F\u043B\u0438\u043A\u0430\u0446\u0438\u044F\u0442\u0430."
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1080,11 +1080,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'No calibration settings found. Please go to settings and calibrate the system. '
       - "\u041D\u044F\u043C\u0430 \u043E\u0442\u043A\u0440\u0438\u0442\u0430 \u043A\u0430\u043B\u0438\u0431\u0440\u043E\u0432\u043A\u0430.
         \u0422\u0440\u044F\u0431\u0432\u0430 \u0434\u0430 \u043A\u0430\u043B\u0438\u0431\u0440\u043E\u0432\u0430\u0442\u0435
         \u0441\u0438\u0441\u0442\u0435\u043C\u0430\u0442\u0430."
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1092,9 +1092,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - OpenSans-Semibold
-      - OpenSans-Semibold
       - 
+      - OpenSans-Semibold
+      - OpenSans-Semibold
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1102,9 +1102,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - PLAY
       - "\u041A\u042A\u041C \u0418\u0413\u0420\u0418\u0422\u0415"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1112,10 +1112,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'play-area height:'
       - "\u0432\u0438\u0441\u043E\u0447\u0438\u043D\u0430 \u043D\u0430 \u043F\u043E\u043B\u0435\u0442\u043E
         \u0437\u0430 \u0438\u0433\u0440\u0430:"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1123,9 +1123,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Please Wait...
       - "\u041C\u043E\u043B\u044F \u0418\u0437\u0447\u0430\u043A\u0430\u0439\u0442\u0435..."
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1133,10 +1133,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Please select language
       - "\u041C\u043E\u043B\u044F \u0438\u0437\u0431\u0435\u0440\u0435\u0442\u0435
         \u0435\u0437\u0438\u043A"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1144,9 +1144,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Preview Matrix
       - "\u0412\u0438\u0436 \u0420\u0435\u0437\u0443\u043B\u0442\u0430\u0442\u0430"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1154,9 +1154,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Proceed
       - "\u041D\u0430\u043F\u0440\u0435\u0434"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1164,9 +1164,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Proceed To Calibration
       - "\u041A\u044A\u043C \u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438\u0442\u0435"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1174,10 +1174,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Proceed to Game
       - "\u041F\u0440\u043E\u0434\u044A\u043B\u0436\u0435\u0442\u0435 \u043A\u044A\u043C
         \u0418\u0433\u0440\u0430\u0442\u0430"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1185,10 +1185,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - corners of the projected screen
       - "\u044A\u0433\u043B\u0438 \u043D\u0430 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0438\u044F
         \u0435\u043A\u0440\u0430\u043D"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1196,9 +1196,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - projector
       - "\u043F\u0440\u043E\u0435\u043A\u0442\u043E\u0440"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1206,9 +1206,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Quit Game
       - "\u0418\u0437\u0445\u043E\u0434 \u043E\u0442 \u0438\u0433\u0440\u0430\u0442\u0430"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1216,9 +1216,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - aspect ratio
       - "\u043F\u043E\u0434\u0434\u044A\u0440\u0436\u0430"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1226,9 +1226,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - READY?
       - "\u0413\u041E\u0422\u041E\u0412\u0418?"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1236,9 +1236,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Restart Game
       - "\u041F\u0440\u0435\u0437\u0430\u0440\u0435\u0434\u0438 \u0418\u0433\u0440\u0430\u0442\u0430"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1246,9 +1246,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Save Matrix
       - "\u0417\u0430\u043F\u0430\u0437\u0438 \u041C\u0430\u0442\u0440\u0438\u0446\u0430"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1256,9 +1256,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Save Settings
       - "\u0417\u0430\u043F\u0430\u0437\u0438 \u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1266,9 +1266,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - SCORE
       - "\u0422\u041E\u0427\u041A\u0418"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1276,9 +1276,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Screen
       - "\u0415\u043A\u0440\u0430\u043D"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1286,11 +1286,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - This screen is used for game stats and navigation
       - "\u0422\u043E\u0437\u0438 \u0435\u043A\u0440\u0430\u043D \u0441\u0435 \u0438\u0437\u043F\u043E\u043B\u0437\u0432\u0430
         \u0437\u0430 \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043A\u0430
         \u043D\u0430 \u0438\u0433\u0440\u0430\u0442\u0430 \u0438 \u043C\u0435\u043D\u044E\u0442\u0430"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1298,10 +1298,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - This is the actual game screen
       - "\u0422\u043E\u0437\u0438 \u0435\u043A\u0440\u0430\u043D \u0441\u0435 \u0438\u0437\u043F\u043E\u043B\u0437\u0432\u0430
         \u0437\u0430 \u043F\u043E\u043B\u0435\u0442\u043E \u0437\u0430 \u0438\u0433\u0440\u0430"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1309,9 +1309,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Create a new matrix
       - "\u041D\u0430\u0433\u043B\u0430\u0441\u0435\u0442\u0435 \u041C\u0430\u0442\u0440\u0438\u0446\u0430"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1319,9 +1319,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Settings
       - "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1329,11 +1329,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - The games are ready! Have fun with Play and Learn!
       - "\u0418\u0433\u0440\u0438\u0442\u0435 \u0441\u0430 \u0433\u043E\u0442\u043E\u0432\u0438!
         \u0417\u0430\u0431\u0430\u0432\u043B\u044F\u0432\u0430\u0439\u0442\u0435 \u0441\u0435
         \u0441 \u0418\u0433\u0440\u0430\u0439 \u0438 \u0423\u0447\u0438!"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1341,9 +1341,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Skip Intro
       - "\u041F\u0440\u043E\u043F\u0443\u0441\u043D\u0435\u0442\u0435 \u0418\u043D\u0442\u0440\u043E\u0442\u043E"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1351,9 +1351,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - START!
       - "\u0421\u0422\u0410\u0420\u0422!"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1361,9 +1361,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Start Over
       - "\u0417\u0430\u043F\u043E\u0447\u043D\u0438 \u041E\u0442\u043D\u043E\u0432\u043E"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1371,9 +1371,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - step height
       - "\u0432\u0438\u0441\u043E\u0447\u0438\u043D\u0430 \u043D\u0430 \u0441\u0442\u044A\u043F\u043A\u0430\u0442\u0430"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1381,9 +1381,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Team Blue
       - "\u041E\u0442\u0431\u043E\u0440 \u0421\u0438\u043D\u0438"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1391,9 +1391,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Team Red
       - "\u041E\u0442\u0431\u043E\u0440 \u0427\u0435\u0440\u0432\u0435\u043D\u0438"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1401,9 +1401,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Time
       - "\u0412\u0440\u0435\u043C\u0435"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1411,9 +1411,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Back To Main Menu
       - "\u041A\u044A\u043C \u0413\u043B\u0430\u0432\u043D\u043E \u041C\u0435\u043D\u044E"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1421,9 +1421,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Tutorial
       - "\u0418\u043D\u0441\u0442\u0440\u0443\u043A\u0446\u0438\u0438"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1431,9 +1431,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - version
       - "\u0432\u0435\u0440\u0441\u0438\u044F"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1441,9 +1441,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Victory
       - "\u0421\u043F\u0435\u0447\u0435\u043B\u0438\u0445\u0442\u0435 \u0418\u0433\u0440\u0430\u0442\u0430"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1451,9 +1451,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'Winner :'
       - "\u041F\u0435\u0447\u0435\u043B\u0438 :"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1461,9 +1461,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - OpenSans-Bold
-      - OpenSans-Bold
       - 
+      - OpenSans-Bold
+      - OpenSans-Bold
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1471,9 +1471,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Loading...
       - "\u0418\u0437\u0432\u044A\u0440\u0448\u0432\u0430 \u0441\u0435 \u0437\u0430\u0440\u0435\u0436\u0434\u0430\u043D\u0435..."
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1481,9 +1481,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Connection Error
       - "\u0413\u0440\u0435\u0448\u043A\u0430 \u043F\u0440\u0438 \u0441\u0432\u044A\u0440\u0437\u0432\u0430\u043D\u0435\u0442\u043E"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1491,11 +1491,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - "Internet not reachable. \nIt is advised to quit and connect to the internet. "
       - "\u041D\u044F\u043C\u0430 \u0432\u0440\u044A\u0437\u043A\u0430 \u0441 \u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442.\r\n\u041C\u043E\u043B\u044F
         \u0438\u0437\u043B\u0435\u0437\u0442\u0435 \u043E\u0442 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0430\u0442\u0430
         \u0438 \u0443\u0441\u0442\u0430\u043D\u043E\u0432\u0435\u0442\u0435 \u0432\u0440\u044A\u0437\u043A\u0430. "
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1503,9 +1503,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Quit Application
       - "\u0418\u0437\u0445\u043E\u0434"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1523,9 +1523,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Continue Anyway
       - "\u041F\u0440\u043E\u0434\u044A\u043B\u0436\u0435\u0442\u0435 \u0412\u044A\u043F\u0440\u0435\u043A\u0438"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1533,6 +1533,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'Internet not reachable & no license found.
 
         Please quit, enable internet and install license.
@@ -1548,17 +1549,16 @@ MonoBehaviour:
         \u0431\u0435\u0437 \u0430\u043A\u0442\u0438\u0432\u043D\u0430 \u0432\u0440\u044A\u0437\u043A\u0430
         \u0441\u043B\u0435\u0434 \u0442\u043E\u0432\u0430."
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Licensing
       TermType: 0
       Description: 
       Languages:
+      - 
       - Licensing
       - "\u0423\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0435 \u043D\u0430
         \u041B\u0438\u0446\u0435\u043D\u0437"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1566,9 +1566,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - License active.
       - "\u041B\u0438\u0446\u0435\u043D\u0437\u044A\u0442 \u0435 \u0430\u043A\u0442\u0438\u0432\u0438\u0440\u0430\u043D."
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1576,9 +1576,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Return License
       - "\u0412\u044A\u0440\u043D\u0438 \u041B\u0438\u0446\u0435\u043D\u0437"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1586,9 +1586,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Back To Game
       - "\u0413\u043B\u0430\u0432\u043D\u043E \u041C\u0435\u043D\u044E"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1596,9 +1596,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Error
       - "\u0413\u0440\u0435\u0448\u043A\u0430"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1606,12 +1606,12 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - No license found. Please install license.
       - "\u041D\u044F\u043C\u0430 \u043E\u0442\u043A\u0440\u0438\u0442 \u043B\u0438\u0446\u0435\u043D\u0437.
         \u041C\u043E\u043B\u044F, \u0432\u044A\u0432\u0435\u0434\u0435\u0442\u0435
         \u043B\u0438\u0446\u0435\u043D\u0437\u0435\u043D \u043D\u043E\u043C\u0435\u0440
         \u0437\u0430 \u0434\u0430 \u043F\u0440\u043E\u0434\u044A\u043B\u0436\u0438\u0442\u0435. "
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1619,6 +1619,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - License not fully active. Please try to return the license again before installing
         a new one. If this message persists, please contact support.
       - "\r\u041B\u0438\u0446\u0435\u043D\u0437\u044A\u0442 \u043D\u0435 \u0435 \u043D\u0430\u043F\u044A\u043B\u043D\u043E
@@ -1630,13 +1631,13 @@ MonoBehaviour:
         \u043F\u0440\u043E\u0434\u044A\u043B\u0436\u0438, \u0441\u0432\u044A\u0440\u0436\u0435\u0442\u0435
         \u0441\u0435 \u0441 \u043D\u0430\u0441."
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Connection text B74D
       TermType: 0
       Description: 
       Languages:
+      - 
       - Warning, if your license has not been fully returned, you may exceed the maximum
         number of installations per license number. It is recommended to return the
         license first. If you are not sure, please contact support.
@@ -1655,13 +1656,13 @@ MonoBehaviour:
         \u043C\u043E\u043B\u044F \u0441\u0432\u044A\u0440\u0436\u0435\u0442\u0435
         \u0441\u0435 \u0441 \u043D\u0430\u0441."
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Connection text C81C
       TermType: 0
       Description: 
       Languages:
+      - 
       - Please enter your license number and click the button to return the current
         license. You will need to restart the application.
       - "\u041C\u043E\u043B\u044F \u0432\u044A\u0432\u0435\u0434\u0435\u0442\u0435
@@ -1672,13 +1673,13 @@ MonoBehaviour:
         \u043D\u0430\u043B\u0430\u0433\u0430 \u0434\u0430 \u0440\u0435\u0441\u0442\u0430\u0440\u0442\u0438\u0440\u0430\u0442\u0435
         \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0430\u0442\u0430. "
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Connection text D3DC
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'License returned. You may use it again, or install it on a different machine.
         If you have any questions, please contact support. '
       - "\u041B\u0438\u0446\u0435\u043D\u0437\u044A\u0442 \u0431\u0435 \u0432\u044A\u0440\u043D\u0430\u0442
@@ -1689,13 +1690,13 @@ MonoBehaviour:
         \u043C\u043E\u043B\u044F \u0441\u0432\u044A\u0440\u0436\u0435\u0442\u0435
         \u0441\u0435 \u0441 \u043D\u0430\u0441."
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Connection text C01B
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'Unexpected error. Please try again in a few seconds. If this error persists,
         please contact support. '
       - "\u0412\u044A\u0437\u043D\u0438\u043A\u043D\u0430 \u043D\u0435\u043E\u0447\u0430\u043A\u0432\u0430\u043D\u0430
@@ -1704,13 +1705,13 @@ MonoBehaviour:
         \u0410\u043A\u043E \u0433\u0440\u0435\u0448\u043A\u0430\u0442\u0430 \u043F\u0440\u043E\u0434\u044A\u043B\u0436\u0438,
         \u0441\u0432\u044A\u0440\u0436\u0435\u0442\u0435 \u0441\u0435 \u0441 \u043D\u0430\u0441."
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Connection text BB0D
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'No response from license server. Please try again in a few seconds. If this
         error persists, please contact support. '
       - "\u041D\u044F\u043C\u0430 \u043E\u0442\u0433\u043E\u0432\u043E\u0440 \u043E\u0442
@@ -1720,13 +1721,13 @@ MonoBehaviour:
         \u0410\u043A\u043E \u0433\u0440\u0435\u0448\u043A\u0430\u0442\u0430 \u043F\u0440\u043E\u0434\u044A\u043B\u0436\u0438,
         \u0441\u0432\u044A\u0440\u0436\u0435\u0442\u0435 \u0441\u0435 \u0441 \u043D\u0430\u0441.\r"
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Connection text A3C2
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'This license is blocked. Please enter different license number or contact
         support. '
       - "\u0422\u043E\u0437\u0438 \u043B\u0438\u0446\u0435\u043D\u0437 \u0435 \u0431\u043B\u043E\u043A\u0438\u0440\u0430\u043D.
@@ -1735,13 +1736,13 @@ MonoBehaviour:
         \u0438\u043B\u0438, \u0430\u043A\u043E \u0438\u043C\u0430\u0442\u0435 \u0432\u044A\u043F\u0440\u043E\u0441\u0438,
         \u0441\u0435 \u0441\u0432\u044A\u0440\u0436\u0435\u0442\u0435 \u0441 \u043D\u0430\u0441. "
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Connection text CD3A
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'This license has expired. Please enter different license number or contact
         support. '
       - "\u0422\u043E\u0437\u0438 \u043B\u0438\u0446\u0435\u043D\u0437 \u0435 \u0438\u0437\u0442\u0435\u043A\u044A\u043B.
@@ -1750,13 +1751,13 @@ MonoBehaviour:
         \u043D\u043E\u043C\u0435\u0440 \u0438\u043B\u0438 \u0441\u0435 \u0441\u0432\u044A\u0440\u0436\u0435\u0442\u0435
         \u0441 \u043D\u0430\u0441."
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Connection text B5BA
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'This license is in use. In order to use this number again, or to install
         it on a different machine, you need to deactivate it first. Please return
         the license number before installing on this machine or contact support. '
@@ -1773,13 +1774,13 @@ MonoBehaviour:
         \u0432\u044A\u043F\u0440\u043E\u0441\u0438, \u043C\u043E\u043B\u044F \u0441\u0432\u044A\u0440\u0436\u0435\u0442\u0435
         \u0441\u0435 \u0441 \u043D\u0430\u0441."
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Connection text B04D
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'Max number of concurrent activations reached. In order to use this number
         again, or to install it on a different machine, you need to deactivate at
         least one istance first. Please deactivate it from one of the previous installations,
@@ -1801,13 +1802,13 @@ MonoBehaviour:
         \u043C\u043E\u043B\u044F \u0441\u0432\u044A\u0440\u0436\u0435\u0442\u0435
         \u0441\u0435 \u0441 \u043D\u0430\u0441."
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Connection text ACAA
       TermType: 0
       Description: 
       Languages:
+      - 
       - Invalid license number. Please enter the number again (please check carefully
         for capital letters, numbers and dashes). If this error persists, please contact
         support.
@@ -1820,13 +1821,13 @@ MonoBehaviour:
         \u0410\u043A\u043E \u0433\u0440\u0435\u0448\u043A\u0430\u0442\u0430 \u043F\u0440\u043E\u0434\u044A\u043B\u0436\u0438,
         \u0441\u0432\u044A\u0440\u0436\u0435\u0442\u0435 \u0441\u0435 \u0441 \u043D\u0430\u0441."
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Connection text C410
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'Error returning license number for this machine. Please try again, or contact
         support. '
       - "\u0412\u044A\u0437\u043D\u0438\u043A\u043D\u0430 \u0433\u0440\u0435\u0448\u043A\u0430
@@ -1837,13 +1838,13 @@ MonoBehaviour:
         \u043F\u0440\u043E\u0434\u044A\u043B\u0436\u0438, \u0441\u0432\u044A\u0440\u0436\u0435\u0442\u0435
         \u0441\u0435 \u0441 \u043D\u0430\u0441."
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Connection text B63A
       TermType: 0
       Description: 
       Languages:
+      - 
       - This license number has already been deactivated. You may use it again. If
         license cannot be installed again, please contact support.
       - "\r\u0422\u043E\u0437\u0438 \u043B\u0438\u0446\u0435\u043D\u0437\u0435\u043D
@@ -1855,13 +1856,13 @@ MonoBehaviour:
         \u043C\u043E\u043B\u044F \u0441\u0432\u044A\u0440\u0436\u0435\u0442\u0435
         \u0441\u0435 \u0441 \u043D\u0430\u0441."
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Connection text DABC
       TermType: 0
       Description: 
       Languages:
+      - 
       - Unexpected error. Please try again in a few seconds or contact support.
       - "\u041D\u0435\u043E\u0447\u0430\u043A\u0432\u0430\u043D\u0430 \u0433\u0440\u0435\u0448\u043A\u0430.
         \u041C\u043E\u043B\u044F \u043E\u043F\u0438\u0442\u0430\u0439\u0442\u0435
@@ -1869,13 +1870,13 @@ MonoBehaviour:
         \u0410\u043A\u043E \u0433\u0440\u0435\u0448\u043A\u0430\u0442\u0430 \u043F\u0440\u043E\u0434\u044A\u043B\u0436\u0438,
         \u0441\u0432\u044A\u0440\u0436\u0435\u0442\u0435 \u0441\u0435 \u0441 \u043D\u0430\u0441."
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Connection text A0C2
       TermType: 0
       Description: 
       Languages:
+      - 
       - Unexpected error. Please try again in a few seconds or contact support.
       - "\u041D\u0435\u043E\u0447\u0430\u043A\u0432\u0430\u043D\u0430 \u0433\u0440\u0435\u0448\u043A\u0430.
         \u041C\u043E\u043B\u044F \u043E\u043F\u0438\u0442\u0430\u0439\u0442\u0435
@@ -1884,13 +1885,13 @@ MonoBehaviour:
         \u043F\u0440\u043E\u0434\u044A\u043B\u0436\u0438, \u0441\u0435 \u0432\u044A\u0440\u0436\u0435\u0442\u0435
         \u0441 \u043D\u0430\u0441. "
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Connection text CD01
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'Max number of concurrent activations reached. In order to use this number
         again, or to install it on a different machine, you need to deactivate at
         least one instance first. Please deactivate it from one of the previous installations,
@@ -1912,13 +1913,13 @@ MonoBehaviour:
         \u043C\u043E\u043B\u044F \u0441\u0432\u044A\u0440\u0436\u0435\u0442\u0435
         \u0441\u0435 \u0441 \u043D\u0430\u0441."
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Connection text A34C
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'Wrong license number. This license was issued for a different app. Please
         enter the license number for this app or contact support. '
       - "\u0413\u0440\u0435\u0448\u0435\u043D \u043B\u0438\u0446\u0435\u043D\u0437\u0435\u043D
@@ -1929,13 +1930,13 @@ MonoBehaviour:
         \u0438\u043B\u0438, \u0430\u043A\u043E \u0438\u043C\u0430\u0442\u0435 \u0432\u044A\u043F\u0440\u043E\u0441\u0438,
         \u0441\u0435 \u0441\u0432\u044A\u0440\u0436\u0435\u0442\u0435 \u0441 \u043D\u0430\u0441. "
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Connection text AC1A
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'Unexpected error while receiving response. Please try again in a few seconds.
         If this error persists, please contact support. '
       - "\u041D\u0435\u043E\u0447\u0430\u043A\u0432\u0430\u043D\u0430 \u0433\u0440\u0435\u0448\u043A\u0430
@@ -1946,16 +1947,15 @@ MonoBehaviour:
         \u0433\u0440\u0435\u0448\u043A\u0430\u0442\u0430 \u043F\u0440\u043E\u0434\u044A\u043B\u0436\u0438,
         \u0441\u0432\u044A\u0440\u0436\u0435\u0442\u0435 \u0441\u0435 \u0441 \u043D\u0430\u0441."
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Install License
       TermType: 0
       Description: 
       Languages:
+      - 
       - Install License
       - "\u0410\u043A\u0442\u0438\u0432\u0438\u0440\u0430\u0439 \u041B\u0438\u0446\u0435\u043D\u0437"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1963,10 +1963,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Install New License
       - "\u0418\u043D\u0441\u0442\u0430\u043B\u0438\u0440\u0430\u0439 \u041D\u043E\u0432
         \u041B\u0438\u0446\u0435\u043D\u0437"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1974,9 +1974,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - OK
       - "\u0414\u043E\u0431\u0440\u0435"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1984,9 +1984,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Try Again
       - "\u041E\u043F\u0438\u0442\u0430\u0439 \u041E\u0442\u043D\u043E\u0432\u043E"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -1994,9 +1994,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'Expiration Date:'
       - "\u0414\u0430\u0442\u0430 \u043D\u0430 \u0412\u0430\u043B\u0438\u0434\u043D\u043E\u0441\u0442:"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2004,12 +2004,12 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Enter license (please input dashes as well).
       - "\u0412\u044A\u0432\u0435\u0434\u0435\u0442\u0435 \u043B\u0438\u0446\u0435\u043D\u0437\u0435\u043D
         \u043D\u043E\u043C\u0435\u0440 (\u0437\u0430\u0435\u0434\u043D\u043E \u0441
         \u0442\u0438\u0440\u0435\u0442\u0430 \u0438 \u0433\u043B\u0430\u0432\u043D\u0438
         \u0431\u0443\u043A\u0432\u0438). "
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2017,10 +2017,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - "Third Party Licen\u0441es"
       - "\u041B\u0438\u0446\u0435\u043D\u0437\u0438 \u041E\u0442 \u0422\u0440\u0435\u0442\u0438
         \u041B\u0438\u0446\u0430"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2028,6 +2028,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - "PLAY AND LEARN EULA\r\n----------------------------------\r\n\nTri Soft Ltd.
         \ (Tri Soft) hereby grants you a non-exclusive license to use the software
         'Play and Learn' (the Software) as defined below:\r\n \r\nYou may:  \r\n-
@@ -2170,16 +2171,15 @@ MonoBehaviour:
         \u0434\u043E\u0433\u043E\u0432\u043E\u0440\u0438 \u0437\u0430 \u0430\u0432\u0442\u043E\u0440\u0441\u043A\u043E
         \u043F\u0440\u0430\u0432\u043E."
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: End User License Agreement
       TermType: 0
       Description: 
       Languages:
+      - 
       - End User License Agreement
       - "\u0423\u0441\u043B\u043E\u0432\u0438\u044F \u0417\u0430 \u041F\u043E\u043B\u0437\u0432\u0430\u043D\u0435"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2187,9 +2187,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Third Party Notices
       - "\u0414\u0440\u0443\u0433\u0438 \u041B\u0438\u0446\u0435\u043D\u0437\u0438"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2197,9 +2197,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Stay
       - "\u041E\u0441\u0442\u0430\u043D\u0438"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2207,11 +2207,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Are you sure you want to exit the application?
       - "\u0421\u0438\u0433\u0443\u0440\u043D\u0438 \u043B\u0438 \u0441\u0442\u0435
         \u0447\u0435 \u0438\u0441\u043A\u0430\u0442\u0435 \u0434\u0430 \u0437\u0430\u0442\u0432\u043E\u0440\u0438\u0442\u0435
         \u0430\u043F\u043B\u0438\u043A\u0430\u0446\u0438\u044F\u0442\u0430?"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2219,9 +2219,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - License Agreement
       - "\u0421\u044A\u0433\u043B\u0430\u0441\u0438\u0435 \u0441 \u0423\u0441\u043B\u043E\u0432\u0438\u044F\u0442\u0430"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2229,6 +2229,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - "You must agree to the terms and conditions in order to proceed.\r\nPlease
         tick the \"Agree\" mark. "
       - "\u0417\u0430 \u0434\u0430 \u043F\u0440\u043E\u0434\u044A\u043B\u0436\u0438\u0442\u0435
@@ -2237,16 +2238,15 @@ MonoBehaviour:
         \u043B\u0438\u0446\u0435\u043D\u0437\u0430.\r\n\u041C\u043E\u043B\u044F \u043D\u0430\u0442\u0438\u0441\u043D\u0435\u0442\u0435
         \u043E\u0442\u043C\u0435\u0442\u043A\u0430\u0442\u0430 \u0437\u0430 \u0421\u044A\u0433\u043B\u0430\u0441\u0438\u0435."
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Agree
       TermType: 0
       Description: 
       Languages:
+      - 
       - Agree
       - "\u0421\u044A\u0433\u043B\u0430\u0441\u0438\u0435"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2254,9 +2254,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Main Menu
       - "\u0413\u043B\u0430\u0432\u043D\u043E \u041C\u0435\u043D\u044E"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2264,9 +2264,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Agreed
       - "\u0421\u044A\u0433\u043B\u0430\u0441\u0438\u0435"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2274,11 +2274,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - View information about the EULA and Third Party Notices.
       - "\u041F\u0440\u043E\u0447\u0435\u0442\u0435\u0442\u0435 \u0423\u0441\u043B\u043E\u0432\u0438\u044F\u0442\u0430
         \u0437\u0430 \u041F\u043E\u043B\u0437\u0432\u0430\u043D\u0435 \u0438 \u041B\u0438\u0446\u0435\u043D\u0437\u0438\u0442\u0435
         \u043E\u0442 \u0422\u0440\u0435\u0442\u0438 \u041B\u0438\u0446\u0430. "
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2286,9 +2286,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Exit the Application.
       - "\u0418\u0437\u043B\u0435\u0437\u0442\u0435 \u043E\u0442 \u0410\u043F\u043B\u0438\u043A\u0430\u0446\u0438\u044F\u0442\u0430."
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2296,10 +2296,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - "\rChange the default application Language."
       - "\u041F\u0440\u043E\u043C\u0435\u043D\u0435\u0442\u0435 \u0415\u0437\u0438\u043A\u043E\u0432\u0438\u0442\u0435
         \u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438."
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2307,12 +2307,12 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Alter or return the active application License.
       - "\r\u041F\u0440\u043E\u043C\u0435\u043D\u0435\u0442\u0435, \u0438\u043B\u0438
         \u0432\u044A\u0440\u043D\u0435\u0442\u0435 \u0430\u043A\u0442\u0438\u0432\u043D\u0438\u044F
         \u0410\u043A\u0442\u0438\u0432\u0430\u0446\u0438\u043E\u043D\u0435\u043D \u041B\u0438\u0446\u0435\u043D\u0437
         \u043D\u0430 \u0430\u043F\u043B\u0438\u043A\u0430\u0446\u0438\u044F\u0442\u0430."
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2320,6 +2320,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Change the global Game Settings, such as sound and music controls.
       - "\u041F\u0440\u043E\u043C\u0435\u043D\u0435\u0442\u0435 \u0433\u043B\u043E\u0431\u0430\u043B\u043D\u0438\u0442\u0435
         \u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438 \u043D\u0430 \u0418\u0433\u0440\u0438\u0442\u0435,
@@ -2327,19 +2328,18 @@ MonoBehaviour:
         \u0442\u0435\u0437\u0438 \u043D\u0430 \u0437\u0432\u0443\u043A\u0430 \u0438
         \u043C\u0443\u0437\u0438\u043A\u0430\u0442\u0430."
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: MainMenu Message Calibration
       TermType: 0
       Description: 
       Languages:
+      - 
       - Set new, or alter old Calibration Settings.
       - "\u0421\u044A\u0437\u0434\u0430\u0439\u0442\u0435 \u043D\u043E\u0432\u0438,
         \u0438\u043B\u0438 \u043F\u0440\u043E\u043C\u0435\u043D\u0435\u0442\u0435
         \u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438\u0442\u0435 \u043D\u0430
         \u041A\u0430\u043B\u0438\u0431\u0440\u043E\u0432\u043A\u0430."
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2347,12 +2347,12 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - "\rYou need to complete the Calibration setup in order to proceed to the games. "
       - "\r\u0422\u0440\u044F\u0431\u0432\u0430 \u0434\u0430 \u043D\u0430\u0441\u0442\u0440\u043E\u0438\u0442\u0435
         \u041A\u0430\u043B\u0438\u0431\u0440\u043E\u0432\u043A\u0430\u0442\u0430 \u0437\u0430
         \u0434\u0430 \u043C\u043E\u0436\u0435\u0442\u0435 \u0434\u0430 \u043F\u0440\u043E\u0434\u044A\u043B\u0436\u0438\u0442\u0435
         \u043A\u044A\u043C \u0438\u0433\u0440\u0438\u0442\u0435."
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2360,10 +2360,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Play a Game and have fun!
       - "\r\u0417\u0430\u043F\u043E\u0447\u043D\u0435\u0442\u0435 \u041D\u043E\u0432\u0430
         \u0418\u0433\u0440\u0430!"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2371,9 +2371,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Welcome
       - "\u0414\u043E\u0431\u0440\u0435 \u0414\u043E\u0448\u043B\u0438!"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2381,9 +2381,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - EULA
       - "\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044F \u041B\u0438\u0446\u0435\u043D\u0437\u0438"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2391,9 +2391,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Activation
       - "\u0410\u043A\u0442\u0438\u0432\u0430\u0446\u0438\u044F \u043D\u0430 \u0421\u043E\u0444\u0442\u0443\u0435\u0440\u0430"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2401,9 +2401,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Calibration
       - "\u041A\u0430\u043B\u0438\u0431\u0440\u0438\u0440\u0430\u043D\u0435 "
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2411,9 +2411,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Game Settings
       - "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438 \u043D\u0430 \u0418\u0433\u0440\u0430\u0442\u0430"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2421,10 +2421,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Snow Sound Effect
       - "\u0417\u0432\u0443\u043A\u043E\u0432 \u0435\u0444\u0435\u043A\u0442 \u043D\u0430
         \u0441\u043D\u0435\u0433\u0430"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2432,9 +2432,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Tracks Fade Speed
       - "\u0411\u044A\u0440\u0437\u0438\u043D\u0430 \u043D\u0430 \u0437\u0430\u0441\u043D\u0435\u0436\u0430\u0432\u0430\u043D\u0435"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2442,11 +2442,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Christmass Themed Music (when in season)
       - "\u041C\u0443\u0437\u0438\u043A\u0430 \u0441 \u041A\u043E\u043B\u0435\u0434\u043D\u0438
         \u043C\u043E\u0442\u0438\u0432\u0438 (\u0432 \u0437\u0438\u043C\u043D\u0438\u044F
         \u0441\u0435\u0437\u043E\u043D)"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2454,9 +2454,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Snowy Grounds
       - "\u0421\u043D\u0435\u0436\u043D\u0438 \u041F\u043E\u043B\u0435\u0442\u0430"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2464,9 +2464,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Abra-Cad-Algebra
       - "\u0410\u0431\u0440\u0430-\u041A\u0430\u0434-\u0410\u043B\u0433\u0435\u0431\u0440\u0430"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2474,9 +2474,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'Game Rules:'
       - "\u041F\u0440\u0430\u0432\u0438\u043B\u0430 \u043D\u0430 \u0418\u0433\u0440\u0430\u0442\u0430:"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2484,9 +2484,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Addition
       - "\u0421\u044A\u0431\u0438\u0440\u0430\u043D\u0435"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2494,9 +2494,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Subtraction
       - "\u0418\u0437\u0432\u0430\u0436\u0434\u0430\u043D\u0435"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2504,9 +2504,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Multiplication
       - "\u0423\u043C\u043D\u043E\u0436\u0435\u043D\u0438\u0435"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2514,9 +2514,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Division
       - "\u0414\u0435\u043B\u0435\u043D\u0438\u0435"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2524,9 +2524,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Timer
       - "\u0421\u0435\u043A\u0443\u043D\u0434\u043E\u043C\u0435\u0440"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2534,10 +2534,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Subtraction results > 0
       - "\u0420\u0435\u0437\u0443\u043B\u0442\u0430\u0442\u0438 \u043E\u0442 \u0438\u0437\u0432\u0430\u0436\u0434\u0430\u043D\u0435
         > 0"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2545,9 +2545,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Progressive Difficulty
       - "\u041D\u0430\u0440\u0430\u0441\u0442\u0432\u0430\u0449\u0430 \u0422\u0440\u0443\u0434\u043D\u043E\u0441\u0442 "
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2555,10 +2555,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Wait Until Play Area is Clear
       - "\u0418\u0437\u0447\u0430\u043A\u0432\u0430\u0439 \u0434\u0430 \u0441\u0435
         \u043E\u0441\u0432\u043E\u0431\u043E\u0434\u0438 \u043F\u043E\u043B\u0435\u0442\u043E"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2566,9 +2566,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - New Best Score!
       - "\u041D\u043E\u0432 \u043D\u0430\u0439-\u0434\u043E\u0431\u044A\u0440 \u0440\u0435\u0437\u0443\u043B\u0442\u0430\u0442!"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2576,9 +2576,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'Your Score:'
       - "\u0422\u0435\u043A\u0443\u0449 \u0420\u0435\u0437\u0443\u043B\u0442\u0430\u0442:"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2586,9 +2586,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Correct!
       - "\u041F\u0440\u0430\u0432\u0438\u043B\u043D\u043E!"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2596,9 +2596,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Best Score
       - "\u041D\u0430\u0439-\u0434\u043E\u0431\u044A\u0440 \u0440\u0435\u0437\u0443\u043B\u0442\u0430\u0442"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2606,9 +2606,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Guessed Emotions
       - "\u041F\u043E\u0437\u043D\u0430\u0442\u0438 \u0415\u043C\u043E\u0446\u0438\u0438"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2616,9 +2616,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Timed Game
       - "\u0418\u0433\u0440\u0430 \u0437\u0430 \u0412\u0440\u0435\u043C\u0435"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2626,9 +2626,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Number of Questions
       - "\u0411\u0440\u043E\u0439 \u0412\u044A\u043F\u0440\u043E\u0441\u0438"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2636,11 +2636,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Display Emotions as Text
       - "\u0415\u043C\u043E\u0446\u0438\u0438\u0442\u0435 \u0434\u0430 \u0441\u0430
         \u0418\u0437\u043F\u0438\u0441\u0430\u043D\u0438 \u041A\u0430\u0442\u043E
         \u0422\u0435\u043A\u0441\u0442"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2648,9 +2648,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Guess the emotion
       - "\u041A\u043E\u044F \u0435 \u0435\u043C\u043E\u0446\u0438\u044F\u0442\u0430"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2658,9 +2658,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Sadness
       - "\u0422\u044A\u0433\u0430"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2668,9 +2668,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Joy
       - "\u0429\u0430\u0441\u0442\u0438\u0435"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2678,9 +2678,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Anger
       - "\u042F\u0440\u043E\u0441\u0442"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2688,9 +2688,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Fear
       - "\u0421\u0442\u0440\u0430\u0445"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2698,12 +2698,12 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Warning, surface acquisition failed.
       - "\u0412\u043D\u0438\u043C\u0430\u043D\u0438\u0435, \u043E\u0442\u0447\u0438\u0442\u0430\u043D\u0435\u0442\u043E
         \u043D\u0430 \u043F\u043E\u0432\u044A\u0440\u0445\u043D\u043E\u0441\u0442\u0442\u0430
         \u043D\u0430 \u043F\u043E\u0434\u0430 \u043D\u0435 \u0443\u0441\u043F\u044F.
         \r"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2711,9 +2711,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Exit To Main
       - "\u041A\u044A\u043C \u0413\u043B\u0430\u0432\u043D\u043E \u041C\u0435\u043D\u044E"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2721,9 +2721,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Reset Calibration
       - "\u041A\u0430\u043B\u0438\u0431\u0440\u0438\u0440\u0430\u043D\u0435 \u041D\u0430\u043D\u043E\u0432\u043E"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2731,12 +2731,12 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Are you sure you want to proceed to the next step?
       - "\u0421\u0438\u0433\u0443\u0440\u043D\u0438 \u043B\u0438 \u0441\u0442\u0435,
         \u0447\u0435 \u0438\u0441\u043A\u0430\u0442\u0435 \u0434\u0430 \u043F\u0440\u043E\u0434\u044A\u043B\u0436\u0438\u0442\u0435
         \u043A\u044A\u043C \u0441\u043B\u0435\u0434\u0432\u0430\u0449\u0430\u0442\u0430
         \u0441\u0442\u044A\u043F\u043A\u0430?"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2744,10 +2744,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Warning, your changes have not been saved!
       - "\u0412\u043D\u0438\u043C\u0430\u043D\u0438\u0435, \u043D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438\u0442\u0435
         \u043D\u0435 \u0441\u0430 \u0437\u0430\u043F\u0430\u0437\u0435\u043D\u0438! "
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2755,12 +2755,12 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Are you sure you want to exit to the main menu?
       - "\u0421\u0438\u0433\u0443\u0440\u043D\u0438 \u043B\u0438 \u0441\u0442\u0435,
         \u0447\u0435 \u0438\u0441\u043A\u0430\u0442\u0435 \u0434\u0430 \u0441\u0435
         \u0432\u044A\u0440\u043D\u0435\u0442\u0435 \u0432 \u0433\u043B\u0430\u0432\u043D\u043E\u0442\u043E
         \u043C\u0435\u043D\u044E?"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2768,6 +2768,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'Surface acquisition in progress.
 
         Keep the area clear.'
@@ -2776,16 +2777,15 @@ MonoBehaviour:
         \u0438 \u043D\u0435 \u0441\u0442\u044A\u043F\u0432\u0430\u0439\u0442\u0435
         \u0432 \u043F\u043E\u043B\u0435\u0442\u043E! "
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Acquire Surface
       TermType: 0
       Description: 
       Languages:
+      - 
       - Acquire Surface
       - "\u041A\u0430\u043B\u0438\u0431\u0440\u0438\u0440\u0430\u0439"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2793,6 +2793,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'Previously saved calibration settings were found. You may wish to load and
         modify them. '
       - "\u0418\u043C\u0430 \u043E\u0442\u043A\u0440\u0438\u0442\u0438 \u043F\u0440\u0435\u0434\u0438\u0448\u043D\u0438
@@ -2802,13 +2803,13 @@ MonoBehaviour:
         \u0438 \u0434\u0430 \u043F\u0440\u043E\u0434\u044A\u043B\u0436\u0438\u0442\u0435
         \u043E\u0442 \u0442\u044F\u0445."
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Depth Wrn No Settings Clear Floor
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'Please make sure the play area is clear. When you are ready to proceed, hit
         Acquire.  '
       - "\u041C\u043E\u043B\u044F, \u0443\u0432\u0435\u0440\u0435\u0442\u0435 \u0441\u0435
@@ -2817,16 +2818,15 @@ MonoBehaviour:
         \u041A\u043E\u0433\u0430\u0442\u043E \u0441\u0442\u0435 \u0433\u043E\u0442\u043E\u0432\u0438,
         \u043D\u0430\u0442\u0438\u0441\u043D\u0435\u0442\u0435 \u041A\u0430\u043B\u0438\u0431\u0440\u0438\u0440\u0430\u0439."
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Next
       TermType: 0
       Description: 
       Languages:
+      - 
       - Next
       - "\u041D\u0430\u043F\u0440\u0435\u0434"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2834,9 +2834,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Load Recommended
       - "\u0417\u0430\u0440\u0435\u0434\u0438 \u0424\u0430\u0431\u0440\u0438\u0447\u043D\u0438"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2844,9 +2844,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Advanced
       - "\u0417\u0430 \u041D\u0430\u043F\u0440\u0435\u0434\u043D\u0430\u043B\u0438"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2854,6 +2854,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Recommended settings loaded. Briefly check the measurements and proceed if
         everything looks correct.
       - "\u0417\u0430\u0440\u0435\u0434\u0435\u043D\u0438 \u0441\u0430 \u0444\u0430\u0431\u0440\u0438\u0447\u043D\u0438
@@ -2864,13 +2865,13 @@ MonoBehaviour:
         \u0430\u043A\u043E \u0432\u0441\u0438\u0447\u043A\u043E \u0438\u0437\u0433\u043B\u0435\u0436\u0434\u0430
         \u043D\u0430\u0440\u0435\u0434, \u043F\u0440\u043E\u0434\u044A\u043B\u0436\u0435\u0442\u0435. "
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Depth Dsc Acqusition Results Advanced
       TermType: 0
       Description: 
       Languages:
+      - 
       - Set the approximate size for the tracked hands / feet. It is best to have
         another person touch / step in the play area, while you compare the reference
         hand / foot (in yellow) with the real world ones in the camera feed. Size
@@ -2899,13 +2900,13 @@ MonoBehaviour:
         \u043C\u043E\u0436\u0435\u0442\u0435 \u0434\u0430 \u043F\u0440\u043E\u0434\u044A\u043B\u0436\u0438\u0442\u0435
         \u0441 \u0444\u0430\u0431\u0440\u0438\u0447\u043D\u0438\u0442\u0435 \u043D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438. "
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Depth Dsc Recommended Height Loaded
       TermType: 0
       Description: 
       Languages:
+      - 
       - Recommended settings loaded. Make sure the preview screen does not have noise
         dots and that it does not detect false objects. You can also have a person
         present in the play-area to check results. If there are errors, switch to
@@ -2929,13 +2930,13 @@ MonoBehaviour:
         \u043D\u0430\u0440\u0435\u0434, \u043C\u043E\u0436\u0435\u0442\u0435 \u0434\u0430
         \u043F\u0440\u043E\u0434\u044A\u043B\u0436\u0438\u0442\u0435.  "
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Depth Dsc Height Advanced
       TermType: 0
       Description: 
       Languages:
+      - 
       - 'Set the vertical offset from the play-area surface. You can see the results
         in the window. The detection distance needs to be as close as possible to
         the area surface, without causing noise or false detection. Use manual settings
@@ -2959,18 +2960,17 @@ MonoBehaviour:
         \u0441\u0430 \u0434\u043E\u0441\u0442\u0430\u0442\u044A\u0447\u043D\u043E
         \u0430\u0434\u0435\u043A\u0432\u0430\u0442\u043D\u0438. "
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Ready to save
       TermType: 0
       Description: 
       Languages:
+      - 
       - Ready to save
       - "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438\u0442\u0435 \u0441\u0430
         \u0433\u043E\u0442\u043E\u0432\u0438 \u0434\u0430 \u0431\u044A\u0434\u0430\u0442
         \u0437\u0430\u043F\u0430\u043C\u0435\u0442\u0435\u043D\u0438"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2978,12 +2978,12 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - No new changes to save
       - "\u041D\u044F\u043C\u0430 \u043F\u0440\u043E\u043C\u0435\u043D\u0438 \u043F\u043E
         \u043D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438\u0442\u0435, \u043A\u043E\u0438\u0442\u043E
         \u0434\u0430 \u0442\u0440\u044F\u0431\u0432\u0430 \u0434\u0430 \u0441\u0435
         \u0437\u0430\u043F\u0430\u043C\u0435\u0442\u044F\u0442"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -2991,11 +2991,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Are you sure you want to proceed to the main menu?
       - "\u0421\u0438\u0433\u0443\u0440\u043D\u0438 \u043B\u0438 \u0441\u0442\u0435,
         \u0447\u0435 \u0438\u0441\u043A\u0430\u0442\u0435 \u0434\u0430 \u043F\u0440\u043E\u0434\u044A\u043B\u0436\u0438\u0442\u0435
         \u043A\u044A\u043C \u0433\u043B\u0430\u0432\u043D\u043E\u0442\u043E \u043C\u0435\u043D\u044E?"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -3003,10 +3003,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Manual Projection Calibration
       - "\u0420\u044A\u0447\u043D\u043E \u041A\u0430\u043B\u0438\u0431\u0440\u0438\u0440\u0430\u043D\u0435
         \u043D\u0430 \u041F\u0440\u043E\u0435\u043A\u0446\u0438\u044F\u0442\u0430"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -3014,9 +3014,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Reset Points
       - "\u041D\u0430\u0447\u0430\u043B\u043D\u0430 \u041F\u043E\u0437\u0438\u0446\u0438\u044F"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -3024,10 +3024,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Projection Point Acquisition
       - "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0430 \u043D\u0430 \u042A\u0433\u043B\u0438\u0442\u0435
         \u043D\u0430 \u041F\u0440\u043E\u0435\u043A\u0446\u0438\u044F\u0442\u0430"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -3035,9 +3035,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Go Back
       - "\u041D\u0430\u0437\u0430\u0434"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -3045,10 +3045,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Projection Calibration Results
       - "\u0420\u0435\u0437\u0443\u043B\u0442\u0430\u0442 \u043E\u0442 \u041A\u0430\u043B\u0438\u0431\u0440\u0438\u0440\u0430\u043D\u0435
         \u043D\u0430 \u041F\u0440\u043E\u0435\u043A\u0446\u0438\u044F\u0442\u0430"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -3056,11 +3056,11 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Please make sure to save the calibration results before proceeding.
       - "\u0423\u0431\u0435\u0434\u0435\u0442\u0435 \u0441\u0435, \u0447\u0435 \u0440\u0435\u0437\u0443\u043B\u0442\u0430\u0442\u0438\u0442\u0435
         \u0441\u0430 \u0437\u0430\u043F\u0430\u043C\u0435\u0442\u0435\u043D\u0438
         \u043F\u0440\u0435\u0434\u0438 \u0434\u0430 \u043F\u0440\u043E\u0434\u044A\u043B\u0436\u0438\u0442\u0435."
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -3068,6 +3068,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - A previously saved calibration matrix was found. You may wish to load and
         modify it.
       - "\u0411\u0435\u0448\u0435 \u043E\u0442\u043A\u0440\u0438\u0442\u0430 \u043F\u0440\u0435\u0434\u0438\u0448\u043D\u043E
@@ -3077,13 +3078,13 @@ MonoBehaviour:
         \u0434\u0430 \u043F\u0440\u043E\u0434\u044A\u043B\u0436\u0438\u0442\u0435
         \u043E\u0442 \u043D\u0435\u044F."
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Depth Msg Matrix Not Found
       TermType: 0
       Description: 
       Languages:
+      - 
       - Please make sure the sensor is streaming and that entire play-area is visible
         in the screen above. When you are ready, you may proceed to calibration.
       - "\u0423\u0431\u0435\u0434\u0435\u0442\u0435 \u0441\u0435, \u0447\u0435 \u0441\u0435\u043D\u0437\u043E\u0440\u044A\u0442
@@ -3095,13 +3096,13 @@ MonoBehaviour:
         \u0434\u0430 \u043F\u0440\u043E\u0434\u044A\u043B\u0436\u0438\u0442\u0435
         \u043A\u044A\u043C \u043A\u0430\u043B\u0438\u0431\u0440\u0438\u0440\u0430\u043D\u0435\u0442\u043E."
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Depth Dsc Projection Corners Set
       TermType: 0
       Description: 
       Languages:
+      - 
       - Click on the 4 corners of the projected screen. Make sure you identify the
         outermost corners of the projection, as recursion may occur when using a single
         screen. Please follow the exact order of the projected  numbers. When you
@@ -3123,13 +3124,13 @@ MonoBehaviour:
         \u0433\u043E\u0442\u043E\u0432\u0438, \u043C\u043E\u0436\u0435\u0442\u0435
         \u0434\u0430 \u0432\u0438\u0434\u0438\u0442\u0435 \u0440\u0435\u0437\u0443\u043B\u0442\u0430\u0442\u0438\u0442\u0435. "
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Depth Dsc Projection View Detail
       TermType: 0
       Description: 
       Languages:
+      - 
       - Make sure the projected screen fits perfectly in the window above. You can
         use the circles at the corners to fine-tune the calibration. To move a corner,
         grab the respective circle and move the pointer on the screen.
@@ -3145,13 +3146,13 @@ MonoBehaviour:
         \u043D\u0430\u0442\u0438\u0441\u043D\u0435\u0442\u0435 \u043D\u0430 \u043A\u0440\u044A\u0433\u0447\u0435\u0442\u043E
         \u0438 \u0433\u043E \u043F\u0440\u0438\u0434\u0432\u0438\u0436\u0435\u0442\u0435."
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Depth Dsc Projection Corners Move
       TermType: 0
       Description: 
       Languages:
+      - 
       - Make sure the projected screen fits perfectly in the drawn rectangle. You
         can use the circles at the corners to fine-tune the calibration. To move a
         corner, grab the respective circle and move it in the panel above.
@@ -3167,16 +3168,15 @@ MonoBehaviour:
         \u043D\u0430 \u043A\u0440\u044A\u0433\u0447\u0435\u0442\u043E \u0438 \u0433\u043E
         \u043F\u0440\u0438\u0434\u0432\u0438\u0436\u0435\u0442\u0435."
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Nasty Viruses
       TermType: 0
       Description: 
       Languages:
+      - 
       - Nasty Viruses
       - "\u0413\u0430\u0434\u043D\u0438 \u0412\u0438\u0440\u0443\u0441\u0447\u0435\u0442\u0430"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -3184,9 +3184,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Fight
       - "\u0411\u043E\u0440\u0438 \u0441\u0435"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -3194,9 +3194,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Has entered the game
       - "\u0412\u043B\u0435\u0437\u0435 \u0432 \u0438\u0433\u0440\u0430\u0442\u0430"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -3204,9 +3204,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Keep the area clear
       - "\u0421\u0442\u043E\u0439\u0442\u0435 \u0438\u0437\u0432\u044A\u043D \u043F\u043E\u043B\u0435\u0442\u043E"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -3214,10 +3214,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Clear the play area
       - "\u041E\u0442\u0434\u0440\u044A\u043F\u043D\u0435\u0442\u0435 \u0441\u0435
         \u043E\u0442 \u043F\u043E\u043B\u0435\u0442\u043E"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -3225,10 +3225,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Something big is coming
       - "\u0417\u0430\u0434\u0430\u0432\u0430 \u0441\u0435 \u043D\u0435\u0449\u043E
         \u0433\u043E\u043B\u044F\u043C\u043E"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -3236,9 +3236,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Emotions Game
       - "\u0418\u0433\u0440\u0430 \u043D\u0430 \u0415\u043C\u043E\u0446\u0438\u0438"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -3246,9 +3246,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Memory Wheel
       - "\u041A\u043E\u043B\u0435\u043B\u043E\u0442\u043E \u043D\u0430 \u041F\u0430\u043C\u0435\u0442\u0442\u0430"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -3256,9 +3256,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Hidden Objects
       - "\u0421\u043A\u0440\u0438\u0442\u0438 \u041E\u0431\u0435\u043A\u0442\u0438"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -3266,9 +3266,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Old High Score
       - "\u041F\u0440\u0435\u0434\u0438\u0448\u0435\u043D \u0422\u043E\u043F \u0420\u0435\u0437\u0443\u043B\u0442\u0430\u0442"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -3276,9 +3276,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Endless Game
       - "\u0418\u0433\u0440\u0430 \u0411\u0435\u0437\u043A\u0440\u0430\u0439"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -3286,9 +3286,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Stomp-A-Mole
       - "\u041A\u044A\u0440\u0442\u0438\u0446\u0438\u0442\u0435 "
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -3296,9 +3296,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Stomp-A-Mole Versus
       - "\u041A\u044A\u0440\u0442\u0438\u0446\u0438\u0442\u0435 (\u041E\u0442\u0431\u043E\u0440\u043D\u0430)"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -3306,6 +3306,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Wait until play area is clear before starting new level
       - "\u0418\u0437\u0447\u0430\u043A\u0432\u0430\u0439 \u043F\u043E\u043B\u0435\u0442\u043E
         \u0437\u0430 \u0438\u0433\u0440\u0430 \u0434\u0430 \u0431\u044A\u0434\u0435
@@ -3313,16 +3314,15 @@ MonoBehaviour:
         \u0434\u0430 \u0437\u0430\u043F\u043E\u0447\u043D\u0435 \u043D\u043E\u0432\u043E
         \u043D\u0438\u0432\u043E"
       - 
-      - 
       Flags: 00000000
       Languages_Touch: []
     - Term: Game_FindLetter/Find The Letter
       TermType: 0
       Description: 
       Languages:
+      - 
       - Find The Letter
       - "\u041D\u0430\u043C\u0435\u0440\u0438 \u0431\u0443\u043A\u0432\u0430\u0442\u0430"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -3330,10 +3330,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Random Rotation (More Difficult)
       - "\u0421\u043B\u0443\u0447\u0430\u0439\u043D\u043E \u0417\u0430\u0432\u044A\u0440\u0442\u0430\u043D\u0435
         (\u0412\u0438\u0441\u043E\u043A\u0430 \u0422\u0440\u0443\u0434\u043D\u043E\u0441\u0442)"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -3341,9 +3341,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - In Alphabetical Order
       - "\u0412 \u0410\u0437\u0431\u0443\u0447\u0435\u043D \u0420\u0435\u0434"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -3351,9 +3351,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Bulgarian
       - "\u0411\u044A\u043B\u0433\u0430\u0440\u0441\u043A\u0438"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -3361,9 +3361,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - English
       - "\u0410\u043D\u0433\u043B\u0438\u0439\u0441\u043A\u0438"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -3371,10 +3371,10 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Only Nouns (easier)
       - "\u0421\u0430\u043C\u043E \u0421\u044A\u0449\u0435\u0441\u0442\u0432\u0438\u0442\u0435\u043B\u043D\u0438
         (\u043F\u043E-\u043B\u0435\u043D\u0430 \u0438\u0433\u0440\u0430)"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -3382,9 +3382,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Scrambled Word
       - "\u0418\u0433\u0440\u0430 \u041D\u0430 \u0414\u0443\u043C\u0438"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -3392,9 +3392,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Safe Crossing
       - "\u041F\u0440\u0430\u0432\u0438\u043B\u043D\u043E \u043F\u0440\u0435\u0441\u0438\u0447\u0430\u043D\u0435"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -3402,9 +3402,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Number of  Levels
       - "\u0411\u0440\u043E\u0439 \u041D\u0438\u0432\u0430"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -3412,9 +3412,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Road Safety
       - "\u0411\u0414\u041F"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -3422,9 +3422,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Solar System
       - "\u0421\u043B\u044A\u043D\u0447\u0435\u0432\u0430\u0442\u0430 \u0441\u0438\u0441\u0442\u0435\u043C\u0430"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -3432,9 +3432,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Ghost Frenzy
       - "\u041B\u0443\u0434\u0438 \u0434\u0443\u0445\u0447\u0435\u0442\u0430"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -3442,9 +3442,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Fruit Quiz
       - "\u041F\u043B\u043E\u0434\u043E\u0432\u0430 \u0412\u0438\u043A\u0442\u043E\u0440\u0438\u043D\u0430"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -3452,9 +3452,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Choose the region of the world
       - "\u041A\u0430\u043A\u044A\u0432 \u0435 \u043F\u043B\u043E\u0434\u044A\u0442?"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -3462,9 +3462,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Congratulations
       - "\u0411\u0440\u0430\u0432\u043E"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -3472,9 +3472,9 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - 
       - Solary System
       - "\u0421\u043B\u044A\u043D\u0447\u0435\u0432\u0430 \u0421\u0438\u0441\u0442\u0435\u043C\u0430"
-      - 
       - 
       Flags: 00000000
       Languages_Touch: []
@@ -3482,51 +3482,55 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
+      - "\u041E\u0447\u043A\u0438"
       - Points
       - "\u0422\u043E\u0447\u043A\u0438"
-      - 
-      - 
+      - "\u041E\u0447\u043A\u0438"
       Flags: 00000000
       Languages_Touch: []
     - Term: Travel Quiz
       TermType: 0
       Description: 
       Languages:
+      - "\u0412\u0456\u043A\u0442\u043E\u0440\u0438\u043D\u0430 \u043F\u0440\u043E
+        \u043F\u043E\u0434\u043E\u0440\u043E\u0436\u0456"
       - Travel Quiz
       - "\u0412\u0438\u043A\u0442\u043E\u0440\u0438\u043D\u0430 \u0437\u0430 \u043F\u044A\u0442\u0443\u0432\u0430\u043D\u0435"
-      - 
-      - 
+      - "\u0412\u0438\u043A\u0442\u043E\u0440\u0438\u043D\u0430 \u043E \u043F\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u044F\u0445"
       Flags: 00000000
       Languages_Touch: []
     - Term: TravelQuiz_Choose the region of the world
       TermType: 0
       Description: 
       Languages:
+      - "\u041E\u0431\u0435\u0440\u0456\u0442\u044C \u0447\u0430\u0441\u0442\u0438\u043D\u0443
+        \u0441\u0432\u0456\u0442\u0443"
       - Choose the region of the world
       - "\u0418\u0437\u0431\u0435\u0440\u0435\u0442\u0435 \u043A\u043E\u043D\u0442\u0438\u043D\u0435\u043D\u0442"
       - "\u0412\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u0447\u0430\u0441\u0442\u044C
         \u0441\u0432\u0435\u0442\u0430"
-      - "\u041E\u0431\u0435\u0440\u0456\u0442\u044C \u0447\u0430\u0441\u0442\u0438\u043D\u0443
-        \u0441\u0432\u0456\u0442\u0443"
       Flags: 00000000
       Languages_Touch: []
     - Term: TravelQuiz_Select the correct answer
       TermType: 0
       Description: 
       Languages:
+      - "\u041E\u0431\u0435\u0440\u0456\u0442\u044C \u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u0443
+        \u0432\u0456\u0434\u043F\u043E\u0432\u0456\u0434\u044C"
       - Select the correct answer
       - "\u0418\u0437\u0431\u0435\u0440\u0435\u0442\u0435 \u043F\u0440\u0430\u0432\u0438\u043B\u043D\u0438\u044F
         \u043E\u0442\u0433\u043E\u0432\u043E\u0440"
       - "\u0412\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u044B\u0439
         \u043E\u0442\u0432\u0435\u0442"
-      - "\u041E\u0431\u0435\u0440\u0456\u0442\u044C \u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u0443
-        \u0432\u0456\u0434\u043F\u043E\u0432\u0456\u0434\u044C"
       Flags: 00000000
       Languages_Touch: []
     CaseInsensitiveTerms: 1
     OnMissingTranslation: 1
     mTerm_AppName: 
     mLanguages:
+    - Name: Ukrainian
+      Code: uk
+      Flags: 0
     - Name: English
       Code: en
       Flags: 0
@@ -3535,9 +3539,6 @@ MonoBehaviour:
       Flags: 0
     - Name: Russian
       Code: ru
-      Flags: 0
-    - Name: Ukrainian
-      Code: uk
       Flags: 0
     IgnoreDeviceLanguage: 1
     _AllowUnloadingLanguages: 0
