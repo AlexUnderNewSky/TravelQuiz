@@ -87,14 +87,13 @@ namespace FM_TravelQuiz
 
             return isCorrectAnswer;
         }
-
         [System.Serializable]
         public class Question
         {
+			public string answerEn;
+			[FormerlySerializedAs("answer")] public string answerBg;
 			[FormerlySerializedAs("answer")] public string answerUk;
 			[FormerlySerializedAs("answer")] public string answerRu;
-			[FormerlySerializedAs("answer")] public string answerBg;
-            public string answerEn;
             public Sprite image;
         }
     }
