@@ -1,9 +1,9 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Game Specific\TravelQuizAssets\Scripts\QuizUI.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Game Specific\TravelQuizAssets\Scripts\QuizManager.cs">
     <Files>
-      <File FileName="Assets\Game Specific\TravelQuizAssets\Scripts\QuizManager.cs" Line="96" Column="60" />
-      <File FileName="Assets\Game Specific\TravelQuizAssets\Scripts\QuizUI.cs" Line="51" Column="43" />
+      <File FileName="Assets\Game Specific\TravelQuizAssets\Scripts\QuizManager.cs" Line="110" Column="1" />
+      <File FileName="Assets\Game Specific\TravelQuizAssets\Scripts\QuizUI.cs" Line="17" Column="49" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
