@@ -38,39 +38,60 @@
   ],
   "asia": [
     {
-      "answerEn": "asia 1",
+      "answerEn": "China",
       "answerBg": "Отговор 1",
       "answerUk": "Відповідь 1",
       "answerRu": "Ответ 1",
-      "imagePath": "image1.png"
+      "imagePath": "Asia/China.png"
     },
     {
-      "answerEn": "asia 2",
+      "answerEn": "India",
       "answerBg": "Отговор 2",
       "answerUk": "Відповідь 2",
       "answerRu": "Ответ 2",
-      "imagePath": "image2.png"
+      "imagePath": "Asia/India.png"
     },
     {
-      "answerEn": "asia 3",
+      "answerEn": "Israel",
       "answerBg": "Отговор 3",
       "answerUk": "Відповідь 3",
       "answerRu": "Ответ 3",
-      "imagePath": "image3.png"
+      "imagePath": "Asia/Israel.png"
     },
     {
-      "answerEn": "asia 4",
+      "answerEn": "Japan",
       "answerBg": "Отговор 4",
       "answerUk": "Відповідь 4",
       "answerRu": "Ответ 4",
-      "imagePath": "image4.png"
+      "imagePath": "Asia/Japan.png"
     },
     {
-      "answerEn": "asia 5",
+      "answerEn": "Russia",
       "answerBg": "Отговор 5",
       "answerUk": "Відповідь 5",
       "answerRu": "Ответ 5",
-      "imagePath": "image5.png"
+      "imagePath": "Asia/Russia.png"
+    },
+    {
+      "answerEn": "South Korea",
+      "answerBg": "Отговор 5",
+      "answerUk": "Відповідь 5",
+      "answerRu": "Ответ 5",
+      "imagePath": "Asia/South_Korea.png"
+    },
+    {
+      "answerEn": "Thailand",
+      "answerBg": "Отговор 5",
+      "answerUk": "Відповідь 5",
+      "answerRu": "Ответ 5",
+      "imagePath": "Asia/Thailand.png"
+    },
+    {
+      "answerEn": "Turkey",
+      "answerBg": "Отговор 5",
+      "answerUk": "Відповідь 5",
+      "answerRu": "Ответ 5",
+      "imagePath": "Asia/Turkey.png"
     }
   ],
   "questions": [

@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using UnityEngine.Networking;
 using I2.Loc;
 
 namespace FM_TravelQuiz
@@ -48,16 +49,6 @@ namespace FM_TravelQuiz
             string activeContinent = ""; // Здесь будет храниться название активного континента
             GameObject asiaGameObject = GameObject.Find("Canvas_game_Asia");
             GameObject europeGameObject = GameObject.Find("Canvas_game_Europe");
-
-            if (asiaGameObject == null)
-            {
-                Debug.LogWarning("Canvas_game_Asia not found");
-            }
-
-            if (europeGameObject == null)
-            {
-                Debug.LogWarning("Canvas_game_Europe not found");
-            }
 
             if (asiaGameObject != null && asiaGameObject.activeSelf)
             {
@@ -129,8 +120,19 @@ namespace FM_TravelQuiz
 
             Sprite LoadSprite(string imagePath)
             {
-                string relativePath = "Game Specific/TravelQuizAssets/Flags/" + imagePath;
-                return Resources.Load<Sprite>(relativePath);
+                // Получение абсолютного пути к изображению
+                string absolutePath = Path.Combine(Application.dataPath, "Game Specific/TravelQuizAssets/Flags/" + imagePath);
+
+                if (!File.Exists(absolutePath))
+                {
+                    Debug.LogError("Image file not found at path: " + absolutePath);
+                    return null;
+                }
+
+                byte[] fileData = File.ReadAllBytes(absolutePath);
+                Texture2D tex = new Texture2D(2, 2);
+                tex.LoadImage(fileData); //..this will auto-resize the texture dimensions.
+                return Sprite.Create(tex, new Rect(0, 0, tex.width, tex.height), new Vector2(0.5f, 0.5f));
             }
         }
 
