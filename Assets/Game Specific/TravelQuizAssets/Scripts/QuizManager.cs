@@ -49,6 +49,10 @@ namespace FM_TravelQuiz
             string activeContinent = ""; // Здесь будет храниться название активного континента
             GameObject asiaGameObject = GameObject.Find("Canvas_game_Asia");
             GameObject europeGameObject = GameObject.Find("Canvas_game_Europe");
+            GameObject africaGameObject = GameObject.Find("Canvas_game_Africa");
+            GameObject southAmericaGameObject = GameObject.Find("Canvas_game_SouthAmerica");
+            GameObject northAmericaGameObject = GameObject.Find("Canvas_game_NorthAmerica");
+            GameObject australiaGameObject = GameObject.Find("Canvas_game_Australia&Oceania");
 
             if (asiaGameObject != null && asiaGameObject.activeSelf)
             {
@@ -57,6 +61,22 @@ namespace FM_TravelQuiz
             else if (europeGameObject != null && europeGameObject.activeSelf)
             {
                 activeContinent = "europe";
+            }
+            else if (africaGameObject != null && africaGameObject.activeSelf)
+            {
+                activeContinent = "africa";
+            }
+            else if (southAmericaGameObject != null && southAmericaGameObject.activeSelf)
+            {
+                activeContinent = "southAmerica";
+            }
+            else if (northAmericaGameObject != null && northAmericaGameObject.activeSelf)
+            {
+                activeContinent = "northAmerica";
+            }
+            else if (australiaGameObject != null && australiaGameObject.activeSelf)
+            {
+                activeContinent = "australia";
             }
             else
             {
@@ -80,6 +100,10 @@ namespace FM_TravelQuiz
         {
             public List<QuestionData> europe;
             public List<QuestionData> asia;
+            public List<QuestionData> africa;
+            public List<QuestionData> southAmerica;
+            public List<QuestionData> northAmerica;
+            public List<QuestionData> australia;
             public List<QuestionData> questions;
 
             public List<Question> GetQuestionsForContinent(string continent)
@@ -90,6 +114,14 @@ namespace FM_TravelQuiz
                         return ConvertToQuestionList(asia);
                     case "europe":
                         return ConvertToQuestionList(europe);
+                    case "africa":
+                        return ConvertToQuestionList(africa);
+                    case "southAmerica":
+                        return ConvertToQuestionList(southAmerica);
+                    case "northAmerica":
+                        return ConvertToQuestionList(northAmerica);
+                    case "australia":
+                        return ConvertToQuestionList(australia);
                     default:
                         return ConvertToQuestionList(questions);
                 }

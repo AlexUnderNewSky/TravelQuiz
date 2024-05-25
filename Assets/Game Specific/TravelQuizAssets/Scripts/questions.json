@@ -1,39 +1,174 @@
 {
+  "questions": [
+    {
+      "answerEn": "Example",
+      "answerBg": "Отговор",
+      "answerUk": "Відповідь",
+      "answerRu": "Ответ",
+      "imagePath": "Example.png"
+    }
+  ],
   "europe": [
     {
-      "answerEn": "Answer 1",
-      "answerBg": "Отговор 1",
-      "answerUk": "Відповідь 1",
-      "answerRu": "Ответ 1",
-      "imagePath": "image1.png"
+      "answerEn": "Austria",
+      "answerBg": "Отговор",
+      "answerUk": "Відповідь",
+      "answerRu": "Ответ",
+      "imagePath": "Europe/Austria.png"
     },
     {
-      "answerEn": "Answer 2",
-      "answerBg": "Отговор 2",
-      "answerUk": "Відповідь 2",
-      "answerRu": "Ответ 2",
-      "imagePath": "image2.png"
+      "answerEn": "Bulgaria",
+      "answerBg": "Отговор",
+      "answerUk": "Відповідь",
+      "answerRu": "Ответ",
+      "imagePath": "Europe/Bulgaria.png"
     },
     {
-      "answerEn": "Answer 3",
-      "answerBg": "Отговор 3",
-      "answerUk": "Відповідь 3",
-      "answerRu": "Ответ 3",
-      "imagePath": "image3.png"
+      "answerEn": "Croatia",
+      "answerBg": "Отговор",
+      "answerUk": "Відповідь",
+      "answerRu": "Ответ",
+      "imagePath": "Europe/Croatia.png"
     },
     {
-      "answerEn": "Answer 4",
-      "answerBg": "Отговор 4",
-      "answerUk": "Відповідь 4",
-      "answerRu": "Ответ 4",
-      "imagePath": "image4.png"
+      "answerEn": "Czech Republic",
+      "answerBg": "Отговор",
+      "answerUk": "Відповідь",
+      "answerRu": "Ответ",
+      "imagePath": "Europe/Czech_Republic.png"
     },
     {
-      "answerEn": "Answer 5",
-      "answerBg": "Отговор 5",
-      "answerUk": "Відповідь 5",
-      "answerRu": "Ответ 5",
-      "imagePath": "image5.png"
+      "answerEn": "Denmark",
+      "answerBg": "Отговор",
+      "answerUk": "Відповідь",
+      "answerRu": "Ответ",
+      "imagePath": "Europe/Denmark.png"
+    },
+    {
+      "answerEn": "European Union",
+      "answerBg": "Отговор",
+      "answerUk": "Відповідь",
+      "answerRu": "Ответ",
+      "imagePath": "Europe/European_Union.png"
+    },
+    {
+      "answerEn": "Finland",
+      "answerBg": "Отговор",
+      "answerUk": "Відповідь",
+      "answerRu": "Ответ",
+      "imagePath": "Europe/Finland.png"
+    },
+    {
+      "answerEn": "France",
+      "answerBg": "Отговор",
+      "answerUk": "Відповідь",
+      "answerRu": "Ответ",
+      "imagePath": "Europe/France.png"
+    },
+    {
+      "answerEn": "Germany",
+      "answerBg": "Отговор",
+      "answerUk": "Відповідь",
+      "answerRu": "Ответ",
+      "imagePath": "Europe/Germany.png"
+    },
+    {
+      "answerEn": "Greece",
+      "answerBg": "Отговор",
+      "answerUk": "Відповідь",
+      "answerRu": "Ответ",
+      "imagePath": "Europe/Greece.png"
+    },
+    {
+      "answerEn": "Iceland",
+      "answerBg": "Отговор",
+      "answerUk": "Відповідь",
+      "answerRu": "Ответ",
+      "imagePath": "Europe/Iceland.png"
+    },
+    {
+      "answerEn": "Ireland",
+      "answerBg": "Отговор",
+      "answerUk": "Відповідь",
+      "answerRu": "Ответ",
+      "imagePath": "Europe/Ireland.png"
+    },
+    {
+      "answerEn": "Italy",
+      "answerBg": "Отговор",
+      "answerUk": "Відповідь",
+      "answerRu": "Ответ",
+      "imagePath": "Europe/Italy.png"
+    },
+    {
+      "answerEn": "NATO",
+      "answerBg": "Отговор",
+      "answerUk": "Відповідь",
+      "answerRu": "Ответ",
+      "imagePath": "Europe/NATO.png"
+    },
+    {
+      "answerEn": "Norway",
+      "answerBg": "Отговор",
+      "answerUk": "Відповідь",
+      "answerRu": "Ответ",
+      "imagePath": "Europe/Norway.png"
+    },
+    {
+      "answerEn": "Poland",
+      "answerBg": "Отговор",
+      "answerUk": "Відповідь",
+      "answerRu": "Ответ",
+      "imagePath": "Europe/Poland.png"
+    },
+    {
+      "answerEn": "Portugal",
+      "answerBg": "Отговор",
+      "answerUk": "Відповідь",
+      "answerRu": "Ответ",
+      "imagePath": "Europe/Portugal.png"
+    },
+    {
+      "answerEn": "Romania",
+      "answerBg": "Отговор",
+      "answerUk": "Відповідь",
+      "answerRu": "Ответ",
+      "imagePath": "Europe/Romania.png"
+    },
+    {
+      "answerEn": "Spain",
+      "answerBg": "Отговор",
+      "answerUk": "Відповідь",
+      "answerRu": "Ответ",
+      "imagePath": "Europe/Spain.png"
+    },
+    {
+      "answerEn": "Sweden",
+      "answerBg": "Отговор",
+      "answerUk": "Відповідь",
+      "answerRu": "Ответ",
+      "imagePath": "Europe/Sweden.png"
+    },
+    {
+      "answerEn": "Switzerland",
+      "answerBg": "Отговор",
+      "answerUk": "Відповідь",
+      "answerRu": "Ответ",
+      "imagePath": "Europe/Switzerland.png"
+    },
+    {
+      "answerEn": "Ukraine",
+      "answerBg": "Отговор",
+      "answerUk": "Відповідь",
+      "answerRu": "Ответ",
+      "imagePath": "Europe/Ukraine.png"
+    },
+    {
+      "answerEn": "United Kingdom",
+      "answerBg": "Отговор",
+      "answerUk": "Відповідь",
+      "answerRu": "Ответ",
+      "imagePath": "Europe/United_Kingdom.png"
     }
   ],
   "asia": [
@@ -94,41 +229,209 @@
       "imagePath": "Asia/Turkey.png"
     }
   ],
-  "questions": [
+  "africa": [
     {
-      "answerEn": "Question 1",
+      "answerEn": "Algeria",
       "answerBg": "Отговор 1",
       "answerUk": "Відповідь 1",
       "answerRu": "Ответ 1",
-      "imagePath": "image1.png"
+      "imagePath": "Africa/Algeria.png"
     },
     {
-      "answerEn": "Question 2",
+      "answerEn": "Angola",
       "answerBg": "Отговор 2",
       "answerUk": "Відповідь 2",
       "answerRu": "Ответ 2",
-      "imagePath": "image2.png"
+      "imagePath": "Africa/Angola.png"
     },
     {
-      "answerEn": "Question 3",
+      "answerEn": "Egypt",
       "answerBg": "Отговор 3",
       "answerUk": "Відповідь 3",
       "answerRu": "Ответ 3",
-      "imagePath": "image3.png"
+      "imagePath": "Africa/Egypt.png"
     },
     {
-      "answerEn": "Question 4",
+      "answerEn": "Kenya",
       "answerBg": "Отговор 4",
       "answerUk": "Відповідь 4",
       "answerRu": "Ответ 4",
-      "imagePath": "image4.png"
+      "imagePath": "Africa/Kenya.png"
     },
     {
-      "answerEn": "Question 5",
+      "answerEn": "Madagascar",
       "answerBg": "Отговор 5",
       "answerUk": "Відповідь 5",
       "answerRu": "Ответ 5",
-      "imagePath": "image5.png"
+      "imagePath": "Africa/Madagascar.png"
+    },
+    {
+      "answerEn": "Senegal",
+      "answerBg": "Отговор 5",
+      "answerUk": "Відповідь 5",
+      "answerRu": "Ответ 5",
+      "imagePath": "Africa/Senegal.png"
+    },
+    {
+      "answerEn": "South Africa",
+      "answerBg": "Отговор 5",
+      "answerUk": "Відповідь 5",
+      "answerRu": "Ответ 5",
+      "imagePath": "Africa/South_Africa.png"
+    }
+  ],
+  "australia": [
+    {
+      "answerEn": "Australia",
+      "answerBg": "Отговор 1",
+      "answerUk": "Відповідь 1",
+      "answerRu": "Ответ 1",
+      "imagePath": "Australia&Oceania/Australia.png"
+    },
+    {
+      "answerEn": "Fiji",
+      "answerBg": "Отговор 1",
+      "answerUk": "Відповідь 1",
+      "answerRu": "Ответ 1",
+      "imagePath": "Australia&Oceania/Fiji.png"
+    },
+    {
+      "answerEn": "Marshall Islands",
+      "answerBg": "Отговор 1",
+      "answerUk": "Відповідь 1",
+      "answerRu": "Ответ 1",
+      "imagePath": "Australia&Oceania/Marshall_Islands.png"
+    },
+    {
+      "answerEn": "New Zealand",
+      "answerBg": "Отговор 1",
+      "answerUk": "Відповідь 1",
+      "answerRu": "Ответ 1",
+      "imagePath": "Australia&Oceania/New_Zealand.png"
+    },
+    {
+      "answerEn": "Papua New Guinea",
+      "answerBg": "Отговор 1",
+      "answerUk": "Відповідь 1",
+      "answerRu": "Ответ 1",
+      "imagePath": "Australia&Oceania/Papua_New_Guinea.png"
+    },
+    {
+      "answerEn": "Solomon Islands",
+      "answerBg": "Отговор 1",
+      "answerUk": "Відповідь 1",
+      "answerRu": "Ответ 1",
+      "imagePath": "Australia&Oceania/Solomon_Islands.png"
+    },
+    {
+      "answerEn": "Tuvalu",
+      "answerBg": "Отговор 1",
+      "answerUk": "Відповідь 1",
+      "answerRu": "Ответ 1",
+      "imagePath": "Australia&Oceania/Tuvalu.png"
+    }
+  ],
+  "northAmerica": [
+    {
+      "answerEn": "Canada",
+      "answerBg": "Отговор 1",
+      "answerUk": "Відповідь 1",
+      "answerRu": "Ответ 1",
+      "imagePath": "NorthAmerica/Canada.png"
+    },
+    {
+      "answerEn": "Cuba",
+      "answerBg": "Отговор 1",
+      "answerUk": "Відповідь 1",
+      "answerRu": "Ответ 1",
+      "imagePath": "NorthAmerica/Cuba.png"
+    },
+    {
+      "answerEn": "Dominican Republic",
+      "answerBg": "Отговор 1",
+      "answerUk": "Відповідь 1",
+      "answerRu": "Ответ 1",
+      "imagePath": "NorthAmerica/Dominican_Republic.png"
+    },
+    {
+      "answerEn": "Guatemala",
+      "answerBg": "Отговор 1",
+      "answerUk": "Відповідь 1",
+      "answerRu": "Ответ 1",
+      "imagePath": "NorthAmerica/Guatemala.png"
+    },
+    {
+      "answerEn": "Jamaica",
+      "answerBg": "Отговор 1",
+      "answerUk": "Відповідь 1",
+      "answerRu": "Ответ 1",
+      "imagePath": "NorthAmerica/Jamaica.png"
+    },
+    {
+      "answerEn": "Mexico",
+      "answerBg": "Отговор 1",
+      "answerUk": "Відповідь 1",
+      "answerRu": "Ответ 1",
+      "imagePath": "NorthAmerica/Mexico.png"
+    },
+    {
+      "answerEn": "United States",
+      "answerBg": "Отговор 1",
+      "answerUk": "Відповідь 1",
+      "answerRu": "Ответ 1",
+      "imagePath": "NorthAmerica/United_States.png"
+    }
+  ],
+  "southAmerica": [
+    {
+      "answerEn": "Argentina",
+      "answerBg": "Отговор 1",
+      "answerUk": "Відповідь 1",
+      "answerRu": "Ответ 1",
+      "imagePath": "SouthAmerica/Argentina.png"
+    },
+    {
+      "answerEn": "Brazil",
+      "answerBg": "Отговор 1",
+      "answerUk": "Відповідь 1",
+      "answerRu": "Ответ 1",
+      "imagePath": "SouthAmerica/Brazil.png"
+    },
+    {
+      "answerEn": "Chilie",
+      "answerBg": "Отговор 1",
+      "answerUk": "Відповідь 1",
+      "answerRu": "Ответ 1",
+      "imagePath": "SouthAmerica/Chilie.png"
+    },
+    {
+      "answerEn": "Colombia",
+      "answerBg": "Отговор 1",
+      "answerUk": "Відповідь 1",
+      "answerRu": "Ответ 1",
+      "imagePath": "SouthAmerica/Colombia.png"
+    },
+    {
+      "answerEn": "Peru",
+      "answerBg": "Отговор 1",
+      "answerUk": "Відповідь 1",
+      "answerRu": "Ответ 1",
+      "imagePath": "SouthAmerica/Peru.png"
+    },
+    {
+      "answerEn": "Uruguay",
+      "answerBg": "Отговор 1",
+      "answerUk": "Відповідь 1",
+      "answerRu": "Ответ 1",
+      "imagePath": "SouthAmerica/Uruguay.png"
+    },
+    {
+      "answerEn": "Venezuela",
+      "answerBg": "Отговор 1",
+      "answerUk": "Відповідь 1",
+      "answerRu": "Ответ 1",
+      "imagePath": "SouthAmerica/Venezuela.png"
     }
   ]
+  
 }

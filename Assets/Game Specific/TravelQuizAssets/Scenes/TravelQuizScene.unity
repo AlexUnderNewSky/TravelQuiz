@@ -3047,7 +3047,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 2
+    m_LineSpacing: 0.8
   m_Text: Button
 --- !u!222 &230959643
 CanvasRenderer:
@@ -3849,7 +3849,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 2
+    m_LineSpacing: 0.8
   m_Text: Button
 --- !u!222 &336008210
 CanvasRenderer:
@@ -4184,7 +4184,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 2
+    m_LineSpacing: 0.8
   m_Text: Button
 --- !u!222 &354245943
 CanvasRenderer:
@@ -4501,7 +4501,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 2
+    m_LineSpacing: 0.8
   m_Text: Button
 --- !u!222 &373970830
 CanvasRenderer:
@@ -4859,7 +4859,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 2
+    m_LineSpacing: 0.8
   m_Text: Button
 --- !u!222 &398993449
 CanvasRenderer:
@@ -6035,7 +6035,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 2
+    m_LineSpacing: 0.8
   m_Text: Button
 --- !u!222 &447366159
 CanvasRenderer:
@@ -6168,7 +6168,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 2
+    m_LineSpacing: 0.8
   m_Text: Button
 --- !u!222 &447672929
 CanvasRenderer:
@@ -6257,7 +6257,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 2
+    m_LineSpacing: 0.8
   m_Text: Button
 --- !u!222 &454088024
 CanvasRenderer:
@@ -6346,7 +6346,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 2
+    m_LineSpacing: 0.8
   m_Text: Button
 --- !u!222 &457658537
 CanvasRenderer:
@@ -6615,7 +6615,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 2
+    m_LineSpacing: 0.8
   m_Text: Button
 --- !u!222 &475502003
 CanvasRenderer:
@@ -6744,6 +6744,17 @@ MonoBehaviour:
       - m_Target: {fileID: 728968112}
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 360021651}
+        m_MethodName: ReloadQuizManager
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -9922,7 +9933,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 2
+    m_LineSpacing: 0.8
   m_Text: Button
 --- !u!222 &820306756
 CanvasRenderer:
@@ -10373,7 +10384,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 2
+    m_LineSpacing: 0.8
   m_Text: Button
 --- !u!222 &868770859
 CanvasRenderer:
@@ -11206,7 +11217,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 2
+    m_LineSpacing: 0.8
   m_Text: Button
 --- !u!222 &918654443
 CanvasRenderer:
@@ -11966,7 +11977,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 2
+    m_LineSpacing: 0.8
   m_Text: Button
 --- !u!222 &1014207254
 CanvasRenderer:
@@ -13547,7 +13558,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 2
+    m_LineSpacing: 0.8
   m_Text: Button
 --- !u!222 &1147799943
 CanvasRenderer:
@@ -13961,7 +13972,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 2
+    m_LineSpacing: 0.8
   m_Text: Button
 --- !u!222 &1167068669
 CanvasRenderer:
@@ -14828,7 +14839,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 2
+    m_LineSpacing: 0.8
   m_Text: Button
 --- !u!222 &1201757887
 CanvasRenderer:
@@ -15945,7 +15956,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 2
+    m_LineSpacing: 0.8
   m_Text: Button
 --- !u!222 &1299388499
 CanvasRenderer:
@@ -16376,7 +16387,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 2
+    m_LineSpacing: 0.8
   m_Text: Button
 --- !u!222 &1324321585
 CanvasRenderer:
@@ -18633,7 +18644,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 2
+    m_LineSpacing: 0.8
   m_Text: Button
 --- !u!222 &1527340750
 CanvasRenderer:
@@ -19796,6 +19807,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 213702962}
+        m_MethodName: ReloadQuizManager
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1641227807
@@ -20105,7 +20127,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 2
+    m_LineSpacing: 0.8
   m_Text: Button
 --- !u!222 &1661219558
 CanvasRenderer:
@@ -20421,6 +20443,17 @@ MonoBehaviour:
       - m_Target: {fileID: 1855119331}
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1675652088}
+        m_MethodName: ReloadQuizManager
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -21174,7 +21207,6 @@ GameObject:
   - component: {fileID: 1804946842}
   - component: {fileID: 1804946841}
   - component: {fileID: 1804946840}
-  - component: {fileID: 1804946844}
   m_Layer: 5
   m_Name: Button_Asia
   m_TagString: Untagged
@@ -21324,18 +21356,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1804946838}
---- !u!114 &1804946844
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1804946838}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47b80bec4b497554b926d193af5b6d08, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  quizManager: {fileID: 315575976}
 --- !u!1 &1807927950
 GameObject:
   m_ObjectHideFlags: 0
@@ -22585,6 +22605,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 386935048}
+        m_MethodName: ReloadQuizManager
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1905748952
@@ -22770,7 +22801,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 2
+    m_LineSpacing: 0.8
   m_Text: Button
 --- !u!222 &1912175285
 CanvasRenderer:
@@ -23497,7 +23528,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 2
+    m_LineSpacing: 0.8
   m_Text: Button
 --- !u!222 &1992275182
 CanvasRenderer:
@@ -23970,7 +24001,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 2
+    m_LineSpacing: 0.8
   m_Text: Button
 --- !u!222 &2035782006
 CanvasRenderer:
