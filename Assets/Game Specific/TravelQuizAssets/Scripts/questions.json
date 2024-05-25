@@ -1,0 +1,113 @@
+{
+  "europe": [
+    {
+      "answerEn": "Answer 1",
+      "answerBg": "Отговор 1",
+      "answerUk": "Відповідь 1",
+      "answerRu": "Ответ 1",
+      "imagePath": "image1.png"
+    },
+    {
+      "answerEn": "Answer 2",
+      "answerBg": "Отговор 2",
+      "answerUk": "Відповідь 2",
+      "answerRu": "Ответ 2",
+      "imagePath": "image2.png"
+    },
+    {
+      "answerEn": "Answer 3",
+      "answerBg": "Отговор 3",
+      "answerUk": "Відповідь 3",
+      "answerRu": "Ответ 3",
+      "imagePath": "image3.png"
+    },
+    {
+      "answerEn": "Answer 4",
+      "answerBg": "Отговор 4",
+      "answerUk": "Відповідь 4",
+      "answerRu": "Ответ 4",
+      "imagePath": "image4.png"
+    },
+    {
+      "answerEn": "Answer 5",
+      "answerBg": "Отговор 5",
+      "answerUk": "Відповідь 5",
+      "answerRu": "Ответ 5",
+      "imagePath": "image5.png"
+    }
+  ],
+  "asia": [
+    {
+      "answerEn": "asia 1",
+      "answerBg": "Отговор 1",
+      "answerUk": "Відповідь 1",
+      "answerRu": "Ответ 1",
+      "imagePath": "image1.png"
+    },
+    {
+      "answerEn": "asia 2",
+      "answerBg": "Отговор 2",
+      "answerUk": "Відповідь 2",
+      "answerRu": "Ответ 2",
+      "imagePath": "image2.png"
+    },
+    {
+      "answerEn": "asia 3",
+      "answerBg": "Отговор 3",
+      "answerUk": "Відповідь 3",
+      "answerRu": "Ответ 3",
+      "imagePath": "image3.png"
+    },
+    {
+      "answerEn": "asia 4",
+      "answerBg": "Отговор 4",
+      "answerUk": "Відповідь 4",
+      "answerRu": "Ответ 4",
+      "imagePath": "image4.png"
+    },
+    {
+      "answerEn": "asia 5",
+      "answerBg": "Отговор 5",
+      "answerUk": "Відповідь 5",
+      "answerRu": "Ответ 5",
+      "imagePath": "image5.png"
+    }
+  ],
+  "questions": [
+    {
+      "answerEn": "Question 1",
+      "answerBg": "Отговор 1",
+      "answerUk": "Відповідь 1",
+      "answerRu": "Ответ 1",
+      "imagePath": "image1.png"
+    },
+    {
+      "answerEn": "Question 2",
+      "answerBg": "Отговор 2",
+      "answerUk": "Відповідь 2",
+      "answerRu": "Ответ 2",
+      "imagePath": "image2.png"
+    },
+    {
+      "answerEn": "Question 3",
+      "answerBg": "Отговор 3",
+      "answerUk": "Відповідь 3",
+      "answerRu": "Ответ 3",
+      "imagePath": "image3.png"
+    },
+    {
+      "answerEn": "Question 4",
+      "answerBg": "Отговор 4",
+      "answerUk": "Відповідь 4",
+      "answerRu": "Ответ 4",
+      "imagePath": "image4.png"
+    },
+    {
+      "answerEn": "Question 5",
+      "answerBg": "Отговор 5",
+      "answerUk": "Відповідь 5",
+      "answerRu": "Ответ 5",
+      "imagePath": "image5.png"
+    }
+  ]
+}

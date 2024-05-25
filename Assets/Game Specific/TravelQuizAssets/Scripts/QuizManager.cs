@@ -1,109 +1,239 @@
 ﻿using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 using I2.Loc;
-using UnityEngine.Serialization;
 
 namespace FM_TravelQuiz
 {
-	public class QuizManager : MonoBehaviour
-	{
-		[SerializeField] private QuizUI quizUI;
-		[SerializeField] private List<Question> questions;
-		private List<Question> initialQuestions;
-		[SerializeField] private GameObject resultsPanel;
-		[SerializeField] private GameObject menuCanvas;
-		[SerializeField] private GameObject settingsPanel;
+    public class QuizManager : MonoBehaviour
+    {
+        [SerializeField] private QuizUI quizUI;
+        [SerializeField] private GameObject resultsPanel;
+        [SerializeField] private GameObject menuCanvas;
+        [SerializeField] private GameObject settingsPanel;
 
-		private int gameScore;
-		private Question selectedQuestion;
+        private List<Question> questions;
+        private List<Question> initialQuestions;
+        private int gameScore;
+        private Question selectedQuestion;
 
-		void Start()
-		{
-			initialQuestions = new List<Question>(questions);
-			SelectQuestion();
-			gameScore = 0;
-		}
+        void Start()
+        {
+            string questionsPath = Path.Combine(Application.dataPath, "Game Specific/TravelQuizAssets/Scripts/questions.json");
+            LoadQuestionsFromJSON(questionsPath);
+            initialQuestions = new List<Question>(questions);
+            SelectQuestion();
+            gameScore = 0;
+        }
 
-		void SelectQuestion()
-		{
-			if (questions.Count > 0)
-			{
-				int random = Random.Range(0, questions.Count);
-				selectedQuestion = questions[random];
-				quizUI.SetQuestion(initialQuestions.ToArray(), selectedQuestion);
-				questions.RemoveAt(random);
-			}
-			else
-			{
-				resultsPanel.SetActive(true);
-				menuCanvas.SetActive(true);
-				settingsPanel.SetActive(false);
-				string scoreText;
-				switch (LocalizationManager.CurrentLanguage)
-				{
-				case "Bulgarian":
-					scoreText = "Точки: " + gameScore;
-					break;
-				case "English":
-					scoreText = "Points: " + gameScore;
-					break;
-				case "Russian":
-					scoreText = "Очков: " + gameScore;
-					break;
-				case "Ukrainian":
-					scoreText = "Очків: " + gameScore;
-					break;
-				default:
-					scoreText = "Score: " + gameScore;
-					break;
-				}
-				quizUI.GetFinalScoreText().text = scoreText;
-			}
-		}
+        void LoadQuestionsFromJSON(string filePath)
+        {
+            if (!File.Exists(filePath))
+            {
+                Debug.LogError("JSON file not found: " + filePath);
+                return;
+            }
 
-		public bool Answer(string answered)
-		{
-			bool isCorrectAnswer = false;
-			if (answered == selectedQuestion.answerEn)
-			{
-				isCorrectAnswer = true;
-				gameScore += 20;
+            string json = File.ReadAllText(filePath);
+            Debug.Log("Loaded JSON: " + json); // Debugging line to check JSON content
 
-				string scoreText;
-				switch (LocalizationManager.CurrentLanguage)
-				{
-				case "Bulgarian":
-					scoreText = "Точки: " + gameScore;
-					break;
-				case "English":
-					scoreText = "Points: " + gameScore;
-					break;
-				case "Russian":
-					scoreText = "Очков: " + gameScore;
-					break;
-				case "Ukrainian":
-					scoreText = "Очків: " + gameScore;
-					break;
-				default:
-					scoreText = "Score: " + gameScore;
-					break;
-				}
-				quizUI.GetScoreText().text = scoreText;
-			}
+            ContinentData continentData = JsonUtility.FromJson<ContinentData>(json);
+            if (continentData == null)
+            {
+                Debug.LogError("Failed to deserialize JSON");
+                return;
+            }
 
-			Invoke("SelectQuestion", 0.6F);
+            // Определите, какой континент активен, используя название активного окна Canvas
+            string activeContinent = ""; // Здесь будет храниться название активного континента
+            GameObject asiaGameObject = GameObject.Find("Canvas_game_Asia");
+            GameObject europeGameObject = GameObject.Find("Canvas_game_Europe");
 
-			return isCorrectAnswer;
-		}
+            if (asiaGameObject == null)
+            {
+                Debug.LogWarning("Canvas_game_Asia not found");
+            }
 
-		[System.Serializable]
-		public class Question
-		{
-			public string answerEn;
-			public string answerBg;
-			public string answerUk;
-			public string answerRu;
-			public Sprite image;
-		}
-	}
+            if (europeGameObject == null)
+            {
+                Debug.LogWarning("Canvas_game_Europe not found");
+            }
+
+            if (asiaGameObject != null && asiaGameObject.activeSelf)
+            {
+                activeContinent = "asia";
+            }
+            else if (europeGameObject != null && europeGameObject.activeSelf)
+            {
+                activeContinent = "europe";
+            }
+            else
+            {
+                activeContinent = "questions";
+            }
+
+            // Проверка, что activeContinent корректно установлен
+            Debug.Log("Active Continent: " + activeContinent);
+
+            // Другие проверки для других континентов, если необходимо
+
+            questions = continentData.GetQuestionsForContinent(activeContinent);
+            if (questions == null || questions.Count == 0)
+            {
+                Debug.LogWarning("No questions found for the continent: " + activeContinent);
+            }
+        }
+
+        [System.Serializable]
+        public class ContinentData
+        {
+            public List<QuestionData> europe;
+            public List<QuestionData> asia;
+            public List<QuestionData> questions;
+
+            public List<Question> GetQuestionsForContinent(string continent)
+            {
+                switch (continent)
+                {
+                    case "asia":
+                        return ConvertToQuestionList(asia);
+                    case "europe":
+                        return ConvertToQuestionList(europe);
+                    default:
+                        return ConvertToQuestionList(questions);
+                }
+            }
+
+            List<Question> ConvertToQuestionList(List<QuestionData> questionDataList)
+            {
+                if (questionDataList == null)
+                {
+                    return new List<Question>();
+                }
+
+                List<Question> result = new List<Question>();
+                foreach (var questionData in questionDataList)
+                {
+                    Question question = new Question
+                    {
+                        answerEn = questionData.answerEn,
+                        answerBg = questionData.answerBg,
+                        answerUk = questionData.answerUk,
+                        answerRu = questionData.answerRu,
+                        image = LoadSprite(questionData.imagePath)
+                    };
+                    result.Add(question);
+                }
+                return result;
+            }
+
+            Sprite LoadSprite(string imagePath)
+            {
+                string relativePath = "Game Specific/TravelQuizAssets/Flags/" + imagePath;
+                return Resources.Load<Sprite>(relativePath);
+            }
+        }
+
+        void SelectQuestion()
+        {
+            if (questions.Count > 0)
+            {
+                int random = Random.Range(0, questions.Count);
+                selectedQuestion = questions[random];
+                quizUI.SetQuestion(initialQuestions.ToArray(), selectedQuestion);
+                questions.RemoveAt(random);
+            }
+            else
+            {
+                resultsPanel.SetActive(true);
+                menuCanvas.SetActive(true);
+                settingsPanel.SetActive(false);
+                string scoreText;
+                switch (LocalizationManager.CurrentLanguage)
+                {
+                    case "Bulgarian":
+                        scoreText = "Точки: " + gameScore;
+                        break;
+                    case "English":
+                        scoreText = "Points: " + gameScore;
+                        break;
+                    case "Russian":
+                        scoreText = "Очков: " + gameScore;
+                        break;
+                    case "Ukrainian":
+                        scoreText = "Очків: " + gameScore;
+                        break;
+                    default:
+                        scoreText = "Score: " + gameScore;
+                        break;
+                }
+                quizUI.GetFinalScoreText().text = scoreText;
+            }
+        }
+
+        public void ReloadQuizManager()
+        {
+            // Путь к вашему JSON-файлу с вопросами
+            string questionsPath = Path.Combine(Application.dataPath, "Game Specific/TravelQuizAssets/Scripts/questions.json");
+
+            // Загрузка вопросов из JSON в зависимости от активной панели
+            LoadQuestionsFromJSON(questionsPath);
+
+            // Остальная инициализация
+            initialQuestions = new List<Question>(questions);
+            SelectQuestion();
+            gameScore = 0;
+        }
+
+        public bool Answer(string answered)
+        {
+            bool isCorrectAnswer = false;
+            if (answered == selectedQuestion.answerEn)
+            {
+                isCorrectAnswer = true;
+                gameScore += 20;
+
+                string scoreText;
+                switch (LocalizationManager.CurrentLanguage)
+                {
+                    case "Bulgarian":
+                        scoreText = "Точки: " + gameScore;
+                        break;
+                    case "English":
+                        scoreText = "Points: " + gameScore;
+                        break;
+                    case "Russian":
+                        scoreText = "Очков: " + gameScore;
+                        break;
+                    case "Ukrainian":
+                        scoreText = "Очків: " + gameScore;
+                        break;
+                    default:
+                        scoreText = "Score: " + gameScore;
+                        break;
+                }
+                quizUI.GetScoreText().text = scoreText;
+            }
+
+            Invoke("SelectQuestion", 0.6F);
+
+            return isCorrectAnswer;
+        }
+
+        [System.Serializable]
+        public class Question
+        {
+            public string answerEn;
+            public string answerBg;
+            public string answerUk;
+            public string answerRu;
+            public Sprite image;
+        }
+
+        [System.Serializable]
+        public class QuestionDataArray
+        {
+            public QuestionData[] questions;
+        }
+    }
 }

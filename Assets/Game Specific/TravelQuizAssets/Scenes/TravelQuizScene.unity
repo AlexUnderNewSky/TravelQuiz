@@ -1018,126 +1018,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   quizUI: {fileID: 767760994}
-  questions:
-  - answerUk: "\u0410\u0432\u0441\u0442\u0440\u0456\u044F"
-    answerEn: Austria
-    answerBg: "\u0410\u0432\u0441\u0442\u0440\u0438\u044F"
-    answerRu: "\u0410\u0432\u0441\u0442\u0440\u0438\u044F"
-    image: {fileID: 21300000, guid: 329ab094f5b122047813db9d40868a28, type: 3}
-  - answerUk: "\u0411\u043E\u043B\u0433\u0430\u0440\u0456\u044F"
-    answerEn: Bulgaria
-    answerBg: "\u0411\u044A\u043B\u0433\u0430\u0440\u0438\u044F"
-    answerRu: "\u0411\u043E\u043B\u0433\u0430\u0440\u0438\u044F"
-    image: {fileID: 21300000, guid: 171bcbfdb15ab854da4ce29520532dd2, type: 3}
-  - answerUk: "\u0425\u043E\u0440\u0432\u0430\u0442\u0456\u044F"
-    answerEn: Croatia
-    answerBg: "\u0425\u044A\u0440\u0432\u0430\u0442\u0438\u044F"
-    answerRu: "\u0425\u043E\u0440\u0432\u0430\u0442\u0438\u044F"
-    image: {fileID: 21300000, guid: 6bc4b95f2b3bea74c84af6aa099a86e3, type: 3}
-  - answerUk: "\u0427\u0435\u0445\u0456\u044F"
-    answerEn: Czech Republic
-    answerBg: "\u0427\u0435\u0445\u0438\u044F"
-    answerRu: "\u0427\u0435\u0445\u0438\u044F"
-    image: {fileID: 21300000, guid: b6f947dd2f5e65a4c86adada6273767f, type: 3}
-  - answerUk: "\u0404\u0432\u0440\u043E\u043F\u0435\u0439\u0441\u044C\u043A\u0438\u0439
-      \u0421\u043E\u044E\u0437"
-    answerEn: European Union
-    answerBg: "\u0415\u0432\u0440\u043E\u043F\u0435\u0439\u0441\u043A\u0438 \u0441\u044A\u044E\u0437"
-    answerRu: "\u0415\u0432\u0440\u043E\u043F\u0435\u0439\u0441\u043A\u0438\u0439
-      \u0441\u043E\u044E\u0437"
-    image: {fileID: 21300000, guid: 6c138afa81e74fc4abb5ab7a81ca1511, type: 3}
-  - answerUk: "\u0424\u0456\u043D\u043B\u044F\u043D\u0434\u0456\u044F"
-    answerEn: Finland
-    answerBg: "\u0424\u0438\u043D\u043B\u0430\u043D\u0434\u0438\u044F"
-    answerRu: "\u0424\u0438\u043D\u043B\u044F\u043D\u0434\u0438\u044F"
-    image: {fileID: 21300000, guid: 32e70d4e864ab974c9b505eda8b43615, type: 3}
-  - answerUk: "\u0424\u0440\u0430\u043D\u0446\u0456\u044F"
-    answerEn: France
-    answerBg: "\u0424\u0440\u0430\u043D\u0446\u0438\u044F"
-    answerRu: "\u0424\u0440\u0430\u043D\u0446\u0438\u044F"
-    image: {fileID: 21300000, guid: aaaa233cf0308fa4ab8ffe785ec9536e, type: 3}
-  - answerUk: "\u041D\u0456\u043C\u0435\u0447\u0447\u0438\u043D\u0430"
-    answerEn: Germany
-    answerBg: "\u0413\u0435\u0440\u043C\u0430\u043D\u0438\u044F"
-    answerRu: "\u0413\u0435\u0440\u043C\u0430\u043D\u0438\u044F"
-    image: {fileID: 21300000, guid: 68e4541e56fbcae4cadcb1824a6ff15b, type: 3}
-  - answerUk: "\u0413\u0440\u0435\u0446\u0456\u044F"
-    answerEn: Greece
-    answerBg: "\u0413\u044A\u0440\u0446\u0438\u044F"
-    answerRu: "\u0413\u0440\u0435\u0446\u0438\u044F"
-    image: {fileID: 21300000, guid: bf060ab0faaf14d41aa7a8a0e4aa83da, type: 3}
-  - answerUk: "\u0406\u0441\u043B\u0430\u043D\u0434\u0456\u044F"
-    answerEn: Iceland
-    answerBg: "\u0418\u0441\u043B\u0430\u043D\u0434\u0438\u044F"
-    answerRu: "\u0418\u0441\u043B\u0430\u043D\u0434\u0438\u044F"
-    image: {fileID: 21300000, guid: e8021d4851c98bc4086c7b6ca0514c56, type: 3}
-  - answerUk: "\u0406\u0440\u043B\u0430\u043D\u0434\u0456\u044F"
-    answerEn: Ireland
-    answerBg: "\u0418\u0440\u043B\u0430\u043D\u0434\u0438\u044F"
-    answerRu: "\u0418\u0440\u043B\u0430\u043D\u0434\u0438\u044F"
-    image: {fileID: 21300000, guid: bf489a557c0c1d543b1bc8ff966cfe69, type: 3}
-  - answerUk: "\u0406\u0442\u0430\u043B\u0456\u044F"
-    answerEn: Italy
-    answerBg: "\u0418\u0442\u0430\u043B\u0438\u044F"
-    answerRu: "\u0418\u0442\u0430\u043B\u0438\u044F"
-    image: {fileID: 21300000, guid: 4c4370941a634624eaa87196786b9c9c, type: 3}
-  - answerUk: "\u041D\u0410\u0422\u041E"
-    answerEn: NATO
-    answerBg: "\u041D\u0410\u0422\u041E"
-    answerRu: "\u041D\u0410\u0422\u041E"
-    image: {fileID: 21300000, guid: 3c22b454f5937aa42bf24dfcef695570, type: 3}
-  - answerUk: "\u041D\u043E\u0440\u0432\u0435\u0433\u0456\u044F"
-    answerEn: Norway
-    answerBg: "\u041D\u043E\u0440\u0432\u0435\u0433\u0438\u044F"
-    answerRu: "\u041D\u043E\u0440\u0432\u0435\u0433\u0438\u044F"
-    image: {fileID: 21300000, guid: af0cc3da6d3daed44af4a24ef114c7d8, type: 3}
-  - answerUk: "\u041F\u043E\u043B\u044C\u0449\u0430"
-    answerEn: Poland
-    answerBg: "\u041F\u043E\u043B\u0448\u0430"
-    answerRu: "\u041F\u043E\u043B\u044C\u0448\u0430"
-    image: {fileID: 21300000, guid: 4b9d3baaf2739194fbd8e8a5a13d03d3, type: 3}
-  - answerUk: "\u041F\u043E\u0440\u0442\u0443\u0433\u0430\u043B\u0456\u044F"
-    answerEn: Portugal
-    answerBg: "\u041F\u043E\u0440\u0442\u0443\u0433\u0430\u043B\u0438\u044F"
-    answerRu: "\u041F\u043E\u0440\u0442\u0443\u0433\u0430\u043B\u0438\u044F"
-    image: {fileID: 21300000, guid: daf98de0448ae684687f215214bf7c62, type: 3}
-  - answerUk: "\u0420\u0443\u043C\u0443\u043D\u0456\u044F"
-    answerEn: Romania
-    answerBg: "\u0420\u0443\u043C\u044A\u043D\u0438\u044F"
-    answerRu: "\u0420\u0443\u043C\u044B\u043D\u0438\u044F"
-    image: {fileID: 21300000, guid: b3c4751c2d417544581fee3bc8356ca4, type: 3}
-  - answerUk: "\u0406\u0441\u043F\u0430\u043D\u0456\u044F"
-    answerEn: Spain
-    answerBg: "\u0418\u0441\u043F\u0430\u043D\u0438\u044F"
-    answerRu: "\u0418\u0441\u043F\u0430\u043D\u0438\u044F"
-    image: {fileID: 21300000, guid: 4d2b08d0fe9acc8498727090c030164a, type: 3}
-  - answerUk: "\u0428\u0432\u0435\u0446\u0456\u044F"
-    answerEn: Sweden
-    answerBg: "\u0428\u0432\u0435\u0446\u0438\u044F"
-    answerRu: "\u0428\u0432\u0435\u0446\u0438\u044F"
-    image: {fileID: 21300000, guid: e586f893b0798ba4fa62901fefbd4653, type: 3}
-  - answerUk: "\u0428\u0432\u0435\u0439\u0446\u0430\u0440\u0456\u044F"
-    answerEn: Switzerland
-    answerBg: "\u0428\u0432\u0435\u0439\u0446\u0430\u0440\u0438\u044F"
-    answerRu: "\u0428\u0432\u0435\u0439\u0446\u0430\u0440\u0438\u044F"
-    image: {fileID: 21300000, guid: 84eb5548f35474e4baa96431390c1044, type: 3}
-  - answerUk: "\u0423\u043A\u0440\u0430\u0457\u043D\u0430"
-    answerEn: Ukraine
-    answerBg: "\u0423\u043A\u0440\u0430\u0439\u043D\u0430"
-    answerRu: "\u0423\u043A\u0440\u0430\u0438\u043D\u0430"
-    image: {fileID: 21300000, guid: 5d3c26266b96f334f8dd8ad86733cd0d, type: 3}
-  - answerUk: "\u0421\u043F\u043E\u043B\u0443\u0447\u0435\u043D\u0435 \u041A\u043E\u0440\u043E\u043B\u0456\u0432\u0441\u0442\u0432\u043E"
-    answerEn: United Kingdom
-    answerBg: "\u041E\u0431\u0435\u0434\u0438\u043D\u0435\u043D\u043E\u0442\u043E
-      \u043A\u0440\u0430\u043B\u0441\u0442\u0432\u043E"
-    answerRu: "\u0421\u043E\u0435\u0434\u0438\u043D\u0451\u043D\u043D\u043E\u0435
-      \u043A\u043E\u0440\u043E\u043B\u0435\u0432\u0441\u0442\u0432\u043E"
-    image: {fileID: 21300000, guid: 7a8b4187f55670e46b4b54af55040b92, type: 3}
-  - answerUk: "\u0414\u0430\u043D\u0456\u044F"
-    answerEn: Denmark
-    answerBg: "\u0414\u0430\u043D\u0438\u044F"
-    answerRu: "\u0414\u0430\u043D\u0438\u044F"
-    image: {fileID: 21300000, guid: b43dc90f3942a9449889f45a955de4ad, type: 3}
   resultsPanel: {fileID: 217826658}
   menuCanvas: {fileID: 1174093859}
   settingsPanel: {fileID: 109276517}
@@ -2393,8 +2273,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0412\u0456\u043A\u0442\u043E\u0440\u0438\u043D\u0430 \u043F\u0440\u043E
-    \u043F\u043E\u0434\u043E\u0440\u043E\u0436\u0456"
+  m_Text: Travel Quiz
 --- !u!222 &180770978
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2561,6 +2440,17 @@ MonoBehaviour:
       - m_Target: {fileID: 1863568039}
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 101980405}
+        m_MethodName: ReloadQuizManager
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2902,42 +2792,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   quizUI: {fileID: 1419338340}
-  questions:
-  - answerUk: "\u0410\u0440\u0433\u0435\u043D\u0442\u0438\u043D\u0430"
-    answerEn: Argentina
-    answerBg: "\u0410\u0440\u0436\u0435\u043D\u0442\u0438\u043D\u0430"
-    answerRu: "\u0410\u0440\u0433\u0435\u043D\u0442\u0438\u043D\u0430"
-    image: {fileID: 21300000, guid: 0aabdac5f7b2514448da13efa357f892, type: 3}
-  - answerUk: "\u0411\u0440\u0430\u0437\u0438\u043B\u0456\u044F"
-    answerEn: Brazil
-    answerBg: "\u0411\u0440\u0430\u0437\u0438\u043B\u0438\u044F"
-    answerRu: "\u0411\u0440\u0430\u0437\u0438\u043B\u0438\u044F"
-    image: {fileID: 21300000, guid: 1fb3e243113b09e4198209504f7d4d4a, type: 3}
-  - answerUk: "\u0427\u0438\u043B\u0456"
-    answerEn: Chile
-    answerBg: "\u0427\u0438\u043B\u0438"
-    answerRu: "\u0427\u0438\u043B\u0438"
-    image: {fileID: 21300000, guid: 010b2916d14cd36488e80f10d44d2cdd, type: 3}
-  - answerUk: "\u041A\u043E\u043B\u0443\u043C\u0431\u0456\u044F"
-    answerEn: Colombia
-    answerBg: "\u041A\u043E\u043B\u0443\u043C\u0431\u0438\u044F"
-    answerRu: "\u041A\u043E\u043B\u0443\u043C\u0431\u0438\u044F"
-    image: {fileID: 21300000, guid: 3cd2909b0e6882a4f91e8c1acb397c2f, type: 3}
-  - answerUk: "\u041F\u0435\u0440\u0443"
-    answerEn: Peru
-    answerBg: "\u041F\u0435\u0440\u0443"
-    answerRu: "\u041F\u0435\u0440\u0443"
-    image: {fileID: 21300000, guid: a81e071d23dadc746b85435c89fb8b77, type: 3}
-  - answerUk: "\u0423\u0440\u0443\u0433\u0432\u0430\u0439"
-    answerEn: Uruguay
-    answerBg: "\u0423\u0440\u0443\u0433\u0432\u0430\u0439"
-    answerRu: "\u0423\u0440\u0443\u0433\u0432\u0430\u0439"
-    image: {fileID: 21300000, guid: 0010c00304e22b941ad7e72583403941, type: 3}
-  - answerUk: "\u0412\u0435\u043D\u0435\u0441\u0443\u0435\u043B\u0430"
-    answerEn: Venezuela
-    answerBg: "\u0412\u0435\u043D\u0435\u0446\u0443\u0435\u043B\u0430"
-    answerRu: "\u0412\u0435\u043D\u0435\u0441\u0443\u044D\u043B\u0430"
-    image: {fileID: 21300000, guid: cad5bfe2143767947a3e7090d9136653, type: 3}
   resultsPanel: {fileID: 217826658}
   menuCanvas: {fileID: 1174093859}
   settingsPanel: {fileID: 109276517}
@@ -3911,47 +3765,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   quizUI: {fileID: 537338116}
-  questions:
-  - answerUk: "\u041A\u0438\u0442\u0430\u0439"
-    answerEn: China
-    answerBg: "\u041A\u0438\u0442\u0430\u0439"
-    answerRu: "\u041A\u0438\u0442\u0430\u0439"
-    image: {fileID: 21300000, guid: 4339ef45d7697af40924100fc2480d4c, type: 3}
-  - answerUk: "\u0406\u043D\u0434\u0456\u044F"
-    answerEn: India
-    answerBg: "\u0418\u043D\u0434\u0438\u044F"
-    answerRu: "\u0418\u043D\u0434\u0438\u044F"
-    image: {fileID: 21300000, guid: fd22bc12ec4bdfa4680021a1dcb6908a, type: 3}
-  - answerUk: "\u0406\u0437\u0440\u0430\u0457\u043B\u044C"
-    answerEn: Israel
-    answerBg: "\u0418\u0437\u0440\u0430\u0435\u043B"
-    answerRu: "\u0418\u0437\u0440\u0430\u0438\u043B\u044C"
-    image: {fileID: 21300000, guid: 32df2e5e738e74d49884ba32a2d62c59, type: 3}
-  - answerUk: "\u042F\u043F\u043E\u043D\u0456\u044F"
-    answerEn: Japan
-    answerBg: "\u042F\u043F\u043E\u043D\u0438\u044F"
-    answerRu: "\u042F\u043F\u043E\u043D\u0438\u044F"
-    image: {fileID: 21300000, guid: 164484ae3dddb254fade393a8d0f0f49, type: 3}
-  - answerUk: "\u0420\u043E\u0441\u0456\u044F"
-    answerEn: Russia
-    answerBg: "\u0420\u0443\u0441\u0438\u044F"
-    answerRu: "\u0420\u043E\u0441\u0441\u0438\u044F"
-    image: {fileID: 21300000, guid: e5567c7d8b748ff4b979cd45ea756664, type: 3}
-  - answerUk: "\u041F\u0456\u0432\u0434\u0435\u043D\u043D\u0430 \u041A\u043E\u0440\u0435\u044F"
-    answerEn: South Korea
-    answerBg: "\u042E\u0436\u043D\u0430 \u041A\u043E\u0440\u0435\u044F"
-    answerRu: "\u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u041A\u043E\u0440\u0435\u044F"
-    image: {fileID: 21300000, guid: 85a6fde487835024eb5b1487e38027ed, type: 3}
-  - answerUk: "\u0422\u0430\u0457\u043B\u0430\u043D\u0434"
-    answerEn: Thailand
-    answerBg: "\u0422\u0430\u0439\u043B\u0430\u043D\u0434"
-    answerRu: "\u0422\u0430\u0438\u043B\u0430\u043D\u0434"
-    image: {fileID: 21300000, guid: e8315267c80e4fb4eb1e68d24b735a05, type: 3}
-  - answerUk: "\u0422\u0443\u0440\u0435\u0447\u0447\u0438\u043D\u0430"
-    answerEn: Turkey
-    answerBg: "\u0422\u0443\u0440\u0446\u0438\u044F"
-    answerRu: "\u0422\u0443\u0440\u0446\u0438\u044F"
-    image: {fileID: 21300000, guid: 015ee3da0630b00438ef05054ccbcc35, type: 3}
   resultsPanel: {fileID: 217826658}
   menuCanvas: {fileID: 1174093859}
   settingsPanel: {fileID: 109276517}
@@ -4438,43 +4251,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   quizUI: {fileID: 773393051}
-  questions:
-  - answerUk: "\u0410\u0432\u0441\u0442\u0440\u0430\u043B\u0456\u044F"
-    answerEn: Australia
-    answerBg: "\u0410\u0432\u0441\u0442\u0440\u0430\u043B\u0438\u044F"
-    answerRu: "\u0410\u0432\u0441\u0442\u0440\u0430\u043B\u0438\u044F"
-    image: {fileID: 21300000, guid: ac60da0a2219c3d4c84abb86897439a5, type: 3}
-  - answerUk: "\u0424\u0456\u0434\u0436\u0456"
-    answerEn: Fiji
-    answerBg: "\u0424\u0438\u0434\u0436\u0438"
-    answerRu: "\u0424\u0438\u0434\u0436\u0438"
-    image: {fileID: 21300000, guid: fb07141d0a78bc749b9d57084269ccdc, type: 3}
-  - answerUk: "\u041C\u0430\u0440\u0448\u0430\u043B\u043B\u043E\u0432\u0456 \u041E\u0441\u0442\u0440\u043E\u0432\u0438"
-    answerEn: Marshall Islands
-    answerBg: "\u041C\u0430\u0440\u0448\u0430\u043B\u043E\u0432\u0438 \u043E\u0441\u0442\u0440\u043E\u0432\u0438"
-    answerRu: "\u041C\u0430\u0440\u0448\u0430\u043B\u043B\u043E\u0432\u044B \u041E\u0441\u0442\u0440\u043E\u0432\u0430"
-    image: {fileID: 21300000, guid: 3dbbfdf12db395f4ea635145619bd733, type: 3}
-  - answerUk: "\u041D\u043E\u0432\u0430 \u0417\u0435\u043B\u0430\u043D\u0434\u0456\u044F"
-    answerEn: New Zealand
-    answerBg: "\u041D\u043E\u0432\u0430 \u0417\u0435\u043B\u0430\u043D\u0434\u0438\u044F"
-    answerRu: "\u041D\u043E\u0432\u0430\u044F \u0417\u0435\u043B\u0430\u043D\u0434\u0438\u044F"
-    image: {fileID: 21300000, guid: c3c6b6c50c203654da013bd1241b48ad, type: 3}
-  - answerUk: "\u041F\u0430\u043F\u0443\u0430 \u041D\u043E\u0432\u0430 \u0413\u0432\u0456\u043D\u0435\u044F"
-    answerEn: Papua New Guinea
-    answerBg: "\u041F\u0430\u043F\u0443\u0430 \u041D\u043E\u0432\u0430 \u0413\u0432\u0438\u043D\u0435\u044F"
-    answerRu: "\u041F\u0430\u043F\u0443\u0430 \u2014 \u041D\u043E\u0432\u0430\u044F
-      \u0413\u0432\u0438\u043D\u0435\u044F"
-    image: {fileID: 21300000, guid: c888588d41177f648b2a04e073d58669, type: 3}
-  - answerUk: "\u0421\u043E\u043B\u043E\u043C\u043E\u043D\u043E\u0432\u0456 \u041E\u0441\u0442\u0440\u043E\u0432\u0438"
-    answerEn: Solomon Islands
-    answerBg: "\u0421\u043E\u043B\u043E\u043C\u043E\u043D\u043E\u0432\u0438 \u043E\u0441\u0442\u0440\u043E\u0432\u0438"
-    answerRu: "\u0421\u043E\u043B\u043E\u043C\u043E\u043D\u043E\u0432\u044B \u041E\u0441\u0442\u0440\u043E\u0432\u0430"
-    image: {fileID: 21300000, guid: 3bbf7599efa3f5c48b141e76f6ec9f42, type: 3}
-  - answerUk: "\u0422\u0443\u0432\u0430\u043B\u0443"
-    answerEn: Tuvalu
-    answerBg: "\u0422\u0443\u0432\u0430\u043B\u0443"
-    answerRu: "\u0422\u0443\u0432\u0430\u043B\u0443"
-    image: {fileID: 21300000, guid: ad6fe5d95791d464ab8e22c178cf21eb, type: 3}
   resultsPanel: {fileID: 217826658}
   menuCanvas: {fileID: 1174093859}
   settingsPanel: {fileID: 109276517}
@@ -4762,45 +4538,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   quizUI: {fileID: 304267762}
-  questions:
-  - answerUk: "\u0410\u043B\u0436\u0438\u0440"
-    answerEn: Algeria
-    answerBg: "\u0410\u043B\u0436\u0438\u0440"
-    answerRu: "\u0410\u043B\u0436\u0438\u0440"
-    image: {fileID: 21300000, guid: dbb4e365daad25e48b71a8cba2a621c5, type: 3}
-  - answerUk: "\u0410\u043D\u0433\u043E\u043B\u0430"
-    answerEn: Angola
-    answerBg: "\u0410\u043D\u0433\u043E\u043B\u0430"
-    answerRu: "\u0410\u043D\u0433\u043E\u043B\u0430"
-    image: {fileID: 21300000, guid: 10fbfbd27ff6e2743bae1d5591733199, type: 3}
-  - answerUk: "\u0404\u0433\u0438\u043F\u0435\u0442"
-    answerEn: Egypt
-    answerBg: "\u0415\u0433\u0438\u043F\u0435\u0442"
-    answerRu: "\u0415\u0433\u0438\u043F\u0435\u0442"
-    image: {fileID: 21300000, guid: aef924fa72e80b34892797dc3f4e2811, type: 3}
-  - answerUk: "\u041A\u0435\u043D\u0456\u044F"
-    answerEn: Kenya
-    answerBg: "\u041A\u0435\u043D\u0438\u044F"
-    answerRu: "\u041A\u0435\u043D\u0438\u044F"
-    image: {fileID: 21300000, guid: 9d1be3e68c280ae408e6ab330c6f6353, type: 3}
-  - answerUk: "\u041C\u0430\u0434\u0430\u0433\u0430\u0441\u043A\u0430\u0440"
-    answerEn: Madagascar
-    answerBg: "\u041C\u0430\u0434\u0430\u0433\u0430\u0441\u043A\u0430\u0440"
-    answerRu: "\u041C\u0430\u0434\u0430\u0433\u0430\u0441\u043A\u0430\u0440"
-    image: {fileID: 21300000, guid: cc806a88ee30a1b4ba28282f56277d4c, type: 3}
-  - answerUk: "\u0421\u0435\u043D\u0435\u0433\u0430\u043B"
-    answerEn: Senegal
-    answerBg: "\u0421\u0435\u043D\u0435\u0433\u0430\u043B"
-    answerRu: "\u0421\u0435\u043D\u0435\u0433\u0430\u043B"
-    image: {fileID: 21300000, guid: f3e15d0109e9aa845b86f55e4e013c43, type: 3}
-  - answerUk: "\u041F\u0456\u0432\u0434\u0435\u043D\u043D\u043E-\u0410\u0444\u0440\u0438\u043A\u0430\u043D\u0441\u044C\u043A\u0430
-      \u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0456\u043A\u0430"
-    answerEn: South Africa
-    answerBg: "\u0420\u0435\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u042E\u0436\u043D\u0430
-      \u0410\u0444\u0440\u0438\u043A\u0430"
-    answerRu: "\u042E\u0436\u043D\u043E-\u0410\u0444\u0440\u0438\u043A\u0430\u043D\u0441\u043A\u0430\u044F
-      \u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430"
-    image: {fileID: 21300000, guid: 410db8945a49bdc40bf48eb5cdec15cf, type: 3}
   resultsPanel: {fileID: 217826658}
   menuCanvas: {fileID: 1174093859}
   settingsPanel: {fileID: 109276517}
@@ -12759,8 +12496,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 2
-  m_Text: "\u041E\u0431\u0435\u0440\u0456\u0442\u044C \u0447\u0430\u0441\u0442\u0438\u043D\u0443
-    \u0441\u0432\u0456\u0442\u0443"
+  m_Text: Choose the region of the world
 --- !u!222 &1059798669
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19110,7 +18846,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 332e36893e7cf4a49b3c1f72f76cd5e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTarget: {fileID: 440266372}
+  mTarget: {fileID: 1963568429}
 --- !u!1 &1586577356
 GameObject:
   m_ObjectHideFlags: 0
@@ -20545,48 +20281,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   quizUI: {fileID: 1843149722}
-  questions:
-  - answerUk: "\u041A\u0430\u043D\u0430\u0434\u0430"
-    answerEn: Canada
-    answerBg: "\u041A\u0430\u043D\u0430\u0434\u0430"
-    answerRu: "\u041A\u0430\u043D\u0430\u0434\u0430"
-    image: {fileID: 21300000, guid: 4a9c619c13baa0b45bca5a76e9778250, type: 3}
-  - answerUk: "\u041A\u0443\u0431\u0430"
-    answerEn: Cuba
-    answerBg: "\u041A\u0443\u0431\u0430"
-    answerRu: "\u041A\u0443\u0431\u0430"
-    image: {fileID: 21300000, guid: ba8d8ed2dc8de1f42b1c172b9c345d6f, type: 3}
-  - answerUk: "\u0414\u043E\u043C\u0456\u043D\u0456\u043A\u0430\u043D\u0441\u044C\u043A\u0430
-      \u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0456\u043A\u0430"
-    answerEn: Dominican Republic
-    answerBg: "\u0414\u043E\u043C\u0438\u043D\u0438\u043A\u0430\u043D\u0441\u043A\u0430
-      \u0440\u0435\u043F\u0443\u0431\u043B\u0438\u043A\u0430"
-    answerRu: "\u0414\u043E\u043C\u0438\u043D\u0438\u043A\u0430\u043D\u0441\u043A\u0430\u044F
-      \u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430"
-    image: {fileID: 21300000, guid: bbce8da7310de384c81bcad4a5f41c74, type: 3}
-  - answerUk: "\u0413\u0432\u0430\u0442\u0435\u043C\u0430\u043B\u0430"
-    answerEn: Guatemala
-    answerBg: "\u0413\u0432\u0430\u0442\u0435\u043C\u0430\u043B\u0430"
-    answerRu: "\u0413\u0432\u0430\u0442\u0435\u043C\u0430\u043B\u0430"
-    image: {fileID: 21300000, guid: 2c5ff458a87839a43ad6a29f5f9776a0, type: 3}
-  - answerUk: "\u042F\u043C\u0430\u0439\u043A\u0430"
-    answerEn: Jamaica
-    answerBg: "\u042F\u043C\u0430\u0439\u043A\u0430"
-    answerRu: "\u042F\u043C\u0430\u0439\u043A\u0430"
-    image: {fileID: 21300000, guid: 2e23486c187a3454b8d30232a083f517, type: 3}
-  - answerUk: "\u041C\u0435\u043A\u0441\u0438\u043A\u0430"
-    answerEn: Mexico
-    answerBg: "\u041C\u0435\u043A\u0441\u0438\u043A\u043E"
-    answerRu: "\u041C\u0435\u043A\u0441\u0438\u043A\u0430"
-    image: {fileID: 21300000, guid: 1d39d92fada9a17418df5a19857099cd, type: 3}
-  - answerUk: "\u0421\u043F\u043E\u043B\u0443\u0447\u0435\u043D\u0456 \u0428\u0442\u0430\u0442\u0438
-      \u0410\u043C\u0435\u0440\u0438\u043A\u0438"
-    answerEn: United States
-    answerBg: "\u0421\u044A\u0435\u0434\u0438\u043D\u0435\u043D\u0438 \u0430\u043C\u0435\u0440\u0438\u043A\u0430\u043D\u0441\u043A\u0438
-      \u0449\u0430\u0442\u0438"
-    answerRu: "\u0421\u043E\u0435\u0434\u0438\u043D\u0451\u043D\u043D\u044B\u0435
-      \u0428\u0442\u0430\u0442\u044B \u0410\u043C\u0435\u0440\u0438\u043A\u0438"
-    image: {fileID: 21300000, guid: 442566841aaf3b64da5b31a0a886214b, type: 3}
   resultsPanel: {fileID: 217826658}
   menuCanvas: {fileID: 1174093859}
   settingsPanel: {fileID: 109276517}
@@ -21480,6 +21174,7 @@ GameObject:
   - component: {fileID: 1804946842}
   - component: {fileID: 1804946841}
   - component: {fileID: 1804946840}
+  - component: {fileID: 1804946844}
   m_Layer: 5
   m_Name: Button_Asia
   m_TagString: Untagged
@@ -21583,6 +21278,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 315575976}
+        m_MethodName: ReloadQuizManager
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1804946842
@@ -21618,6 +21324,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1804946838}
+--- !u!114 &1804946844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1804946838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47b80bec4b497554b926d193af5b6d08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quizManager: {fileID: 315575976}
 --- !u!1 &1807927950
 GameObject:
   m_ObjectHideFlags: 0

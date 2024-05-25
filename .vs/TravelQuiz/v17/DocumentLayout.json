@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ForkGitHub\\TravelQuiz\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55CFEC09-B491-0FE0-E946-55EC0AB72F83}|Assembly-CSharp.csproj|c:\\forkgithub\\travelquiz\\assets\\game specific\\travelquizassets\\scripts\\quizmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55CFEC09-B491-0FE0-E946-55EC0AB72F83}|Assembly-CSharp.csproj|solutionrelative:assets\\game specific\\travelquizassets\\scripts\\quizmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55CFEC09-B491-0FE0-E946-55EC0AB72F83}|Assembly-CSharp.csproj|C:\\ForkGitHub\\TravelQuiz\\assets\\game specific\\travelquizassets\\scripts\\buttoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55CFEC09-B491-0FE0-E946-55EC0AB72F83}|Assembly-CSharp.csproj|solutionrelative:assets\\game specific\\travelquizassets\\scripts\\buttoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55CFEC09-B491-0FE0-E946-55EC0AB72F83}|Assembly-CSharp.csproj|C:\\ForkGitHub\\TravelQuiz\\assets\\game specific\\travelquizassets\\scripts\\questiondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55CFEC09-B491-0FE0-E946-55EC0AB72F83}|Assembly-CSharp.csproj|solutionrelative:assets\\game specific\\travelquizassets\\scripts\\questiondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55CFEC09-B491-0FE0-E946-55EC0AB72F83}|Assembly-CSharp.csproj|C:\\ForkGitHub\\TravelQuiz\\assets\\game specific\\travelquizassets\\scripts\\quizui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55CFEC09-B491-0FE0-E946-55EC0AB72F83}|Assembly-CSharp.csproj|solutionrelative:assets\\game specific\\travelquizassets\\scripts\\quizui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ButtonController.cs",
+              "DocumentMoniker": "C:\\ForkGitHub\\TravelQuiz\\Assets\\Game Specific\\TravelQuizAssets\\Scripts\\ButtonController.cs",
+              "RelativeDocumentMoniker": "Assets\\Game Specific\\TravelQuizAssets\\Scripts\\ButtonController.cs",
+              "ToolTip": "C:\\ForkGitHub\\TravelQuiz\\Assets\\Game Specific\\TravelQuizAssets\\Scripts\\ButtonController.cs",
+              "RelativeToolTip": "Assets\\Game Specific\\TravelQuizAssets\\Scripts\\ButtonController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T15:26:02.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QuizManager.cs",
+              "DocumentMoniker": "C:\\ForkGitHub\\TravelQuiz\\Assets\\Game Specific\\TravelQuizAssets\\Scripts\\QuizManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Game Specific\\TravelQuizAssets\\Scripts\\QuizManager.cs",
+              "ToolTip": "C:\\ForkGitHub\\TravelQuiz\\Assets\\Game Specific\\TravelQuizAssets\\Scripts\\QuizManager.cs",
+              "RelativeToolTip": "Assets\\Game Specific\\TravelQuizAssets\\Scripts\\QuizManager.cs",
+              "ViewState": "AQIAAMUAAAAAAAAAAAAwwO8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T13:56:51.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QuizUI.cs",
+              "DocumentMoniker": "C:\\ForkGitHub\\TravelQuiz\\Assets\\Game Specific\\TravelQuizAssets\\Scripts\\QuizUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Game Specific\\TravelQuizAssets\\Scripts\\QuizUI.cs",
+              "ToolTip": "C:\\ForkGitHub\\TravelQuiz\\Assets\\Game Specific\\TravelQuizAssets\\Scripts\\QuizUI.cs",
+              "RelativeToolTip": "Assets\\Game Specific\\TravelQuizAssets\\Scripts\\QuizUI.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAgwGMAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T13:56:58.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuestionData.cs",
+              "DocumentMoniker": "C:\\ForkGitHub\\TravelQuiz\\Assets\\Game Specific\\TravelQuizAssets\\Scripts\\QuestionData.cs",
+              "RelativeDocumentMoniker": "Assets\\Game Specific\\TravelQuizAssets\\Scripts\\QuestionData.cs",
+              "ToolTip": "C:\\ForkGitHub\\TravelQuiz\\Assets\\Game Specific\\TravelQuizAssets\\Scripts\\QuestionData.cs",
+              "RelativeToolTip": "Assets\\Game Specific\\TravelQuizAssets\\Scripts\\QuestionData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T14:17:51.936Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

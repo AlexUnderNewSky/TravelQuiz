@@ -64,6 +64,8 @@
     <Compile Include="Assets\Game Specific\FruitQuizAssets\Scripts\QuizManager.cs" />
     <Compile Include="Assets\Game Specific\FruitQuizAssets\Scripts\QuizUI.cs" />
     <Compile Include="Assets\Game Specific\FruitQuizAssets\Scripts\ShuffleList.cs" />
+    <Compile Include="Assets\Game Specific\TravelQuizAssets\Scripts\ButtonController.cs" />
+    <Compile Include="Assets\Game Specific\TravelQuizAssets\Scripts\QuestionData.cs" />
     <Compile Include="Assets\Game Specific\TravelQuizAssets\Scripts\QuizManager.cs" />
     <Compile Include="Assets\Game Specific\TravelQuizAssets\Scripts\QuizUI.cs" />
     <Compile Include="Assets\Game Specific\TravelQuizAssets\Scripts\ShuffleList.cs" />
