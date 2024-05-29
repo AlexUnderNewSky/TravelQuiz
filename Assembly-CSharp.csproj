@@ -64,9 +64,13 @@
     <Compile Include="Assets\Game Specific\FruitQuizAssets\Scripts\QuizManager.cs" />
     <Compile Include="Assets\Game Specific\FruitQuizAssets\Scripts\QuizUI.cs" />
     <Compile Include="Assets\Game Specific\FruitQuizAssets\Scripts\ShuffleList.cs" />
-    <Compile Include="Assets\Game Specific\TravelQuizAssets\Scripts\QuizManager.cs" />
-    <Compile Include="Assets\Game Specific\TravelQuizAssets\Scripts\QuizUI.cs" />
-    <Compile Include="Assets\Game Specific\TravelQuizAssets\Scripts\ShuffleList.cs" />
+    <Compile Include="Assets\Game Specific\TravelQuizAssets\Scripts\Quiz\ButtonController.cs" />
+    <Compile Include="Assets\Game Specific\TravelQuizAssets\Scripts\Quiz\QuestionData.cs" />
+    <Compile Include="Assets\Game Specific\TravelQuizAssets\Scripts\Quiz\QuizManager.cs" />
+    <Compile Include="Assets\Game Specific\TravelQuizAssets\Scripts\Quiz\QuizUI.cs" />
+    <Compile Include="Assets\Game Specific\TravelQuizAssets\Scripts\Quiz\ShuffleList.cs" />
+    <Compile Include="Assets\Game Specific\TravelQuizAssets\Scripts\QuizWord\QuizWordManager.cs" />
+    <Compile Include="Assets\Game Specific\TravelQuizAssets\Scripts\QuizWord\QuizWordUI.cs" />
     <Compile Include="Assets\Scripts\GameHelpers\GlobalSceneSettings.cs" />
     <Compile Include="Assets\Scripts\GameHelpers\MenuWalker.cs" />
     <Compile Include="Assets\Scripts\GameHelpers\MusicScore.cs" />

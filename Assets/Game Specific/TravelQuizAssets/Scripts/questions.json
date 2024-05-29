@@ -1,0 +1,437 @@
+{
+  "questions": [
+    {
+      "answerEn": "Example",
+      "answerBg": "Отговор",
+      "answerUk": "Відповідь",
+      "answerRu": "Ответ",
+      "imagePath": "Example.png"
+    }
+  ],
+  "europe": [
+    {
+      "answerEn": "Austria",
+      "answerBg": "Австрия",
+      "answerUk": "Австрія",
+      "answerRu": "Австрия",
+      "imagePath": "Europe/Austria.png"
+    },
+    {
+      "answerEn": "Bulgaria",
+      "answerBg": "България",
+      "answerUk": "Болгарія",
+      "answerRu": "Болгария",
+      "imagePath": "Europe/Bulgaria.png"
+    },
+    {
+      "answerEn": "Croatia",
+      "answerBg": "Хърватия",
+      "answerUk": "Хорватія",
+      "answerRu": "Хорватия",
+      "imagePath": "Europe/Croatia.png"
+    },
+    {
+      "answerEn": "Czech Republic",
+      "answerBg": "Чехия",
+      "answerUk": "Чехія",
+      "answerRu": "Чехия",
+      "imagePath": "Europe/Czech_Republic.png"
+    },
+    {
+      "answerEn": "Denmark",
+      "answerBg": "Дания",
+      "answerUk": "Данія",
+      "answerRu": "Дания",
+      "imagePath": "Europe/Denmark.png"
+    },
+    {
+      "answerEn": "European Union",
+      "answerBg": "Европейски съюз",
+      "answerUk": "Європейський Союз",
+      "answerRu": "Европейский Союз",
+      "imagePath": "Europe/European_Union.png"
+    },
+    {
+      "answerEn": "Finland",
+      "answerBg": "Финландия",
+      "answerUk": "Фінляндія",
+      "answerRu": "Финляндия",
+      "imagePath": "Europe/Finland.png"
+    },
+    {
+      "answerEn": "France",
+      "answerBg": "Франция",
+      "answerUk": "Франція",
+      "answerRu": "Франция",
+      "imagePath": "Europe/France.png"
+    },
+    {
+      "answerEn": "Germany",
+      "answerBg": "Германия",
+      "answerUk": "Німеччина",
+      "answerRu": "Германия",
+      "imagePath": "Europe/Germany.png"
+    },
+    {
+      "answerEn": "Greece",
+      "answerBg": "Гърция",
+      "answerUk": "Греція",
+      "answerRu": "Греция",
+      "imagePath": "Europe/Greece.png"
+    },
+    {
+      "answerEn": "Iceland",
+      "answerBg": "Исландия",
+      "answerUk": "Ісландія",
+      "answerRu": "Исландия",
+      "imagePath": "Europe/Iceland.png"
+    },
+    {
+      "answerEn": "Ireland",
+      "answerBg": "Ирландия",
+      "answerUk": "Ірландія",
+      "answerRu": "Ирландия",
+      "imagePath": "Europe/Ireland.png"
+    },
+    {
+      "answerEn": "Italy",
+      "answerBg": "Италия",
+      "answerUk": "Італія",
+      "answerRu": "Италия",
+      "imagePath": "Europe/Italy.png"
+    },
+    {
+      "answerEn": "NATO",
+      "answerBg": "НАТО",
+      "answerUk": "НАТО",
+      "answerRu": "НАТО",
+      "imagePath": "Europe/NATO.png"
+    },
+    {
+      "answerEn": "Norway",
+      "answerBg": "Норвегия",
+      "answerUk": "Норвегія",
+      "answerRu": "Норвегия",
+      "imagePath": "Europe/Norway.png"
+    },
+    {
+      "answerEn": "Poland",
+      "answerBg": "Полша",
+      "answerUk": "Польща",
+      "answerRu": "Польша",
+      "imagePath": "Europe/Poland.png"
+    },
+    {
+      "answerEn": "Portugal",
+      "answerBg": "Португалия",
+      "answerUk": "Португалія",
+      "answerRu": "Португалия",
+      "imagePath": "Europe/Portugal.png"
+    },
+    {
+      "answerEn": "Romania",
+      "answerBg": "Румъния",
+      "answerUk": "Румунія",
+      "answerRu": "Румыния",
+      "imagePath": "Europe/Romania.png"
+    },
+    {
+      "answerEn": "Spain",
+      "answerBg": "Испания",
+      "answerUk": "Іспанія",
+      "answerRu": "Испания",
+      "imagePath": "Europe/Spain.png"
+    },
+    {
+      "answerEn": "Sweden",
+      "answerBg": "Швеция",
+      "answerUk": "Швеція",
+      "answerRu": "Швеция",
+      "imagePath": "Europe/Sweden.png"
+    },
+    {
+      "answerEn": "Switzerland",
+      "answerBg": "Швейцария",
+      "answerUk": "Швейцарія",
+      "answerRu": "Швейцария",
+      "imagePath": "Europe/Switzerland.png"
+    },
+    {
+      "answerEn": "Ukraine",
+      "answerBg": "Украйна",
+      "answerUk": "Україна",
+      "answerRu": "Украина",
+      "imagePath": "Europe/Ukraine.png"
+    },
+    {
+      "answerEn": "United Kingdom",
+      "answerBg": "Обединено кралство",
+      "answerUk": "Сполучене Королівство",
+      "answerRu": "Соединённое Королевство",
+      "imagePath": "Europe/United_Kingdom.png"
+    }
+  ],
+  "asia": [
+    {
+      "answerEn": "China",
+      "answerBg": "Китай",
+      "answerUk": "Китай",
+      "answerRu": "Китай",
+      "imagePath": "Asia/China.png"
+    },
+    {
+      "answerEn": "India",
+      "answerBg": "Индия",
+      "answerUk": "Індія",
+      "answerRu": "Индия",
+      "imagePath": "Asia/India.png"
+    },
+    {
+      "answerEn": "Israel",
+      "answerBg": "Израел",
+      "answerUk": "Ізраїль",
+      "answerRu": "Израиль",
+      "imagePath": "Asia/Israel.png"
+    },
+    {
+      "answerEn": "Japan",
+      "answerBg": "Япония",
+      "answerUk": "Японія",
+      "answerRu": "Япония",
+      "imagePath": "Asia/Japan.png"
+    },
+    {
+      "answerEn": "Russia",
+      "answerBg": "Русия",
+      "answerUk": "Росія",
+      "answerRu": "Россия",
+      "imagePath": "Asia/Russia.png"
+    },
+    {
+      "answerEn": "South Korea",
+      "answerBg": "Южна Корея",
+      "answerUk": "Південна Корея",
+      "answerRu": "Южная Корея",
+      "imagePath": "Asia/South_Korea.png"
+    },
+    {
+      "answerEn": "Thailand",
+      "answerBg": "Тайланд",
+      "answerUk": "Таїланд",
+      "answerRu": "Таиланд",
+      "imagePath": "Asia/Thailand.png"
+    },
+    {
+      "answerEn": "Turkey",
+      "answerBg": "Турция",
+      "answerUk": "Туреччина",
+      "answerRu": "Турция",
+      "imagePath": "Asia/Turkey.png"
+    }
+  ],
+  "africa": [
+    {
+      "answerEn": "Algeria",
+      "answerBg": "Алжир",
+      "answerUk": "Алжир",
+      "answerRu": "Алжир",
+      "imagePath": "Africa/Algeria.png"
+    },
+    {
+      "answerEn": "Angola",
+      "answerBg": "Ангола",
+      "answerUk": "Ангола",
+      "answerRu": "Ангола",
+      "imagePath": "Africa/Angola.png"
+    },
+    {
+      "answerEn": "Egypt",
+      "answerBg": "Египет",
+      "answerUk": "Єгипет",
+      "answerRu": "Египет",
+      "imagePath": "Africa/Egypt.png"
+    },
+    {
+      "answerEn": "Kenya",
+      "answerBg": "Кения",
+      "answerUk": "Кенія",
+      "answerRu": "Кения",
+      "imagePath": "Africa/Kenya.png"
+    },
+    {
+      "answerEn": "Madagascar",
+      "answerBg": "Мадагаскар",
+      "answerUk": "Мадагаскар",
+      "answerRu": "Мадагаскар",
+      "imagePath": "Africa/Madagascar.png"
+    },
+    {
+      "answerEn": "Senegal",
+      "answerBg": "Сенегал",
+      "answerUk": "Сенегал",
+      "answerRu": "Сенегал",
+      "imagePath": "Africa/Senegal.png"
+    },
+    {
+      "answerEn": "South Africa",
+      "answerBg": "Южна Африка",
+      "answerUk": "Південна Африка",
+      "answerRu": "Южная Африка",
+      "imagePath": "Africa/South_Africa.png"
+    }
+  ],
+  "australia": [
+    {
+      "answerEn": "Australia",
+      "answerBg": "Австралия",
+      "answerUk": "Австралія",
+      "answerRu": "Австралия",
+      "imagePath": "Australia&Oceania/Australia.png"
+    },
+    {
+      "answerEn": "Fiji",
+      "answerBg": "Фиджи",
+      "answerUk": "Фіджі",
+      "answerRu": "Фиджи",
+      "imagePath": "Australia&Oceania/Fiji.png"
+    },
+    {
+      "answerEn": "Marshall Islands",
+      "answerBg": "Маршалови острови",
+      "answerUk": "Маршаллові Острови",
+      "answerRu": "Маршалловы Острова",
+      "imagePath": "Australia&Oceania/Marshall_Islands.png"
+    },
+    {
+      "answerEn": "New Zealand",
+      "answerBg": "Нова Зеландия",
+      "answerUk": "Нова Зеландія",
+      "answerRu": "Новая Зеландия",
+      "imagePath": "Australia&Oceania/New_Zealand.png"
+    },
+    {
+      "answerEn": "Papua New Guinea",
+      "answerBg": "Папуа Нова Гвинея",
+      "answerUk": "Папуа Нова Гвінея",
+      "answerRu": "Папуа Новая Гвинея",
+      "imagePath": "Australia&Oceania/Papua_New_Guinea.png"
+    },
+    {
+      "answerEn": "Solomon Islands",
+      "answerBg": "Соломонови острови",
+      "answerUk": "Соломонові Острови",
+      "answerRu": "Соломоновы Острова",
+      "imagePath": "Australia&Oceania/Solomon_Islands.png"
+    },
+    {
+      "answerEn": "Tuvalu",
+      "answerBg": "Тувалу",
+      "answerUk": "Тувалу",
+      "answerRu": "Тувалу",
+      "imagePath": "Australia&Oceania/Tuvalu.png"
+    }
+  ],
+  "northAmerica": [
+    {
+      "answerEn": "Canada",
+      "answerBg": "Канада",
+      "answerUk": "Канада",
+      "answerRu": "Канада",
+      "imagePath": "NorthAmerica/Canada.png"
+    },
+    {
+      "answerEn": "Cuba",
+      "answerBg": "Куба",
+      "answerUk": "Куба",
+      "answerRu": "Куба",
+      "imagePath": "NorthAmerica/Cuba.png"
+    },
+    {
+      "answerEn": "Dominican Republic",
+      "answerBg": "Доминиканска република",
+      "answerUk": "Домініканська Республіка",
+      "answerRu": "Доминиканская Республика",
+      "imagePath": "NorthAmerica/Dominican_Republic.png"
+    },
+    {
+      "answerEn": "Guatemala",
+      "answerBg": "Гватемала",
+      "answerUk": "Гватемала",
+      "answerRu": "Гватемала",
+      "imagePath": "NorthAmerica/Guatemala.png"
+    },
+    {
+      "answerEn": "Jamaica",
+      "answerBg": "Ямайка",
+      "answerUk": "Ямайка",
+      "answerRu": "Ямайка",
+      "imagePath": "NorthAmerica/Jamaica.png"
+    },
+    {
+      "answerEn": "Mexico",
+      "answerBg": "Мексико",
+      "answerUk": "Мексика",
+      "answerRu": "Мексика",
+      "imagePath": "NorthAmerica/Mexico.png"
+    },
+    {
+      "answerEn": "United States",
+      "answerBg": "САЩ",
+      "answerUk": "США",
+      "answerRu": "США",
+      "imagePath": "NorthAmerica/United_States.png"
+    }
+  ],
+  "southAmerica": [
+    {
+      "answerEn": "Argentina",
+      "answerBg": "Аржентина",
+      "answerUk": "Аргентина",
+      "answerRu": "Аргентина",
+      "imagePath": "SouthAmerica/Argentina.png"
+    },
+    {
+      "answerEn": "Brazil",
+      "answerBg": "Бразилия",
+      "answerUk": "Бразилія",
+      "answerRu": "Бразилия",
+      "imagePath": "SouthAmerica/Brazil.png"
+    },
+    {
+      "answerEn": "Chilie",
+      "answerBg": "Чили",
+      "answerUk": "Чилі",
+      "answerRu": "Чили",
+      "imagePath": "SouthAmerica/Chilie.png"
+    },
+    {
+      "answerEn": "Colombia",
+      "answerBg": "Колумбия",
+      "answerUk": "Колумбія",
+      "answerRu": "Колумбия",
+      "imagePath": "SouthAmerica/Colombia.png"
+    },
+    {
+      "answerEn": "Peru",
+      "answerBg": "Перу",
+      "answerUk": "Перу",
+      "answerRu": "Перу",
+      "imagePath": "SouthAmerica/Peru.png"
+    },
+    {
+      "answerEn": "Uruguay",
+      "answerBg": "Уругвай",
+      "answerUk": "Уругвай",
+      "answerRu": "Уругвай",
+      "imagePath": "SouthAmerica/Uruguay.png"
+    },
+    {
+      "answerEn": "Venezuela",
+      "answerBg": "Венецуела",
+      "answerUk": "Венесуела",
+      "answerRu": "Венесуэла",
+      "imagePath": "SouthAmerica/Venezuela.png"
+    }
+  ]
+  
+}

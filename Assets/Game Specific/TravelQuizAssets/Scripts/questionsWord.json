@@ -1,0 +1,72 @@
+{
+    "Word_questions": [
+      {
+        "questionText": "What is the capital of France?",
+        "correctAnswer": "Paris",
+        "wrongAnswers": ["London", "Berlin", "Madrid"]
+      }
+    ],
+    "Word_europe": [
+      {
+        "questionText": "What is the capital of Austria?",
+        "correctAnswer": "Vienna",
+        "wrongAnswers": ["Graz", "Salzburg", "Innsbruck"]
+      },
+      {
+        "questionText": "What is the capital of Bulgaria?",
+        "correctAnswer": "Sofia",
+        "wrongAnswers": ["Plovdiv", "Varna", "Burgas"]
+      }
+    ],
+    "Word_asia": [
+      {
+        "questionText": "What is the capital of Japan?",
+        "correctAnswer": "Tokyo",
+        "wrongAnswers": ["Osaka", "Nagoya", "Kyoto"]
+      }
+    ],
+    "Word_africa": [
+      {
+        "questionText": "What is the capital of Egypt?",
+        "correctAnswer": "Cairo",
+        "wrongAnswers": ["Alexandria", "Giza", "Luxor"]
+      }
+    ],
+    "Word_southAmerica": [
+      {
+        "questionText": "What is the capital of Brazil?",
+        "correctAnswer": "Brasilia",
+        "wrongAnswers": ["Rio de Janeiro", "ХУЙ", "Salvador"]
+      },
+      {
+        "questionText": "What is the capital of Brazil?",
+        "correctAnswer": "Brasilia",
+        "wrongAnswers": ["Rio de Janeiro", "Sao Paulo", "ЖОПА"]
+      },
+      {
+        "questionText": "What is the capital of Brazil?",
+        "correctAnswer": "Brasilia",
+        "wrongAnswers": ["Rio de Janeiro", "НЕГР", "Salvador"]
+      },
+      {
+        "questionText": "What is the capital of Brazil?",
+        "correctAnswer": "Brasilia",
+        "wrongAnswers": ["Rio de Janeiro", "Sao Paulo", "Salvador"]
+      }
+    ],
+    "Word_northAmerica": [
+      {
+        "questionText": "What is the capital of Canada?",
+        "correctAnswer": "Ottawa",
+        "wrongAnswers": ["Toronto", "Vancouver", "Montreal"]
+      }
+    ],
+    "Word_australia": [
+      {
+        "questionText": "What is the capital of Australia?",
+        "correctAnswer": "Canberra",
+        "wrongAnswers": ["Sydney", "Melbourne", "Brisbane"]
+      }
+    ]
+  }
+  
