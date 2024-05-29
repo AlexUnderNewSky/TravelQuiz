@@ -16,6 +16,76 @@
         "questionText": "What is the capital of Bulgaria?",
         "correctAnswer": "Sofia",
         "wrongAnswers": ["Plovdiv", "Varna", "Burgas"]
+      },
+      {
+        "questionText": "Which country is known for the Eiffel Tower?",
+        "correctAnswer": "France",
+        "wrongAnswers": ["Italy", "Germany", "Spain"]
+      },
+      {
+        "questionText": "What is the main language spoken in Spain?",
+        "correctAnswer": "Spanish",
+        "wrongAnswers": ["Portuguese", "French", "Italian"]
+      },
+      {
+        "questionText": "Which country is famous for its canals and tulips?",
+        "correctAnswer": "Netherlands",
+        "wrongAnswers": ["Belgium", "Denmark", "Switzerland"]
+      },
+      {
+        "questionText": "What mountain range forms the natural border between France and Spain?",
+        "correctAnswer": "Pyrenees",
+        "wrongAnswers": ["Alps", "Carpathians", "Balkans"]
+      },
+      {
+        "questionText": "Which sea is located to the south of Ukraine?",
+        "correctAnswer": "Black Sea",
+        "wrongAnswers": ["Baltic Sea", "Mediterranean Sea", "Caspian Sea"]
+      },
+      {
+        "questionText": "Which European country is known for its fjords?",
+        "correctAnswer": "Norway",
+        "wrongAnswers": ["Sweden", "Finland", "Iceland"]
+      },
+      {
+        "questionText": "Which country is famous for inventing the pizza?",
+        "correctAnswer": "Italy",
+        "wrongAnswers": ["Greece", "France", "Spain"]
+      },
+      {
+        "questionText": "What river runs through the city of Budapest?",
+        "correctAnswer": "Danube",
+        "wrongAnswers": ["Thames", "Seine", "Rhine"]
+      },
+      {
+        "questionText": "Which country has the shape of a boot?",
+        "correctAnswer": "Italy",
+        "wrongAnswers": ["Spain", "Portugal", "Greece"]
+      },
+      {
+        "questionText": "What is the currency used in Germany?",
+        "correctAnswer": "Euro",
+        "wrongAnswers": ["Pound", "Franc", "Krona"]
+      },
+      {
+        "questionText": "Which country is known for its chocolate and watches?",
+        "correctAnswer": "Switzerland",
+        "wrongAnswers": ["Belgium", "Germany", "Austria"]
+      },
+      {
+        "questionText": "What is the traditional dish of Spain consisting of rice, saffron, and seafood?",
+        "correctAnswer": "Paella",
+        "wrongAnswers": ["Ratatouille", "Bratwurst", "Goulash"]
+      },
+      {
+        "questionText": "Which country is known as the 'Land of Fire and Ice'?",
+        "correctAnswer": "Iceland",
+        "wrongAnswers": ["Norway", "Finland", "Denmark"]
+      },
+      {
+        "questionText": "What river flows through the city of Rome?",
+        "correctAnswer": "Tiber",
+        "wrongAnswers": ["Po", "Arno", "Ebro"]
       }
     ],
     "Word_asia": [
@@ -23,35 +93,234 @@
         "questionText": "What is the capital of Japan?",
         "correctAnswer": "Tokyo",
         "wrongAnswers": ["Osaka", "Nagoya", "Kyoto"]
+      },{
+        "questionText": "Which desert is the largest in Asia?",
+        "correctAnswer": "Gobi",
+        "wrongAnswers": ["Karakum", "Thar", "Taklamakan"]
+      },
+      {
+        "questionText": "Which country is known for the Great Wall?",
+        "correctAnswer": "China",
+        "wrongAnswers": ["Japan", "South Korea", "India"]
+      },
+      {
+        "questionText": "What is the largest country in Asia by area?",
+        "correctAnswer": "Russia",
+        "wrongAnswers": ["China", "India", "Kazakhstan"]
+      },
+      {
+        "questionText": "Which mountain is the highest in the world?",
+        "correctAnswer": "Mount Everest",
+        "wrongAnswers": ["K2", "Kangchenjunga", "Lhotse"]
+      },
+      {
+        "questionText": "Which sea is the saltiest in the world and located in the Middle East?",
+        "correctAnswer": "Dead Sea",
+        "wrongAnswers": ["Red Sea", "Caspian Sea", "Aral Sea"]
+      },
+      {
+        "questionText": "Which country is known for sushi and samurai?",
+        "correctAnswer": "Japan",
+        "wrongAnswers": ["China", "South Korea", "Thailand"]
+      },
+      {
+        "questionText": "What river is the longest in Asia?",
+        "correctAnswer": "Yangtze",
+        "wrongAnswers": ["Yellow River", "Mekong", "Ganges"]
+      },
+      {
+        "questionText": "Which country is home to the Taj Mahal?",
+        "correctAnswer": "India",
+        "wrongAnswers": ["Pakistan", "Bangladesh", "Sri Lanka"]
+      },
+      {
+        "questionText": "Which island nation is located south of India?",
+        "correctAnswer": "Sri Lanka",
+        "wrongAnswers": ["Maldives", "Indonesia", "Thailand"]
+      },
+      {
+        "questionText": "Which country has the largest population in the world?",
+        "correctAnswer": "China",
+        "wrongAnswers": ["India", "United States", "Indonesia"]
+      },
+      {
+        "questionText": "Which body of water separates Saudi Arabia from Africa?",
+        "correctAnswer": "Red Sea",
+        "wrongAnswers": ["Persian Gulf", "Arabian Sea", "Indian Ocean"]
+      },
+      {
+        "questionText": "Which Southeast Asian country is known for its floating markets?",
+        "correctAnswer": "Thailand",
+        "wrongAnswers": ["Vietnam", "Philippines", "Malaysia"]
+      },
+      {
+        "questionText": "Which country is the leading producer of oil in Asia?",
+        "correctAnswer": "Saudi Arabia",
+        "wrongAnswers": ["Iran", "Iraq", "Kuwait"]
+      },
+      {
+        "questionText": "What is the sacred river in India?",
+        "correctAnswer": "Ganges",
+        "wrongAnswers": ["Yamuna", "Brahmaputra", "Godavari"]
+      },
+      {
+        "questionText": "Which city is known as the 'Pearl of the Orient'?",
+        "correctAnswer": "Hong Kong",
+        "wrongAnswers": ["Singapore", "Bangkok", "Tokyo"]
       }
     ],
     "Word_africa": [
       {
-        "questionText": "What is the capital of Egypt?",
-        "correctAnswer": "Cairo",
-        "wrongAnswers": ["Alexandria", "Giza", "Luxor"]
+        "questionText": "Which desert is the largest in Africa?",
+        "correctAnswer": "Sahara",
+        "wrongAnswers": ["Kalahari", "Namib", "Gobi"]
+      },
+      {
+        "questionText": "Which river is the longest in Africa?",
+        "correctAnswer": "Nile",
+        "wrongAnswers": ["Congo", "Zambezi", "Niger"]
+      },
+      {
+        "questionText": "Which country is famous for the pyramids?",
+        "correctAnswer": "Egypt",
+        "wrongAnswers": ["Sudan", "Ethiopia", "Morocco"]
+      },
+      {
+        "questionText": "What is the largest country in Africa by area?",
+        "correctAnswer": "Algeria",
+        "wrongAnswers": ["Sudan", "Libya", "Congo"]
+      },
+      {
+        "questionText": "Which African country is known for its safaris and wildlife?",
+        "correctAnswer": "Kenya",
+        "wrongAnswers": ["South Africa", "Tanzania", "Namibia"]
+      },
+      {
+        "questionText": "Which mountain is the highest in Africa?",
+        "correctAnswer": "Mount Kilimanjaro",
+        "wrongAnswers": ["Mount Kenya", "Mount Elgon", "Atlas Mountains"]
+      },
+      {
+        "questionText": "Which island nation is located off the southeastern coast of Africa?",
+        "correctAnswer": "Madagascar",
+        "wrongAnswers": ["Mauritius", "Comoros", "Seychelles"]
+      },
+      {
+        "questionText": "Which African lake is the world's second largest freshwater lake by surface area?",
+        "correctAnswer": "Lake Victoria",
+        "wrongAnswers": ["Lake Tanganyika", "Lake Malawi", "Lake Chad"]
+      },
+      {
+        "questionText": "What is the main language spoken in Nigeria?",
+        "correctAnswer": "English",
+        "wrongAnswers": ["Hausa", "Yoruba", "Igbo"]
+      },
+      {
+        "questionText": "Which African country is known for the ancient city of Timbuktu?",
+        "correctAnswer": "Mali",
+        "wrongAnswers": ["Niger", "Chad", "Burkina Faso"]
+      },
+      {
+        "questionText": "Which country is the most populous in Africa?",
+        "correctAnswer": "Nigeria",
+        "wrongAnswers": ["Ethiopia", "Egypt", "South Africa"]
+      },
+      {
+        "questionText": "Which waterfall is located on the border between Zambia and Zimbabwe?",
+        "correctAnswer": "Victoria Falls",
+        "wrongAnswers": ["Niagara Falls", "Angel Falls", "Iguazu Falls"]
+      },
+      {
+        "questionText": "Which African country is known for the Serengeti National Park?",
+        "correctAnswer": "Tanzania",
+        "wrongAnswers": ["Kenya", "Uganda", "Rwanda"]
+      },
+      {
+        "questionText": "Which ancient civilization built the Great Sphinx?",
+        "correctAnswer": "Egyptians",
+        "wrongAnswers": ["Nubians", "Berbers", "Axumites"]
+      },
+      {
+        "questionText": "Which African country has the largest economy?",
+        "correctAnswer": "Nigeria",
+        "wrongAnswers": ["South Africa", "Egypt", "Kenya"]
       }
     ],
     "Word_southAmerica": [
       {
         "questionText": "What is the capital of Brazil?",
-        "correctAnswer": "Brasilia",
-        "wrongAnswers": ["Rio de Janeiro", "ХУЙ", "Salvador"]
+        "correctAnswer": "Brasília",
+        "wrongAnswers": ["Rio de Janeiro", "São Paulo", "Salvador"]
       },
       {
-        "questionText": "What is the capital of Brazil?",
-        "correctAnswer": "Brasilia",
-        "wrongAnswers": ["Rio de Janeiro", "Sao Paulo", "ЖОПА"]
+        "questionText": "Which river is the longest in South America?",
+        "correctAnswer": "Amazon",
+        "wrongAnswers": ["Paraná", "Orinoco", "Rio Negro"]
       },
       {
-        "questionText": "What is the capital of Brazil?",
-        "correctAnswer": "Brasilia",
-        "wrongAnswers": ["Rio de Janeiro", "НЕГР", "Salvador"]
+        "questionText": "Which mountain range runs along the western side of South America?",
+        "correctAnswer": "Andes",
+        "wrongAnswers": ["Rocky Mountains", "Himalayas", "Alps"]
       },
       {
-        "questionText": "What is the capital of Brazil?",
-        "correctAnswer": "Brasilia",
-        "wrongAnswers": ["Rio de Janeiro", "Sao Paulo", "Salvador"]
+        "questionText": "What is the largest country in South America by area?",
+        "correctAnswer": "Brazil",
+        "wrongAnswers": ["Argentina", "Peru", "Colombia"]
+      },
+      {
+        "questionText": "Which desert is the driest place on Earth?",
+        "correctAnswer": "Atacama Desert",
+        "wrongAnswers": ["Sahara Desert", "Gobi Desert", "Kalahari Desert"]
+      },
+      {
+        "questionText": "Which South American country is known for its tango dance?",
+        "correctAnswer": "Argentina",
+        "wrongAnswers": ["Brazil", "Chile", "Uruguay"]
+      },
+      {
+        "questionText": "Which South American country is landlocked?",
+        "correctAnswer": "Bolivia",
+        "wrongAnswers": ["Chile", "Peru", "Venezuela"]
+      },
+      {
+        "questionText": "Which ancient civilization built Machu Picchu?",
+        "correctAnswer": "Inca",
+        "wrongAnswers": ["Maya", "Aztec", "Olmec"]
+      },
+      {
+        "questionText": "Which river flows through the capital of Argentina, Buenos Aires?",
+        "correctAnswer": "Rio de la Plata",
+        "wrongAnswers": ["Amazon River", "Orinoco River", "Paraná River"]
+      },
+      {
+        "questionText": "Which country is the largest coffee producer in South America?",
+        "correctAnswer": "Brazil",
+        "wrongAnswers": ["Colombia", "Peru", "Ecuador"]
+      },
+      {
+        "questionText": "Which country has the world's largest oil reserves in South America?",
+        "correctAnswer": "Venezuela",
+        "wrongAnswers": ["Brazil", "Argentina", "Ecuador"]
+      },
+      {
+        "questionText": "Which South American country is famous for its Easter Island statues?",
+        "correctAnswer": "Chile",
+        "wrongAnswers": ["Peru", "Ecuador", "Argentina"]
+      },
+      {
+        "questionText": "Which South American country is known for the Galápagos Islands?",
+        "correctAnswer": "Ecuador",
+        "wrongAnswers": ["Peru", "Chile", "Brazil"]
+      },
+      {
+        "questionText": "What is the official language of Brazil?",
+        "correctAnswer": "Portuguese",
+        "wrongAnswers": ["Spanish", "French", "English"]
+      },
+      {
+        "questionText": "Which South American country has two capital cities, La Paz and Sucre?",
+        "correctAnswer": "Bolivia",
+        "wrongAnswers": ["Paraguay", "Chile", "Peru"]
       }
     ],
     "Word_northAmerica": [
@@ -59,6 +328,80 @@
         "questionText": "What is the capital of Canada?",
         "correctAnswer": "Ottawa",
         "wrongAnswers": ["Toronto", "Vancouver", "Montreal"]
+      },{
+        "questionText": "What is the capital of the United States?",
+        "correctAnswer": "Washington, D.C.",
+        "wrongAnswers": ["New York", "Los Angeles", "Chicago"]
+      },
+      {
+        "questionText": "Which country is famous for maple syrup?",
+        "correctAnswer": "Canada",
+        "wrongAnswers": ["USA", "Mexico", "Cuba"]
+      },
+      {
+        "questionText": "What is the largest country in North America by area?",
+        "correctAnswer": "Canada",
+        "wrongAnswers": ["USA", "Mexico", "Greenland"]
+      },
+      {
+        "questionText": "Which is the largest city in North America by population?",
+        "correctAnswer": "Mexico City",
+        "wrongAnswers": ["New York", "Los Angeles", "Toronto"]
+      },
+      {
+        "questionText": "Which country shares the longest border with the United States?",
+        "correctAnswer": "Canada",
+        "wrongAnswers": ["Mexico", "Russia", "Cuba"]
+      },
+      {
+        "questionText": "Which North American country is known for its ancient Maya and Aztec ruins?",
+        "correctAnswer": "Mexico",
+        "wrongAnswers": ["USA", "Canada", "Guatemala"]
+      },
+      {
+        "questionText": "Which river forms part of the border between the USA and Mexico?",
+        "correctAnswer": "Rio Grande",
+        "wrongAnswers": ["Mississippi River", "Colorado River", "Missouri River"]
+      },
+      {
+        "questionText": "What is the primary language spoken in Mexico?",
+        "correctAnswer": "Spanish",
+        "wrongAnswers": ["English", "Portuguese", "French"]
+      },
+      {
+        "questionText": "Which U.S. state is known for its large production of oil?",
+        "correctAnswer": "Texas",
+        "wrongAnswers": ["California", "Alaska", "New York"]
+      },
+      {
+        "questionText": "Which North American country has the most lakes in the world?",
+        "correctAnswer": "Canada",
+        "wrongAnswers": ["USA", "Mexico", "Greenland"]
+      },
+      {
+        "questionText": "What is the longest river in North America?",
+        "correctAnswer": "Mississippi River",
+        "wrongAnswers": ["Missouri River", "Colorado River", "Yukon River"]
+      },
+      {
+        "questionText": "Which island is the largest in the Caribbean Sea?",
+        "correctAnswer": "Cuba",
+        "wrongAnswers": ["Hispaniola", "Jamaica", "Puerto Rico"]
+      },
+      {
+        "questionText": "Which North American country is known for its Mounties (Royal Canadian Mounted Police)?",
+        "correctAnswer": "Canada",
+        "wrongAnswers": ["USA", "Mexico", "Cuba"]
+      },
+      {
+        "questionText": "What is the national sport of Canada?",
+        "correctAnswer": "Ice Hockey",
+        "wrongAnswers": ["Basketball", "Soccer", "Baseball"]
+      },
+      {
+        "questionText": "Which U.S. state is the largest by area?",
+        "correctAnswer": "Alaska",
+        "wrongAnswers": ["Texas", "California", "Montana"]
       }
     ],
     "Word_australia": [
@@ -66,6 +409,76 @@
         "questionText": "What is the capital of Australia?",
         "correctAnswer": "Canberra",
         "wrongAnswers": ["Sydney", "Melbourne", "Brisbane"]
+      },
+      {
+        "questionText": "Which animal is native to Australia?",
+        "correctAnswer": "Kangaroo",
+        "wrongAnswers": ["Lion", "Elephant", "Panda"]
+      },
+      {
+        "questionText": "What is the smallest continent by area?",
+        "correctAnswer": "Australia",
+        "wrongAnswers": ["Europe", "South America", "Antarctica"]
+      },
+      {
+        "questionText": "Which country in Oceania is known for its Maori culture?",
+        "correctAnswer": "New Zealand",
+        "wrongAnswers": ["Fiji", "Papua New Guinea", "Tonga"]
+      },
+      {
+        "questionText": "Which Australian city is famous for its Opera House?",
+        "correctAnswer": "Sydney",
+        "wrongAnswers": ["Melbourne", "Perth", "Adelaide"]
+      },
+      {
+        "questionText": "What is the largest coral reef system in the world?",
+        "correctAnswer": "Great Barrier Reef",
+        "wrongAnswers": ["Coral Sea Reef", "Red Sea Reef", "Mesoamerican Reef"]
+      },
+      {
+        "questionText": "Which island country is known as the 'Land of the Long White Cloud'?",
+        "correctAnswer": "New Zealand",
+        "wrongAnswers": ["Samoa", "Tonga", "Fiji"]
+      },
+      {
+        "questionText": "What is the native people of Australia called?",
+        "correctAnswer": "Aborigines",
+        "wrongAnswers": ["Maori", "Inuit", "Zulu"]
+      },
+      {
+        "questionText": "Which desert is located in Australia?",
+        "correctAnswer": "Great Victoria Desert",
+        "wrongAnswers": ["Sahara", "Gobi", "Kalahari"]
+      },
+      {
+        "questionText": "Which country is composed of 7,641 islands?",
+        "correctAnswer": "Philippines",
+        "wrongAnswers": ["Indonesia", "New Zealand", "Fiji"]
+      },
+      {
+        "questionText": "What is the traditional weapon of Australian Aboriginals?",
+        "correctAnswer": "Boomerang",
+        "wrongAnswers": ["Spear", "Bow and Arrow", "Club"]
+      },
+      {
+        "questionText": "Which country is famous for its hobbit movie set locations?",
+        "correctAnswer": "New Zealand",
+        "wrongAnswers": ["Australia", "Fiji", "Papua New Guinea"]
+      },
+      {
+        "questionText": "Which animal is a national symbol of New Zealand?",
+        "correctAnswer": "Kiwi",
+        "wrongAnswers": ["Kangaroo", "Emu", "Koala"]
+      },
+      {
+        "questionText": "Which country has more sheep than people?",
+        "correctAnswer": "New Zealand",
+        "wrongAnswers": ["Australia", "Fiji", "Papua New Guinea"]
+      },
+      {
+        "questionText": "Which Pacific island is known for its Moai statues?",
+        "correctAnswer": "Easter Island",
+        "wrongAnswers": ["Tahiti", "Samoa", "Hawaii"]
       }
     ]
   }
